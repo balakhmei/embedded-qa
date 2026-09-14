@@ -21,12 +21,15 @@ dz09/
 ├── pytest.ini
 ├── README.md
 ├── requirements.txt
+├── Tests_results.png
+├── Tests_results_bonus.png
 └── tests/
     ├── smoke/
     │   └── test_smoke.py
     └── functional/
         ├── test_alarm.py
-        └── test_config.py
+        ├── test_config.py
+        └── test_distance_stability.py
 ```
 
 ## Setup
@@ -67,13 +70,29 @@ pytest -v
 Expected result with the current firmware:
 
 ```text
-6 passed, 1 xfailed
+6 passed, 2 xfailed
 ```
 ### Test Results
 
-Final `pytest -v` execution: **6 passed, 1 xfailed**.
+Final main-task `pytest -v` execution: **6 passed, 1 xfailed**.
 
 ![Pytest results](Tests_results.png)
+
+## Bonus: Distance Stability Test
+
+`tests/functional/test_distance_stability.py`
+
+The bonus test collects 10 distance measurements and checks their stability
+relative to the median value. At least 9 of 10 readings must be within ±3 cm
+of the median.
+
+During repeated runs with a fixed target, the sensor showed intermittent
+instability: 3 of 5 runs passed and 2 of 5 failed. Therefore, the test is
+marked with `@pytest.mark.xfail` with an explicit reason.
+
+### Final pytest results with bonus test
+
+![Pytest results with bonus test](Tests_results_bonus.png)
 
 ## Test Coverage
 
