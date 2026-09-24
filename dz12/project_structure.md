@@ -11,7 +11,7 @@ dz12/
 │
 ├── screenshots/
 │   ├── fan_off_25_1.png
-│   └── fan_on_37.png
+│   └── fan_on_30_7.png
 │
 ├── drivers/
 │   ├── device_driver.py
@@ -28,13 +28,13 @@ dz12/
 │   │   └── test_hil_connection.py
 │   │
 │   ├── functional/
-│   ├── test_sensors.py
-│   ├── test_fan_control.py
-│   ├── test_irrigation.py
-│   ├── test_light_control.py
-│   ├── test_actuator_status.py
-│   ├── test_sensor_failure.py
-│   ├── test_startup.py
+│   │   ├── test_sensors.py
+│   │   ├── test_fan_control.py
+│   │   ├── test_irrigation.py
+│   │   ├── test_light_control.py
+│   │   ├── test_actuator_status.py
+│   │   ├── test_sensor_failure.py
+│   │   └── test_startup.py
 │   │
 │   └── non_functional/
 │       ├── test_timing.py
