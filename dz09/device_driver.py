@@ -1,7 +1,5 @@
 import re
 import time
-from turtle import mode
-
 import serial
 from serial.tools import list_ports
 

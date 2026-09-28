@@ -1,7 +1,5 @@
 import statistics
 
-import statistics
-
 import pytest
 
 
