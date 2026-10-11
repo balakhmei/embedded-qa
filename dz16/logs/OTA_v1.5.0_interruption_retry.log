@@ -1,0 +1,72 @@
+ota install 1.5.0 force
+
+I (4314391) wifi station: [OTA] current version: 1.5.0 (partition ota_0)
+I (4314391) wifi station: [OTA] target partition: ota_1
+I (4314391) wifi station: [OTA] downloading: https://raw.githubusercontent.com/BohdanHorbanych/esp32-ota-files/main/firmware/v1.5.0/station_WiFi.bin
+I (4315051) esp-x509-crt-bundle: Certificate validated
+I (4316031) esp_https_ota: Starting OTA...
+I (4316031) esp_https_ota: Writing to <ota_1> partition at offset 0x100000
+I (4316031) wifi station: [OTA] new version: 1.5.0
+W (4316031) wifi station: [OTA] new version is the same as current - flashing anyway
+I (4317541) wifi station: [OTA] progress: 10% (91136 / 908304 bytes)
+I (4319531) wifi station: [OTA] progress: 20% (185344 / 908304 bytes)
+I (4321581) wifi station: [OTA] progress: 30% (275456 / 908304 bytes)
+I (4323411) wifi station: [OTA] progress: 40% (365568 / 908304 bytes)
+I (4325581) wifi station: [OTA] progress: 50% (455680 / 908304 bytes)
+I (4326301) wifi station: button 3 pressed (GPIO39)
+I (4326301) wifi station: [K3] wifi disconnect
+I (4326301) wifi:state: run -> init (0x0)
+I (4326341) wifi:pm stop, total sleep time: 2813337439 us / 3996589543 us
+
+I (4326341) wifi:<ba-del>idx:0, tid:0
+I (4326341) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (4326381) wifi station: disconnected
+I (4326381) wifi station: connect to the AP fail
+E (4326431) esp-tls-mbedtls: read error :-0x004C
+E (4326431) transport_base: esp_tls_conn_read error, errno=Software caused connection abort
+W (4326441) HTTP_CLIENT: esp_transport_read returned:-76 and errno:113
+E (4326441) HTTP_CLIENT: transport_read: error - -1 | ESP_FAIL
+E (4326451) esp-tls-mbedtls: read error :-0x004C
+E (4326451) transport_base: esp_tls_conn_read error, errno=Socket is not connected
+W (4326461) HTTP_CLIENT: esp_transport_read returned:-76 and errno:128
+E (4326471) HTTP_CLIENT: transport_read: error - -1 | ESP_FAIL
+E (4326471) esp_https_ota: data read -1, errno 128
+E (4326481) wifi station: [OTA] failed: download interrupted (ESP_FAIL)
+connect
+
+I (4383551) wifi station: scanning...
+I (4386051) wifi station: found 3 networks:
+I (4386051) wifi station:   [1] Test-WiFi                         -43 dBm
+I (4386051) wifi station:   [2] DIRECT-en-EPSON-ET-2870 Series    -68 dBm
+I (4386051) wifi station:   [3] TAFJORD_F1F4_2GHz                 -70 dBm
+Enter SSID, number from list, or Enter to use saved [Test-WiFi]:
+
+I (4389141) wifi station: using saved SSID: Test-WiFi
+I (4389141) wifi station: connecting to SSID:Test-WiFi ...
+I (4389141) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (4389141) wifi:state: init -> auth (0xb0)
+I (4389161) wifi:state: auth -> assoc (0x0)
+I (4389191) wifi:state: assoc -> run (0x10)
+I (4389261) wifi:connected with Test-WiFi, aid = 1, channel 6, BW20, bssid = 2e:e5:5b:eb:4b:50
+I (4389261) wifi:security: WPA2-PSK, phy: bgn, rssi: -47, cipher(pairwise:0x3, group:0x3), pmf:0
+I (4389271) wifi:pm start, type: 1
+
+I (4389271) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (4389341) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (4390681) esp_netif_handlers: sta ip: 172.20.10.2, mask: 255.255.255.240, gw: 172.20.10.1
+I (4390681) wifi station: got ip:172.20.10.2
+I (4390681) wifi station: successfully connected to SSID:Test-WiFi
+version
+
+I (4401991) wifi station: FW: v1.5.0 (build Sep 29 2026 15:23:09)
+I (4401991) wifi station:   partition: ota_0 @ 0x10000, state: valid
+ota install 1.I (4417091) wifi:<ba-add>idx:0 (ifx:0, 2e:e5:5b:eb:4b:50), tid:0, ssn:2, winSize:64
+5
+
+E (4426521) wifi station: [OTA] error: update already in progress
+ota install 1.5.0.fvf
+
+E (4451471) wifi station: [OTA] error: update already in progress
+ota install 1.5.0 force
+
+E (4471991) wifi station: [OTA] error: update already in progress
