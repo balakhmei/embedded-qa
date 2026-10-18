@@ -1,10 +1,11 @@
 import time
 import serial
+from drivers.find_ports import find_port
 
 
 class RelayController:
-    def __init__(self, port="/dev/cu.usbserial-110", baudrate=9600):
-        self.port = port
+    def __init__(self, port=None, baudrate=9600):
+        self.port = port if port is not None else find_port(0x1A86, 0x7523)
         self.baudrate = baudrate
 
     def set_channel(self, channel: int, state: bool):
