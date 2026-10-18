@@ -1,0 +1,162 @@
+reconnect
+I (89608536) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (89609756) wifi:new:<11,0>, old:<6,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0
+I (89609756) wifi:state: init -> auth (0xb0)
+I (89609766) wifi:state: auth -> assoc (0x0)
+I (89609766) wifi:state: assoc -> run (0x10)
+I (89609846) wifi:connected with Test-WiFi, aid = 1, channel 11, BW20, bssid = c2:c5:19:2c:97:1b
+I (89609846) wifi:security: WPA2-PSK, phy: bgn, rssi: -45, cipher(pairwise:0x3, group:0x3), pmf:0
+I (89609846) wifi:pm start, type: 1
+
+I (89609856) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (89609986) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (89611326) esp_netif_handlers: sta ip: 172.20.10.2, mask: 255.255.255.240, gw: 172.20.10.1
+I (89611326) sentry: [LINK] got ip 172.20.10.2
+I (89611326) sentry: [LINK] connected to 'Test-WiFi', rssi -40 dBm (excellent)
+I (89611336) sentry: [TELEMETRY] auto report every 30 s ('health off' to stop)
+I (89611336) wifi:<ba-add>idx:0 (ifx:0, c2:c5:19:2c:97:1b), tid:0, ssn:2, winSize:64
+I (89612186) esp-x509-crt-bundle: Certificate validated
+I (89613286) sentry: [LINK] fleet network reachable (internet OK)
+I (89613286) sentry: [LINK] time: synced via NTP, 14:01:02
+W (89615176) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+status
+I (89625306) sentry: === SWM-2 status ===
+I (89625306) sentry:   fw:       v2.3.0 (ota_1)
+I (89625306) sentry:   state:    1 NORMAL
+I (89625306) sentry:   link:     buoy link 'Test-WiFi', ip 172.20.10.2, rssi -43 dBm (excellent), ch 11
+I (89625316) sentry:   internet: OK
+I (89625316) sentry:   user:     user (user)
+I (89625316) sentry:   time:     14:01:14, uptime 24h 53m 44s
+I (89625326) sentry:   valve:    closed
+I (89625326) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (89625336) sentry:   sonar:    no contact
+I (89625336) sentry:   carrier:  depth 45.2 m, hull 5.5 bar, water 7.9 C, battery 23.73 V (sim)
+I (89625346) sentry:   heap:     251 KB free
+distance calibrate reset
+E (89637086) sentry: E706 usage: distance calibrate <ref 5-300 cm>
+I (89641466) sentry: [TELEMETRY #669] 14:01:30 up 24:54:01 heap 251KB rssi -41 temp 30.1C depth 45.2m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (89671666) sentry: [TELEMETRY #670] 14:01:58 up 24:54:31 heap 251KB rssi -43 temp 31.1C depth 45.2m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (89697176) sentry: [NAV] depth 45.0 m, heading 239, speed 3.3 kn
+I (89701866) sentry: [TELEMETRY #671] 14:02:28 up 24:55:01 heap 251KB rssi -46 temp 31.1C depth 45.0m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (89731866) sentry: [TELEMETRY #672] 14:02:58 up 24:55:31 heap 251KB rssi -45 temp 31.1C depth 45.0m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (89762066) sentry: [TELEMETRY #673] 14:03:28 up 24:56:01 heap 251KB rssi -42 temp 31.1C depth 45.0m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (89762176) sentry: [ACU] ambient noise 68 dB re 1uPa, sea state 2, water 8.0 C
+I (89792066) sentry: [TELEMETRY #674] 14:03:58 up 24:56:31 heap 251KB rssi -47 temp 30.1C depth 44.9m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (89822066) sentry: [TELEMETRY #675] 14:04:28 up 24:57:01 heap 251KB rssi -49 temp 31.1C depth 44.9m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (89838176) sentry: [PWR] battery bus 23.73 V, load 1.9 A
+I (89852266) sentry: [TELEMETRY #676] 14:04:59 up 24:57:31 heap 251KB rssi -48 temp 31.1C depth 44.9m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+distance reset
+I (89859586) sentry: [SONAR] calibration reset
+I (89882266) sentry: [TELEMETRY #677] 14:05:29 up 24:58:01 heap 251KB rssi -51 temp 30.1C depth 44.9m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (89912266) sentry: [TELEMETRY #678] 14:05:59 up 24:58:31 heap 251KB rssi -50 temp 32.1C depth 44.9m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (89919176) sentry: [NAV] depth 45.3 m, heading 235, speed 3.0 kn
+I (89942466) sentry: [TELEMETRY #679] 14:06:29 up 24:59:02 heap 251KB rssi -51 temp 31.1C depth 45.3m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+distance 20
+E (89953616) sentry: E704 count must be 1-20
+I (89972466) sentry: [TELEMETRY #680] 14:06:59 up 24:59:32 heap 251KB rssi -42 temp 31.1C depth 45.3m hull 5.5bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (89983176) sentry: [ACU] ambient noise 63 dB re 1uPa, sea state 2, water 8.0 C
+distance 19
+I (90000146) sentry: [SONAR] 1/19: 57.6 cm
+I (90000346) sentry: [SONAR] 2/19: 57.6 cm
+I (90000546) sentry: [SONAR] 3/19: 57.6 cm
+I (90000746) sentry: [SONAR] 4/19: 57.6 cm
+I (90000946) sentry: [SONAR] 5/19: 57.6 cm
+I (90001146) sentry: [SONAR] 6/19: 57.6 cm
+I (90001346) sentry: [SONAR] 7/19: 57.6 cm
+I (90001546) sentry: [SONAR] 8/19: 57.6 cm
+I (90001746) sentry: [SONAR] 9/19: 57.6 cm
+I (90001946) sentry: [SONAR] 10/19: 57.6 cm
+I (90002146) sentry: [SONAR] 11/19: 57.6 cm
+I (90002346) sentry: [SONAR] 12/19: 57.6 cm
+I (90002476) sentry: [TELEMETRY #681] 14:07:29 up 25:00:02 heap 251KB rssi -51 temp 31.1C depth 45.5m hull 5.5bar batt 23.7V valve closed sonar 57.6cm watch disarmed alerts 0 state NORMAL
+I (90002546) sentry: [SONAR] 13/19: 57.6 cm
+I (90002746) sentry: [SONAR] 14/19: 57.6 cm
+I (90002946) sentry: [SONAR] 15/19: 57.6 cm
+I (90003146) sentry: [SONAR] 16/19: 57.6 cm
+I (90003346) sentry: [SONAR] 17/19: 57.6 cm
+I (90003546) sentry: [SONAR] 18/19: 57.6 cm
+I (90003746) sentry: [SONAR] 19/19: 57.6 cm
+I (90003846) sentry: [SONAR] avg 57.6 cm (19/19 ok)
+I (90032496) sentry: [TELEMETRY #682] 14:07:59 up 25:00:32 heap 251KB rssi -52 temp 31.1C depth 45.5m hull 5.5bar batt 23.7V valve closed sonar 57.6cm watch disarmed alerts 0 state NORMAL
+I (90059176) sentry: [PWR] battery bus 23.72 V, load 1.5 A
+I (90062696) sentry: [TELEMETRY #683] 14:08:29 up 25:01:02 heap 251KB rssi -52 temp 31.1C depth 45.5m hull 5.6bar batt 23.7V valve closed sonar 57.6cm watch disarmed alerts 0 state NORMAL
+I (90092696) sentry: [TELEMETRY #684] 14:08:59 up 25:01:32 heap 251KB rssi -51 temp 31.1C depth 45.5m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (90122696) sentry: [TELEMETRY #685] 14:09:29 up 25:02:02 heap 251KB rssi -50 temp 31.1C depth 45.5m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (90139176) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+distance 21
+E (90150146) sentry: E704 count must be 1-20
+I (90152696) sentry: [TELEMETRY #686] 14:09:59 up 25:02:32 heap 251KB rssi -51 temp 31.1C depth 45.7m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (90182896) sentry: [TELEMETRY #687] 14:10:29 up 25:03:02 heap 251KB rssi -52 temp 31.1C depth 45.7m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+distance 21
+E (90203106) sentry: E704 count must be 1-20
+E (90150146) sentry: E704 count must be 1-20
+E (90203106) sentry: E001 unknown command 'e'. Type 'help'
+I (90152696) sentry: [TELEMETRY #686] 14:09:59 up 25:02:32 heap 251KI (90204176) sentry: [NAV] depth 45.8 m, heading 234, speed 3.1 kn
+                                                I (90212896) sentry: [TELEMETRY #688] 14:10:59 up 25:03:32 heap 251KB rssi -46 temp 31.1C depth 45.8m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+                    I (90243096) sentry: [TELEMETRY #689] 14:11:29 up 25:04:02 heap 251KB rssi -47 temp 31.1C depth 45.8m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+status
+I (90251276) sentry: === SWM-2 status ===
+I (90251276) sentry:   fw:       v2.3.0 (ota_1)
+I (90251276) sentry:   state:    1 NORMAL
+I (90251276) sentry:   link:     buoy link 'Test-WiFi', ip 172.20.10.2, rssi -48 dBm (excellent), ch 11
+I (90251286) sentry:   internet: OK
+I (90251286) sentry:   user:     user (user)
+I (90251286) sentry:   time:     14:11:38, uptime 25h 04m 10s
+I (90251296) sentry:   valve:    closed
+I (90251296) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (90251306) sentry:   sonar:    no contact
+I (90251306) sentry:   carrier:  depth 45.8 m, hull 5.6 bar, water 8.0 C, battery 23.72 V (sim)
+I (90251316) sentry:   heap:     251 KB free
+distance 21I (90273116) sentry: [TELEMETRY #690] 14:12:00 up 25:04:32 heap 251KB rssi -46 temp 31.1C depth 45.8m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (90277176) sentry: [ACU] ambient noise 67 dB re 1uPa, sea state 2, water 8.0 C
+distance 19
+E (90291146) sentry: E703 usage: distance [N]|log [ms]|stop|calibrate <cm>|reset|alarm <cm>|off|filter on|off|stats|history
+status
+I (90302506) sentry: === SWM-2 status ===
+I (90302506) sentry:   fw:       v2.3.0 (ota_1)
+I (90302506) sentry:   state:    1 NORMAL
+I (90302506) sentry:   link:     buoy link 'Test-WiFi', ip 172.20.10.2, rssi -48 dBm (excellent), ch 11
+I (90302516) sentry:   internet: OK
+I (90302516) sentry:   user:     user (user)
+I (90302516) sentry:   time:     14:12:29, uptime 25h 05m 02s
+I (90302526) sentry:   valve:    closed
+I (90302526) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (90302536) sentry:   sonar:    no contact
+I (90302536) sentry:   carrier:  depth 45.8 m, hull 5.6 bar, water 8.0 C, battery 23.72 V (sim)
+I (90302546) sentry:   heap:     251 KB free
+I (90303146) sentry: [TELEMETRY #691] 14:12:30 up 25:05:02 heap 251KB rssi -47 temp 31.1C depth 45.8m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+distance 19
+I (90308136) sentry: [SONAR] 1/19: 57.6 cm
+I (90308336) sentry: [SONAR] 2/19: 57.6 cm
+I (90308536) sentry: [SONAR] 3/19: 57.6 cm
+I (90308736) sentry: [SONAR] 4/19: 57.6 cm
+I (90308936) sentry: [SONAR] 5/19: 57.6 cm
+I (90309136) sentry: [SONAR] 6/19: 57.6 cm
+I (90309336) sentry: [SONAR] 7/19: 57.6 cm
+I (90309536) sentry: [SONAR] 8/19: 57.6 cm
+I (90309736) sentry: [SONAR] 9/19: 57.6 cm
+I (90309936) sentry: [SONAR] 10/19: 57.6 cm
+I (90310136) sentry: [SONAR] 11/19: 57.6 cm
+I (90310336) sentry: [SONAR] 12/19: 57.6 cm
+I (90310536) sentry: [SONAR] 13/19: 57.6 cm
+I (90310736) sentry: [SONAR] 14/19: 57.6 cm
+I (90310936) sentry: [SONAR] 15/19: 57.6 cm
+I (90311136) sentry: [SONAR] 16/19: 57.6 cm
+I (90311336) sentry: [SONAR] 17/19: 57.6 cm
+I (90311536) sentry: [SONAR] 18/19: 57.6 cm
+I (90311736) sentry: [SONAR] 19/19: 57.6 cm
+I (90311836) sentry: [SONAR] avg 57.6 cm (19/19 ok)
+distance 20
+E (90321656) sentry: E704 count must be 1-20
+distance21   21
+E (90332186) sentry: E704 count must be 1-20
+I (90333346) sentry: [TELEMETRY #692] 14:13:00 up 25:05:32 heap 251KB rssi -45 temp 31.1C depth 45.8m hull 5.6bar batt 23.7V valve closed sonar 57.6cm watch disarmed alerts 0 state NORMAL
+W (90346176) sentry: [ACU] own-ship noise: pump #2 cavitation suspected
+I (90363346) sentry: [TELEMETRY #693] 14:13:30 up 25:06:02 heap 251KB rssi -44 temp 31.1C depth 46.1m hull 5.6bar batt 23.7V valve closed sonar 57.6cm watch disarmed alerts 0 state NORMAL
+I (90393546) sentry: [TELEMETRY #694] 14:14:00 up 25:06:33 heap 251KB rssi -45 temp 31.1C depth 46.1m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (90423176) sentry: [ACU] biologics detected (snapping shrimp), passive filter on
+I (90423546) sentry: [TELEMETRY #695] 14:14:30 up 25:07:03 heap 251KB rssi -45 temp 31.1C depth 46.0m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (90453746) sentry: [TELEMETRY #696] 14:15:00 up 25:07:33 heap 251KB rssi -44 temp 31.1C depth 46.0m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (90483946) sentry: [TELEMETRY #697] 14:15:30 up 25:08:03 heap 251KB rssi -49 temp 31.1C depth 46.0m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (90496176) sentry: [ACU] biologics detected (snapping shrimp), passive filter on
+I (90513946) sentry: [TELEMETRY #698] 14:16:00 up 25:08:33 heap 251KB rssi -46 temp 31.1C depth 45.8m hull 5.6bar batt 23.7V valve closed sonar - watch disarmed alerts 0 state NORMAL

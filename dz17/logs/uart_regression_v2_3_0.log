@@ -1,0 +1,635 @@
+I (7520766) sentry: [TELEMETRY #219] 15:12:50 up 02:05:20 heap 251KB rssi -30 temp 32.1C depth 42.5m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+status
+I (7534416) sentry: === SWM-2 status ===
+I (7534416) sentry:   fw:       v2.3.0 (ota_1)
+I (7534416) sentry:   state:    1 NORMAL
+I (7534416) sentry:   link:     buoy link 'Test-WiFi', ip 172.20.10.2, rssi -29 dBm (excellent), ch 6
+I (7534426) sentry:   internet: OK
+I (7534426) sentry:   user:     user (user)
+I (7534426) sentry:   time:     15:13:03, uptime 2h 05m 34s
+I (7534436) sentry:   valve:    closed
+I (7534436) sentry:   watch:    disarmed, CIC alerts unacked: 1
+I (7534446) sentry:   sonar:    no contact
+I (7534446) sentry:   carrier:  depth 42.5 m, hull 5.2 bar, water 8.0 C, battery 24.00 V (sim)
+I (7534456) sentry:   heap:     251 KB free
+I (7550766) sentry: [TELEMETRY #220] 15:13:20 up 02:05:50 heap 251KB rssi -31 temp 31.1C depth 42.5m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (7580966) sentry: [TELEMETRY #221] 15:13:50 up 02:06:20 heap 251KB rssi -29 temp 31.1C depth 42.5m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+lamp on
+I (7583296) sentry: [BEACON] on (command) solid, 100%, color (255,255,255)
+I (7596766) sentry: [ACU] ambient noise 68 dB re 1uPa, sea state 2, water 8.0 C
+I (7610966) sentry: [TELEMETRY #222] 15:14:20 up 02:06:50 heap 251KB rssi -29 temp 31.1C depth 42.5m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+lamp off
+I (7617526) sentry: [BEACON] off (command)
+I (7641166) sentry: [TELEMETRY #223] 15:14:50 up 02:07:20 heap 251KB rssi -30 temp 31.1C depth 42.5m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (7662766) sentry: [PWR] battery bus 23.99 V, load 1.8 A
+lamp status
+I (7667546) sentry: [BEACON] off, color (255,255,255), brightness 100%, mode solid, timer off
+I (7671166) sentry: [TELEMETRY #224] 15:15:20 up 02:07:50 heap 251KB rssi -30 temp 31.1C depth 42.4m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (7701166) sentry: [TELEMETRY #225] 15:15:50 up 02:08:20 heap 251KB rssi -29 temp 31.1C depth 42.4m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+lamp color red
+I (7717866) sentry: [BEACON] color: red (255,0,0)
+I (7731366) sentry: [TELEMETRY #226] 15:16:20 up 02:08:50 heap 251KB rssi -29 temp 31.1C depth 42.4m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (7742766) sentry: [NAV] depth 42.2 m, heading 253, speed 2.7 kn
+lamp status
+I (7749876) sentry: [BEACON] off, color (255,0,0), brightness 100%, mode solid, timer off
+I (7761366) sentry: [TELEMETRY #227] 15:16:50 up 02:09:20 heap 251KB rssi -30 temp 31.1C depth 42.2m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (7791566) sentry: [TELEMETRY #228] 15:17:21 up 02:09:51 heap 251KB rssi -28 temp 31.1C depth 42.2m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+lamp on
+I (7799766) sentry: [BEACON] on (command) solid, 100%, color (255,0,0)
+I (7810766) sentry: [ACU] ambient noise 72 dB re 1uPa, sea state 2, water 8.0 C
+I (7821566) sentry: [TELEMETRY #229] 15:17:51 up 02:10:21 heap 251KB rssi -28 temp 31.1C depth 42.2m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+lamp brightness 20
+I (7850606) sentry: [BEACON] brightness: 20%
+I (7851566) sentry: [TELEMETRY #230] 15:18:21 up 02:10:51 heap 251KB rssi -29 temp 32.1C depth 42.2m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (7881566) sentry: [TELEMETRY #231] 15:18:51 up 02:11:21 heap 251KB rssi -28 temp 31.1C depth 42.2m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (7887766) sentry: [PWR] battery bus 23.99 V, load 1.7 A
+lamp status
+I (7911016) sentry: [BEACON] ON, color (255,0,0), brightness 20%, mode solid, timer off
+I (7911566) sentry: [TELEMETRY #232] 15:19:21 up 02:11:51 heap 251KB rssi -30 temp 31.1C depth 41.8m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (7941566) sentry: [TELEMETRY #233] 15:19:51 up 02:12:21 heap 251KB rssi -30 temp 31.1C depth 41.8m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (7953766) sentry: [NAV] depth 41.5 m, heading 248, speed 3.1 kn
+lamp mode blink
+I (7959646) sentry: [BEACON] mode: blink
+I (7971566) sentry: [TELEMETRY #234] 15:20:21 up 02:12:51 heap 251KB rssi -30 temp 31.1C depth 41.5m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8001566) sentry: [TELEMETRY #235] 15:20:51 up 02:13:21 heap 251KB rssi -29 temp 31.1C depth 41.5m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+lamp mode solid
+I (8031016) sentry: [BEACON] mode: solid
+I (8031566) sentry: [TELEMETRY #236] 15:21:21 up 02:13:51 heap 251KB rssi -29 temp 31.1C depth 41.5m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8042766) sentry: [ACU] ambient noise 60 dB re 1uPa, sea state 2, water 8.0 C
+I (8061566) sentry: [TELEMETRY #237] 15:21:51 up 02:14:21 heap 251KB rssi -29 temp 32.1C depth 41.8m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8091566) sentry: [TELEMETRY #238] 15:22:21 up 02:14:51 heap 251KB rssi -29 temp 31.1C depth 41.8m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+relay on
+I (8100476) sentry: [VALVE] OPEN (command)
+I (8115766) sentry: [PWR] battery bus 23.98 V, load 1.7 A
+I (8121566) sentry: [TELEMETRY #239] 15:22:51 up 02:15:21 heap 251KB rssi -29 temp 31.1C depth 42.0m hull 5.2bar batt 24.0V valve open sonar - watch disarmed alerts 1 state NORMAL
+I (8151566) sentry: [TELEMETRY #240] 15:23:20 up 02:15:51 heap 251KB rssi -29 temp 31.1C depth 42.0m hull 5.2bar batt 24.0V valve open sonar - watch disarmed alerts 1 state NORMAL
+relay offI (8181566) sentry: [TELEMETRY #241] 15:23:50 up 02:16:21 heap 251KB rssi -31 temp 32.1C depth 42.0m hull 5.2bar batt 24.0V valve open sonar - watch disarmed alerts 1 state NORMAL
+
+I (8182016) sentry: [VALVE] CLOSED (command)
+I (8183766) sentry: [NAV] depth 42.4 m, heading 250, speed 2.9 kn
+I (8211766) sentry: [TELEMETRY #242] 15:24:21 up 02:16:51 heap 251KB rssi -29 temp 31.1C depth 42.4m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8241766) sentry: [TELEMETRY #243] 15:24:51 up 02:17:21 heap 251KB rssi -29 temp 31.1C depth 42.4m hull 5.2bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8258766) sentry: [ACU] ambient noise 59 dB re 1uPa, sea state 2, water 8.2 C
+I (8271766) sentry: [TELEMETRY #244] 15:25:21 up 02:17:51 heap 251KB rssi -29 temp 31.1C depth 42.7m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+relay pulse 99
+I (8284816) sentry: [VALVE] OPEN (pulse)
+I (8284936) sentry: [VALVE] CLOSED (pulse end)
+I (8301966) sentry: [TELEMETRY #245] 15:25:51 up 02:18:21 heap 251KB rssi -38 temp 31.1C depth 42.7m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8331966) sentry: [TELEMETRY #246] 15:26:21 up 02:18:51 heap 251KB rssi -31 temp 31.1C depth 42.7m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8342766) sentry: [PWR] battery bus 23.98 V, load 1.7 A
+I (8362166) sentry: [TELEMETRY #247] 15:26:51 up 02:19:21 heap 251KB rssi -30 temp 31.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8392166) sentry: [TELEMETRY #248] 15:27:21 up 02:19:51 heap 251KB rssi -29 temp 31.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8414766) sentry: [NAV] depth 42.7 m, heading 251, speed 3.2 kn
+I (8422166) sentry: [TELEMETRY #249] 15:27:51 up 02:20:21 heap 251KB rssi -29 temp 31.1C depth 42.7m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8452366) sentry: [TELEMETRY #250] 15:28:21 up 02:20:51 heap 251KB rssi -30 temp 31.1C depth 42.7m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8482366) sentry: [TELEMETRY #251] 15:28:51 up 02:21:21 heap 251KB rssi -34 temp 31.1C depth 42.7m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+W (8483766) sentry: [NAV] thermocline at 35 m - sonar range may drop
+I (8512566) sentry: [TELEMETRY #252] 15:29:21 up 02:21:52 heap 251KB rssi -29 temp 31.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8542566) sentry: [TELEMETRY #253] 15:29:51 up 02:22:22 heap 251KB rssi -29 temp 32.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+distance
+E (8564006) sentry: E701 sonar: no echo (check transducer wiring TRIG 5 / ECHO 18)
+I (8564766) sentry: [ACU] ambient noise 64 dB re 1uPa, sea state 2, water 8.1 C
+I (8572596) sentry: [TELEMETRY #254] 15:30:21 up 02:22:52 heap 251KB rssi -27 temp 31.1C depth 42.7m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8602796) sentry: [TELEMETRY #255] 15:30:52 up 02:23:22 heap 251KB rssi -28 temp 31.1C depth 42.7m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8632996) sentry: [TELEMETRY #256] 15:31:22 up 02:23:52 heap 251KB rssi -28 temp 31.1C depth 42.7m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8638766) sentry: [PWR] battery bus 23.97 V, load 1.5 A
+I (8662996) sentry: [TELEMETRY #257] 15:31:52 up 02:24:22 heap 251KB rssi -27 temp 31.1C depth 42.9m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8692996) sentry: [TELEMETRY #258] 15:32:22 up 02:24:52 heap 251KB rssi -27 temp 31.1C depth 42.9m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+I (8708766) sentry: [NAV] depth 43.2 m, heading 248, speed 2.6 kn
+I (8723196) sentry: [TELEMETRY #259] 15:32:52 up 02:25:22 heap 251KB rssi -36 temp 31.1C depth 43.2m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 1 state NORMAL
+distance
+I (8751916) sentry: [SONAR] ping: echo 20.0 cm
+E (8751916) sentry: [COLLISION] contact too close: 20.0 cm (< 20 cm)
+W (8751916) sentry: [CIC #2 WARNING] sonar: collision risk: contact at 20.0 cm
+I (8753196) sentry: [TELEMETRY #260] 15:33:22 up 02:25:52 heap 251KB rssi -28 temp 31.1C depth 43.2m hull 5.3bar batt 24.0V valve closed sonar 20.0cm watch disarmed alerts 2 state NORMAL
+I (8783396) sentry: [TELEMETRY #261] 15:33:52 up 02:26:22 heap 251KB rssi -29 temp 31.1C depth 43.2m hull 5.3bar batt 24.0V valve closed sonar 20.0cm watch disarmed alerts 2 state NORMAL
+I (8796766) sentry: [ACU] ambient noise 58 dB re 1uPa, sea state 2, water 8.0 C
+distance count 20
+E (8807126) sentry: E703 usage: distance [N]|log [ms]|stop|calibrate <cm>|reset|alarm <cm>|off|filter on|off|stats|history
+I (8813396) sentry: [TELEMETRY #262] 15:34:22 up 02:26:52 heap 251KB rssi -34 temp 31.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (8843396) sentry: [TELEMETRY #263] 15:34:52 up 02:27:22 heap 251KB rssi -27 temp 32.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+distance 20
+E (8870786) sentry: E704 count must be 1-20
+I (8873596) sentry: [TELEMETRY #264] 15:35:22 up 02:27:53 heap 251KB rssi -28 temp 31.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+W (8885766) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+I (8903596) sentry: [TELEMETRY #265] 15:35:52 up 02:28:23 heap 251KB rssi -28 temp 31.1C depth 43.1m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (8933596) sentry: [TELEMETRY #266] 15:36:22 up 02:28:53 heap 251KB rssi -29 temp 31.1C depth 43.1m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (8954766) sentry: [PWR] battery bus 23.96 V, load 1.8 A
+I (8963596) sentry: [TELEMETRY #267] 15:36:52 up 02:29:23 heap 251KB rssi -29 temp 31.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (8993796) sentry: [TELEMETRY #268] 15:37:23 up 02:29:53 heap 251KB rssi -34 temp 31.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+distance reset
+I (9015886) sentry: [SONAR] calibration reset
+I (9017766) sentry: [NAV] depth 43.0 m, heading 244, speed 2.6 kn
+I (9023796) sentry: [TELEMETRY #269] 15:37:53 up 02:30:23 heap 251KB rssi -34 temp 33.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9053796) sentry: [TELEMETRY #270] 15:38:23 up 02:30:53 heap 251KB rssi -38 temp 31.1C depth 43.0m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9077766) sentry: [ACU] ambient noise 68 dB re 1uPa, sea state 2, water 8.0 C
+I (9083796) sentry: [TELEMETRY #271] 15:38:53 up 02:31:23 heap 251KB rssi -27 temp 31.1C depth 43.2m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9113796) sentry: [TELEMETRY #272] 15:39:23 up 02:31:53 heap 251KB rssi -27 temp 31.1C depth 43.2m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+distance stats
+I (9117286) sentry: [SONAR] measurements 1, errors 1, min 20.0, max 20.0, avg 20.0 cm
+I (9117286) sentry: [SONAR] calibration +0.0 cm, filter median 5, alarm off
+I (9139766) sentry: [PWR] battery bus 23.95 V, load 1.5 A
+I (9143796) sentry: [TELEMETRY #273] 15:39:53 up 02:32:23 heap 251KB rssi -29 temp 31.1C depth 42.9m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9173796) sentry: [TELEMETRY #274] 15:40:23 up 02:32:53 heap 251KB rssi -29 temp 31.1C depth 42.9m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9203996) sentry: [TELEMETRY #275] 15:40:53 up 02:33:23 heap 251KB rssi -29 temp 31.1C depth 42.9m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9212766) sentry: [NAV] depth 43.1 m, heading 238, speed 3.1 kn
+I (9233996) sentry: [TELEMETRY #276] 15:41:23 up 02:33:53 heap 251KB rssi -30 temp 32.1C depth 43.1m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9263996) sentry: [TELEMETRY #277] 15:41:53 up 02:34:23 heap 251KB rssi -29 temp 31.1C depth 43.1m hull 5.3bar batt 24.0V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9283766) sentry: [ACU] ambient noise 68 dB re 1uPa, sea state 2, water 8.0 C
+I (9293996) sentry: [TELEMETRY #278] 15:42:23 up 02:34:53 heap 251KB rssi -27 temp 31.1C depth 42.8m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9323996) sentry: [TELEMETRY #279] 15:42:53 up 02:35:23 heap 251KB rssi -28 temp 31.1C depth 42.8m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9353996) sentry: [TELEMETRY #280] 15:43:23 up 02:35:53 heap 251KB rssi -29 temp 31.1C depth 42.8m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9370766) sentry: [PWR] battery bus 23.95 V, load 1.9 A
+I (9384196) sentry: [TELEMETRY #281] 15:43:53 up 02:36:23 heap 251KB rssi -28 temp 31.1C depth 42.7m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9414196) sentry: [TELEMETRY #282] 15:44:23 up 02:36:53 heap 251KB rssi -28 temp 31.1C depth 42.7m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9437766) sentry: [NAV] depth 42.6 m, heading 241, speed 3.0 kn
+I (9444196) sentry: [TELEMETRY #283] 15:44:53 up 02:37:23 heap 251KB rssi -28 temp 31.1C depth 42.6m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9474396) sentry: [TELEMETRY #284] 15:45:23 up 02:37:53 heap 251KB rssi -29 temp 32.1C depth 42.6m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9504396) sentry: [TELEMETRY #285] 15:45:53 up 02:38:23 heap 251KB rssi -26 temp 33.1C depth 42.6m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9523766) sentry: [ACU] ambient noise 68 dB re 1uPa, sea state 2, water 8.0 C
+guard arm
+E (9528516) sentry: E702 sonar: out of range (2-400 cm) - open water?
+E (9528516) sentry: E805 cannot arm: distance sensor not ready
+I (9534396) sentry: [TELEMETRY #286] 15:46:23 up 02:38:53 heap 251KB rssi -27 temp 31.1C depth 42.7m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9564596) sentry: [TELEMETRY #287] 15:46:53 up 02:39:24 heap 251KB rssi -27 temp 31.1C depth 42.7m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9593766) sentry: [PWR] battery bus 23.94 V, load 1.5 A
+I (9594596) sentry: [TELEMETRY #288] 15:47:23 up 02:39:54 heap 251KB rssi -33 temp 32.1C depth 42.7m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9624596) sentry: [TELEMETRY #289] 15:47:53 up 02:40:24 heap 251KB rssi -25 temp 31.1C depth 42.7m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9654796) sentry: [TELEMETRY #290] 15:48:24 up 02:40:54 heap 251KB rssi -29 temp 31.1C depth 42.7m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+I (9655766) sentry: [NAV] depth 42.9 m, heading 239, speed 3.1 kn
+I (9684796) sentry: [TELEMETRY #291] 15:48:54 up 02:41:24 heap 251KB rssi -33 temp 31.1C depth 42.9m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 2 state NORMAL
+guard arm
+I (9689786) sentry: [WATCH] arming: clear the zone (< 50 cm) within 10 s
+I (9689826) sentry: [WATCH] arming in 10 s...
+I (9691826) sentry: [WATCH] arming in 8 s...
+I (9693826) sentry: [WATCH] arming in 6 s...
+I (9695826) sentry: [WATCH] arming in 4 s...
+I (9696826) sentry: [WATCH] arming in 3 s...
+I (9697826) sentry: [WATCH] arming in 2 s...
+I (9698826) sentry: [WATCH] arming in 1 s...
+W (9699826) sentry: [WATCH] ARMED. Perimeter zone < 50 cm, sonar sweeping
+I (9699826) sentry: [CIC #3 INFO] watch: perimeter watch armed, zone 50 cm
+I (9714796) sentry: [TELEMETRY #292] 15:49:24 up 02:41:54 heap 251KB rssi -29 temp 32.1C depth 42.9m hull 5.3bar batt 23.9V valve closed sonar 57.6cm watch ARMED alerts 3 state NORMAL
+I (9742776) sentry: [ACU] ambient noise 73 dB re 1uPa, sea state 2, water 8.2 C
+I (9744816) sentry: [TELEMETRY #293] 15:49:54 up 02:42:24 heap 251KB rssi -30 temp 32.1C depth 42.6m hull 5.3bar batt 23.9V valve closed sonar 57.6cm watch ARMED alerts 3 state NORMAL
+I (9774826) sentry: [TELEMETRY #294] 15:50:24 up 02:42:54 heap 251KB rssi -19 temp 32.1C depth 42.6m hull 5.3bar batt 23.9V valve closed sonar 57.6cm watch ARMED alerts 3 state NORMAL
+guard disarm 1234
+I (9798356) sentry: [WATCH] disarmed (was ARMED)
+I (9805026) sentry: [TELEMETRY #295] 15:50:54 up 02:43:24 heap 251KB rssi -30 temp 32.1C depth 42.6m hull 5.3bar batt 23.9V valve closed sonar 57.6cm watch disarmed alerts 3 state NORMAL
+W (9810776) sentry: [LINK] buoy cable tension high, link quality may degrade
+I (9835226) sentry: [TELEMETRY #296] 15:51:24 up 02:43:54 heap 251KB rssi -28 temp 31.1C depth 42.3m hull 5.2bar batt 23.9V valve closed sonar 57.6cm watch disarmed alerts 3 state NORMAL
+guard disarm 9999
+W (9860886) sentry: W802 guard is not armed
+I (9865426) sentry: [TELEMETRY #297] 15:51:54 up 02:44:25 heap 251KB rssi -29 temp 31.1C depth 42.3m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 3 state NORMAL
+I (9885776) sentry: [PWR] battery bus 23.93 V, load 1.7 A
+I (9895426) sentry: [TELEMETRY #298] 15:52:24 up 02:44:55 heap 251KB rssi -28 temp 31.1C depth 42.1m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 3 state NORMAL
+guard arm
+I (9909686) sentry: [WATCH] arming: clear the zone (< 50 cm) within 10 s
+I (9909736) sentry: [WATCH] arming in 10 s...
+I (9911736) sentry: [WATCH] arming in 8 s...
+I (9913736) sentry: [WATCH] arming in 6 s...
+I (9915736) sentry: [WATCH] arming in 4 s...
+I (9916736) sentry: [WATCH] arming in 3 s...
+I (9917736) sentry: [WATCH] arming in 2 s...
+I (9918736) sentry: [WATCH] arming in 1 s...
+W (9919736) sentry: [WATCH] ARMED. Perimeter zone < 50 cm, sonar sweeping
+I (9919736) sentry: [CIC #4 INFO] watch: perimeter watch armed, zone 50 cm
+I (9925456) sentry: [TELEMETRY #299] 15:52:54 up 02:45:25 heap 251KB rssi -29 temp 31.1C depth 42.1m hull 5.2bar batt 23.9V valve closed sonar 57.6cm watch ARMED alerts 4 state NORMAL
+guard disarm 9999
+E (9938426) sentry: E803 wrong PIN. Attempts: 1/3
+guard disarm 9999
+E (9950136) sentry: E803 wrong PIN. Attempts: 2/3
+I (9955476) sentry: [TELEMETRY #300] 15:53:24 up 02:45:55 heap 251KB rssi -28 temp 31.1C depth 42.1m hull 5.2bar batt 23.9V valve closed sonar 57.6cm watch ARMED alerts 4 state NORMAL
+I (9966776) sentry: [NAV] depth 42.1 m, heading 241, speed 2.8 kn
+I (9985496) sentry: [TELEMETRY #301] 15:53:54 up 02:46:25 heap 251KB rssi -27 temp 32.1C depth 42.1m hull 5.2bar batt 23.9V valve closed sonar 57.6cm watch ARMED alerts 4 state NORMAL
+guard disarm 1234
+I (10012866) sentry: [WATCH] disarmed (was ARMED)
+I (10015516) sentry: [TELEMETRY #302] 15:54:24 up 02:46:55 heap 251KB rssi -28 temp 32.1C depth 42.1m hull 5.2bar batt 23.9V valve closed sonar 57.6cm watch disarmed alerts 4 state NORMAL
+I (10039776) sentry: [ACU] ambient noise 73 dB re 1uPa, sea state 2, water 8.0 C
+I (10045516) sentry: [TELEMETRY #303] 15:54:54 up 02:47:25 heap 251KB rssi -28 temp 33.1C depth 41.8m hull 5.2bar batt 23.9V valve closed sonar 57.6cm watch disarmed alerts 4 state NORMAL
+I (10075716) sentry: [TELEMETRY #304] 15:55:25 up 02:47:55 heap 251KB rssi -27 temp 32.1C depth 41.8m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 4 state NORMAL
+I (10105916) sentry: [TELEMETRY #305] 15:55:55 up 02:48:25 heap 251KB rssi -28 temp 33.1C depth 41.8m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 4 state NORMAL
+I (10112776) sentry: [PWR] battery bus 23.93 V, load 1.3 A
+guard arm
+I (10116546) sentry: [WATCH] arming: clear the zone (< 50 cm) within 10 s
+I (10116636) sentry: [WATCH] arming in 10 s...
+I (10118636) sentry: [WATCH] arming in 8 s...
+I (10120636) sentry: [WATCH] arming in 6 s...
+I (10122636) sentry: [WATCH] arming in 4 s...
+I (10123636) sentry: [WATCH] arming in 3 s...
+I (10124636) sentry: [WATCH] arming in 2 s...
+I (10125636) sentry: [WATCH] arming in 1 s...
+W (10126636) sentry: [WATCH] ARMED. Perimeter zone < 50 cm, sonar sweeping
+I (10126636) sentry: [CIC #5 INFO] watch: perimeter watch armed, zone 50 cm
+I (10136116) sentry: [TELEMETRY #306] 15:56:25 up 02:48:55 heap 251KB rssi -29 temp 31.1C depth 42.2m hull 5.2bar batt 23.9V valve closed sonar 57.6cm watch ARMED alerts 5 state NORMAL
+guard disarm 9999
+E (10147166) sentry: E803 wrong PIN. Attempts: 3/3
+E (10147166) sentry: [WATCH] !!! GENERAL ALARM: 3 wrong PIN attempts !!! Disarm: 'guard disarm <pin>'
+E (10147166) sentry: [CIC #6 CRITICAL] watch: GENERAL ALARM: 3 wrong PIN attempts
+I (10147176) sentry: [VALVE] OPEN (critical alert)
+W (10147176) sentry: [STATE] 1 NORMAL -> 3 VERBOSE (by critical alert)
+I (10147186) sentry: [STATE] VERBOSE (tactical): extended logs, telemetry every 10 s, LED heartbeat
+I (10147196) sentry: [V] 'guard' done in 30 ms
+I (10147266) sentry: [V] 40 kHz burst x5, median of 4: 57.6..57.6, offset +0.0
+I (10147266) sentry: [V] guard: 57.6 cm (zone 50)
+I (10147786) sentry: [NAV] depth 42.4 m, heading 241, speed 2.9 kn
+W (10157316) sentry: [TELEMETRY #307] 15:56:46 up 02:49:16 heap 251KB rssi -29 temp 31.1C depth 42.4m hull 5.2bar batt 23.9V valve open sonar 57.6cm watch ALARM alerts 6 state VERBOSE WARN watch alarm
+I (10157316) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+W (10157326) sentry: [CIC #7 WARNING] telemetry: WARN watch alarm
+E (10157666) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10167336) sentry: [TELEMETRY #308] 15:56:56 up 02:49:26 heap 251KB rssi -27 temp 31.1C depth 42.4m hull 5.2bar batt 23.9V valve open sonar 57.6cm watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10167336) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+E (10167666) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+I (10167786) sentry: [ACU] ambient noise 59 dB re 1uPa, sea state 2, water 8.0 C
+W (10177346) sentry: [TELEMETRY #309] 15:57:06 up 02:49:36 heap 251KB rssi -28 temp 31.1C depth 42.5m hull 5.2bar batt 23.9V valve open sonar 57.6cm watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10177346) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+E (10177766) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10187356) sentry: [TELEMETRY #310] 15:57:16 up 02:49:46 heap 251KB rssi -28 temp 31.1C depth 42.5m hull 5.2bar batt 23.9V valve open sonar 57.6cm watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10187356) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+E (10187766) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10188786) sentry: [LINK] buoy cable tension high, link quality may degrade
+W (10197366) sentry: [TELEMETRY #311] 15:57:26 up 02:49:56 heap 251KB rssi -28 temp 33.1C depth 42.5m hull 5.3bar batt 23.9V valve open sonar 57.6cm watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10197366) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+E (10197866) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10207376) sentry: [TELEMETRY #312] 15:57:36 up 02:50:06 heap 251KB rssi -27 temp 31.1C depth 42.5m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10207376) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+E (10207966) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10209786) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+W (10217386) sentry: [TELEMETRY #313] 15:57:46 up 02:50:16 heap 251KB rssi -29 temp 31.1C depth 42.8m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10217386) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+E (10217966) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10227396) sentry: [TELEMETRY #314] 15:57:56 up 02:50:26 heap 251KB rssi -28 temp 31.1C depth 42.8m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10227396) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+E (10228066) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10230786) sentry: [LINK] buoy cable tension high, link quality may degrade
+W (10237406) sentry: [TELEMETRY #315] 15:58:06 up 02:50:37 heap 251KB rssi -30 temp 31.1C depth 42.7m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10237406) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+E (10238066) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10247416) sentry: [TELEMETRY #316] 15:58:16 up 02:50:47 heap 251KB rssi -30 temp 31.1C depth 42.7m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10247416) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+E (10248066) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+I (10251786) sentry: [PWR] battery bus 23.92 V, load 1.8 A
+W (10257426) sentry: [TELEMETRY #317] 15:58:26 up 02:50:57 heap 251KB rssi -29 temp 31.1C depth 42.8m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10257426) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+E (10258166) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10267436) sentry: [TELEMETRY #318] 15:58:36 up 02:51:07 heap 251KB rssi -30 temp 31.1C depth 42.8m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10267436) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+E (10268266) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10272786) sentry: [PWR] battery bus ripple 140 mV (limit 250 mV)
+W (10277446) sentry: [TELEMETRY #319] 15:58:46 up 02:51:17 heap 251KB rssi -30 temp 32.1C depth 42.6m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10277446) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+E (10278266) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10287456) sentry: [TELEMETRY #320] 15:58:56 up 02:51:27 heap 251KB rssi -28 temp 31.1C depth 42.6m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10287456) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+E (10288366) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+I (10293786) sentry: [NAV] depth 42.8 m, heading 240, speed 3.2 kn
+W (10297466) sentry: [TELEMETRY #321] 15:59:06 up 02:51:37 heap 251KB rssi -30 temp 31.1C depth 42.8m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10297466) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+E (10298366) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+W (10307476) sentry: [TELEMETRY #322] 15:59:16 up 02:51:47 heap 251KB rssi -29 temp 31.1C depth 42.8m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10307476) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+E (10308366) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+I (10314786) sentry: [ACU] ambient noise 74 dB re 1uPa, sea state 2, water 8.0 C
+W (10317486) sentry: [TELEMETRY #323] 15:59:26 up 02:51:57 heap 251KB rssi -29 temp 31.1C depth 43.1m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10317486) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+E (10318466) sentry: [WATCH] ALARM active. 'guard disarm <pin>'
+guard disarm 1234
+W (10327496) sentry: [TELEMETRY #324] 15:59:36 up 02:52:07 heap 251KB rssi -29 temp 31.1C depth 43.1m hull 5.3bar batt 23.9V valve open sonar - watch ALARM alerts 7 state VERBOSE WARN watch alarm
+I (10327496) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10327556) sentry: [WATCH] disarmed (was ALARM)
+I (10327566) sentry: [VALVE] CLOSED (guard disarm)
+I (10327566) sentry: [V] valve driver GPIO8=0, cycles 366
+I (10327566) sentry: [V] 'guard' done in 11 ms
+I (10334786) sentry: [PWR] battery bus 23.91 V, load 1.7 A
+I (10337506) sentry: [TELEMETRY #325] 15:59:46 up 02:52:17 heap 251KB rssi -29 temp 31.1C depth 43.1m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10337506) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10347516) sentry: [TELEMETRY #326] 15:59:56 up 02:52:27 heap 251KB rssi -28 temp 31.1C depth 43.1m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10347516) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+W (10355786) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+I (10357526) sentry: [TELEMETRY #327] 16:00:06 up 02:52:37 heap 251KB rssi -26 temp 31.1C depth 43.3m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10357526) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10367536) sentry: [TELEMETRY #328] 16:00:16 up 02:52:47 heap 251KB rssi -27 temp 31.1C depth 43.3m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10367536) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+W (10376786) sentry: [NAV] thermocline at 35 m - sonar range may drop
+I (10377546) sentry: [TELEMETRY #329] 16:00:26 up 02:52:57 heap 251KB rssi -28 temp 31.1C depth 43.3m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10377546) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10387556) sentry: [TELEMETRY #330] 16:00:36 up 02:53:07 heap 251KB rssi -26 temp 31.1C depth 43.3m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10387556) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10397566) sentry: [TELEMETRY #331] 16:00:46 up 02:53:17 heap 251KB rssi -27 temp 31.1C depth 43.3m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10397566) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10397786) sentry: [NAV] depth 43.7 m, heading 239, speed 3.2 kn
+I (10407576) sentry: [TELEMETRY #332] 16:00:56 up 02:53:27 heap 251KB rssi -29 temp 31.1C depth 43.7m hull 5.4bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10407576) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+alert list
+I (10413606) sentry: [CIC] 7 alerts, 7 unacknowledged:
+I (10413606) sentry:   #1   14:04:37 WARNING  * telemetry WARN weak signal
+I (10413606) sentry:   #2   15:33:21 WARNING  * sonar   collision risk: contact at 20.0 cm
+I (10413606) sentry:   #3   15:49:09 INFO     * watch   perimeter watch armed, zone 50 cm
+I (10413616) sentry:   #4   15:52:49 INFO     * watch   perimeter watch armed, zone 50 cm
+I (10413626) sentry:   #5   15:56:16 INFO     * watch   perimeter watch armed, zone 50 cm
+I (10413636) sentry:   #6   15:56:36 CRITICAL * watch   GENERAL ALARM: 3 wrong PIN attempts
+I (10413646) sentry:   #7   15:56:46 WARNING  * telemetry WARN watch alarm
+I (10413646) sentry: [V] 'alert' done in 47 ms
+I (10417586) sentry: [TELEMETRY #333] 16:01:06 up 02:53:37 heap 251KB rssi -27 temp 31.1C depth 43.7m hull 5.4bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10417586) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+W (10418786) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+I (10427596) sentry: [TELEMETRY #334] 16:01:16 up 02:53:47 heap 251KB rssi -27 temp 31.1C depth 43.6m hull 5.4bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10427596) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 7.9C, source auto
+I (10437606) sentry: [TELEMETRY #335] 16:01:26 up 02:53:57 heap 251KB rssi -27 temp 32.1C depth 43.6m hull 5.4bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10437606) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 7.9C, source auto
+I (10438786) sentry: [ACU] ambient noise 64 dB re 1uPa, sea state 2, water 8.0 C
+I (10447616) sentry: [TELEMETRY #336] 16:01:36 up 02:54:07 heap 251KB rssi -27 temp 32.1C depth 43.4m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10447616) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10457626) sentry: [TELEMETRY #337] 16:01:46 up 02:54:17 heap 251KB rssi -27 temp 32.1C depth 43.4m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10457626) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10458786) sentry: [PWR] battery bus 23.90 V, load 1.4 A
+I (10467636) sentry: [TELEMETRY #338] 16:01:57 up 02:54:27 heap 251KB rssi -31 temp 32.1C depth 43.3m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10467636) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10477646) sentry: [TELEMETRY #339] 16:02:07 up 02:54:37 heap 251KB rssi -27 temp 31.1C depth 43.3m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10477646) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10479786) sentry: [NAV] depth 43.5 m, heading 236, speed 2.8 kn
+I (10487656) sentry: [TELEMETRY #340] 16:02:17 up 02:54:47 heap 251KB rssi -27 temp 31.1C depth 43.5m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10487656) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10497666) sentry: [TELEMETRY #341] 16:02:27 up 02:54:57 heap 251KB rssi -28 temp 31.1C depth 43.5m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 7 state VERBOSE
+I (10497666) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10500786) sentry: [ACU] ambient noise 72 dB re 1uPa, sea state 2, water 8.1 C
+alert ack 4
+I (10502596) sentry: [CIC] #4 acknowledged
+I (10502596) sentry: [V] 'alert' done in 0 ms
+I (10507676) sentry: [TELEMETRY #342] 16:02:37 up 02:55:07 heap 251KB rssi -26 temp 32.1C depth 43.8m hull 5.4bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10507676) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10517686) sentry: [TELEMETRY #343] 16:02:47 up 02:55:17 heap 251KB rssi -27 temp 32.1C depth 43.8m hull 5.4bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10517686) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10521786) sentry: [PWR] battery bus 23.89 V, load 1.6 A
+alert listI (10527696) sentry: [TELEMETRY #344] 16:02:57 up 02:55:27 heap 251KB rssi -29 temp 33.1C depth 43.5m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10527696) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+
+I (10528556) sentry: [CIC] 7 alerts, 6 unacknowledged:
+I (10528556) sentry:   #1   14:04:37 WARNING  * telemetry WARN weak signal
+I (10528556) sentry:   #2   15:33:21 WARNING  * sonar   collision risk: contact at 20.0 cm
+I (10528556) sentry:   #3   15:49:09 INFO       watch   perimeter watch armed, zone 50 cm
+I (10528566) sentry:   #4   15:52:49 INFO     * watch   perimeter watch armed, zone 50 cm
+I (10528576) sentry:   #5   15:56:16 INFO     * watch   perimeter watch armed, zone 50 cm
+I (10528586) sentry:   #6   15:56:36 CRITICAL * watch   GENERAL ALARM: 3 wrong PIN attempts
+I (10528596) sentry:   #7   15:56:46 WARNING  * telemetry WARN watch alarm
+I (10528596) sentry: [V] 'alert' done in 47 ms
+I (10537706) sentry: [TELEMETRY #345] 16:03:07 up 02:55:37 heap 251KB rssi -27 temp 31.1C depth 43.5m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10537706) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10542786) sentry: [NAV] depth 43.1 m, heading 236, speed 2.8 kn
+I (10547716) sentry: [TELEMETRY #346] 16:03:17 up 02:55:47 heap 251KB rssi -27 temp 33.1C depth 43.1m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10547716) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10557726) sentry: [TELEMETRY #347] 16:03:27 up 02:55:57 heap 251KB rssi -28 temp 33.1C depth 43.1m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10557726) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10563786) sentry: [ACU] ambient noise 61 dB re 1uPa, sea state 2, water 8.0 C
+I (10567736) sentry: [TELEMETRY #348] 16:03:37 up 02:56:07 heap 251KB rssi -27 temp 31.1C depth 43.1m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10567736) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10577746) sentry: [TELEMETRY #349] 16:03:47 up 02:56:17 heap 251KB rssi -29 temp 31.1C depth 43.1m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10577746) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10584786) sentry: [PWR] battery bus 23.88 V, load 1.5 A
+I (10587756) sentry: [TELEMETRY #350] 16:03:57 up 02:56:27 heap 251KB rssi -27 temp 33.1C depth 43.0m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10587756) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10597766) sentry: [TELEMETRY #351] 16:04:07 up 02:56:37 heap 251KB rssi -26 temp 32.1C depth 43.0m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10597766) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10605786) sentry: [NAV] depth 42.7 m, heading 237, speed 2.8 kn
+I (10607776) sentry: [TELEMETRY #352] 16:04:17 up 02:56:47 heap 251KB rssi -27 temp 31.1C depth 42.7m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10607776) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10617786) sentry: [TELEMETRY #353] 16:04:27 up 02:56:57 heap 251KB rssi -29 temp 33.1C depth 42.7m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10617786) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10625796) sentry: [ACU] ambient noise 59 dB re 1uPa, sea state 2, water 8.0 C
+I (10627796) sentry: [TELEMETRY #354] 16:04:37 up 02:57:07 heap 251KB rssi -28 temp 32.1C depth 43.1m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10627796) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10637806) sentry: [TELEMETRY #355] 16:04:47 up 02:57:17 heap 251KB rssi -28 temp 33.1C depth 43.1m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10637806) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10645816) sentry: [PWR] battery bus 23.88 V, load 1.3 A
+I (10647816) sentry: [TELEMETRY #356] 16:04:57 up 02:57:27 heap 251KB rssi -27 temp 32.1C depth 43.0m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10647816) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10657826) sentry: [TELEMETRY #357] 16:05:07 up 02:57:37 heap 251KB rssi -28 temp 32.1C depth 43.0m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10657826) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+W (10665836) sentry: [ACU] own-ship noise: pump #2 cavitation suspected
+I (10667836) sentry: [TELEMETRY #358] 16:05:17 up 02:57:47 heap 251KB rssi -27 temp 31.1C depth 42.8m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10667836) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10677846) sentry: [TELEMETRY #359] 16:05:27 up 02:57:57 heap 251KB rssi -28 temp 33.1C depth 42.8m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10677846) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10685856) sentry: [NAV] depth 42.5 m, heading 237, speed 2.8 kn
+I (10687856) sentry: [TELEMETRY #360] 16:05:37 up 02:58:07 heap 251KB rssi -31 temp 31.1C depth 42.5m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10687856) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+I (10697866) sentry: [TELEMETRY #361] 16:05:47 up 02:58:17 heap 251KB rssi -27 temp 31.1C depth 42.5m hull 5.3bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10697866) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+alert clear
+E (10701606) sentry: E855 6 alerts not acknowledged. Use 'alert ack all' first
+I (10701606) sentry: [V] 'alert' done in 0 ms
+W (10705876) sentry: [LINK] buoy cable tension high, link quality may degrade
+I (10707876) sentry: [TELEMETRY #362] 16:05:57 up 02:58:27 heap 251KB rssi -28 temp 31.1C depth 42.3m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10707876) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10717886) sentry: [TELEMETRY #363] 16:06:07 up 02:58:37 heap 251KB rssi -28 temp 31.1C depth 42.3m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10717886) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10725896) sentry: [ACU] ambient noise 66 dB re 1uPa, sea state 2, water 8.1 C
+I (10727896) sentry: [TELEMETRY #364] 16:06:17 up 02:58:47 heap 251KB rssi -28 temp 32.1C depth 42.0m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10727896) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10737906) sentry: [TELEMETRY #365] 16:06:27 up 02:58:57 heap 251KB rssi -28 temp 31.1C depth 42.0m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10737906) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10745916) sentry: [PWR] battery bus 23.87 V, load 1.7 A
+I (10747916) sentry: [TELEMETRY #366] 16:06:37 up 02:59:07 heap 251KB rssi -28 temp 33.1C depth 42.3m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10747916) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10757926) sentry: [TELEMETRY #367] 16:06:47 up 02:59:17 heap 251KB rssi -29 temp 31.1C depth 42.3m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 6 state VERBOSE
+I (10757926) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+alert ack all
+I (10762236) sentry: [CIC] 6 alerts acknowledged
+I (10762236) sentry: [V] 'alert' done in 0 ms
+I (10765936) sentry: [NAV] depth 42.5 m, heading 236, speed 2.7 kn
+I (10767936) sentry: [TELEMETRY #368] 16:06:57 up 02:59:27 heap 251KB rssi -29 temp 32.1C depth 42.5m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10767936) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10777946) sentry: [TELEMETRY #369] 16:07:07 up 02:59:37 heap 251KB rssi -28 temp 32.1C depth 42.5m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10777946) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10785956) sentry: [ACU] ambient noise 67 dB re 1uPa, sea state 2, water 8.1 C
+I (10787956) sentry: [TELEMETRY #370] 16:07:17 up 02:59:47 heap 251KB rssi -27 temp 33.1C depth 42.2m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10787956) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10797966) sentry: [TELEMETRY #371] 16:07:27 up 02:59:57 heap 251KB rssi -27 temp 32.1C depth 42.2m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10797966) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10805976) sentry: [PWR] battery bus 23.86 V, load 1.7 A
+I (10807976) sentry: [TELEMETRY #372] 16:07:37 up 03:00:07 heap 251KB rssi -28 temp 31.1C depth 41.8m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10807976) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.2C, source auto
+I (10817986) sentry: [TELEMETRY #373] 16:07:47 up 03:00:17 heap 251KB rssi -27 temp 31.1C depth 41.8m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10817986) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.2C, source auto
+I (10825996) sentry: [NAV] depth 41.8 m, heading 230, speed 2.6 kn
+I (10827996) sentry: [TELEMETRY #374] 16:07:57 up 03:00:27 heap 251KB rssi -27 temp 31.1C depth 41.8m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10827996) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+alert clearI (10838006) sentry: [TELEMETRY #375] 16:08:07 up 03:00:37 heap 251KB rssi -26 temp 32.1C depth 41.8m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10838006) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.0C, source auto
+
+I (10838526) sentry: [CIC] cleared
+I (10838526) sentry: [V] 'alert' done in 0 ms
+I (10846016) sentry: [ACU] ambient noise 59 dB re 1uPa, sea state 2, water 8.1 C
+I (10848016) sentry: [TELEMETRY #376] 16:08:17 up 03:00:47 heap 251KB rssi -27 temp 31.1C depth 41.5m hull 5.1bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10848016) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10858026) sentry: [TELEMETRY #377] 16:08:27 up 03:00:57 heap 251KB rssi -27 temp 32.1C depth 41.5m hull 5.1bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10858026) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10866036) sentry: [PWR] battery bus 23.86 V, load 1.5 A
+alert listI (10868036) sentry: [TELEMETRY #378] 16:08:37 up 03:01:07 heap 251KB rssi -32 temp 32.1C depth 41.5m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10868036) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+
+I (10868806) sentry: [CIC] no alerts
+I (10868806) sentry: [V] 'alert' done in 0 ms
+I (10878046) sentry: [TELEMETRY #379] 16:08:47 up 03:01:17 heap 251KB rssi -27 temp 33.1C depth 41.5m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10878046) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+W (10886056) sentry: [ACU] own-ship noise: pump #2 cavitation suspected
+I (10888056) sentry: [TELEMETRY #380] 16:08:57 up 03:01:27 heap 251KB rssi -26 temp 32.1C depth 41.3m hull 5.1bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10888056) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.2C, source auto
+I (10898066) sentry: [TELEMETRY #381] 16:09:07 up 03:01:37 heap 251KB rssi -26 temp 33.1C depth 41.3m hull 5.1bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10898066) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.2C, source auto
+I (10906076) sentry: [NAV] depth 41.7 m, heading 232, speed 3.3 kn
+I (10908076) sentry: [TELEMETRY #382] 16:09:17 up 03:01:47 heap 251KB rssi -30 temp 31.1C depth 41.7m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10908076) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10918086) sentry: [TELEMETRY #383] 16:09:27 up 03:01:57 heap 251KB rssi -27 temp 32.1C depth 41.7m hull 5.2bar batt 23.9V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10918086) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+status
+I (10921266) sentry: === SWM-2 status ===
+I (10921266) sentry:   fw:       v2.3.0 (ota_1)
+I (10921266) sentry:   state:    3 VERBOSE
+I (10921266) sentry:   link:     buoy link 'Test-WiFi', ip 172.20.10.2, rssi -26 dBm (excellent), ch 6
+I (10921276) sentry:   internet: OK
+I (10921276) sentry:   user:     user (user)
+I (10921276) sentry:   time:     16:09:30, uptime 3h 02m 00s
+I (10921286) sentry:   valve:    closed
+I (10921286) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (10921296) sentry:   sonar:    no contact
+I (10921296) sentry:   carrier:  depth 41.7 m, hull 5.2 bar, water 8.1 C, battery 23.85 V (sim)
+I (10921306) sentry:   heap:     251 KB free
+I (10921306) sentry: [V] 'status' done in 48 ms
+I (10926096) sentry: [ACU] ambient noise 58 dB re 1uPa, sea state 2, water 8.1 C
+I (10928116) sentry: [TELEMETRY #384] 16:09:37 up 03:02:07 heap 251KB rssi -26 temp 32.1C depth 41.4m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10928116) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10938126) sentry: [TELEMETRY #385] 16:09:47 up 03:02:17 heap 251KB rssi -26 temp 31.1C depth 41.4m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10938126) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+W (10947096) sentry: [NAV] thermocline at 35 m - sonar range may drop
+I (10948136) sentry: [TELEMETRY #386] 16:09:57 up 03:02:27 heap 251KB rssi -30 temp 32.1C depth 41.3m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10948136) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10958146) sentry: [TELEMETRY #387] 16:10:07 up 03:02:37 heap 251KB rssi -22 temp 31.1C depth 41.3m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10958146) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+help
+I (10959276) sentry: Commands ([wifi] - needs Wi-Fi, [login] - needs Wi-Fi + login, [debug] - debug access):
+I (10959276) sentry: System:
+I (10959276) sentry:   help                         - this help
+I (10959276) sentry:   status                       - full device status
+I (10959286) sentry:   version                      - firmware version and partition
+I (10959296) sentry:   sysinfo                      - chip, memory, uptime
+I (10959296) sentry:   temp                         - chip temperature
+I (10959306) sentry:   uptime                       - time since boot
+I (10959306) sentry:   reboot                       - reboot device
+I (10959316) sentry: Buoy link (Wi-Fi):
+I (10959316) sentry:   connect                      - connect to Wi-Fi (scan, SSID, password)
+I (10959326) sentry:   reconnect                    - connect to known network
+I (10959336) sentry:   forget                       - forget known network
+I (10959346) sentry:   disconnect                   - disconnect from Wi-Fi
+I (10959346) sentry:   scan                         - list Wi-Fi networks
+I (10959356) sentry:   net                          - IP, gateway, DNS, MAC [wifi]
+I (10959366) sentry:   ping [host]                  - ping host (default 8.8.8.8) [wifi]
+I (10959366) sentry:   time                         - current time (NTP) [wifi]
+I (10959376) sentry: Account:
+I (10959376) sentry:   register <login> <pass>      - create profile (one per device) [wifi]
+I (10959386) sentry:   login <login> <pass>         - start session [wifi]
+I (10959396) sentry:   logout                       - end session
+I (10959396) sentry:   whoami                       - current user and access
+I (10959406) sentry:   passwd <old> <new>           - change password [login]
+I (10959416) sentry:   sudo <password>              - elevate current user to debug [login]
+I (10959426) sentry: States:
+I (10959426) sentry:   state [1-4|name]             - show / change system state [login]
+I (10959436) sentry: OTA:
+I (10959436) sentry:   ota [status]                 - running / previous firmware [login]
+I (10959446) sentry:   ota check                    - check stable and beta channels [login]
+I (10959456) sentry:   ota update [beta]            - update to stable (or beta) [login]
+I (10959456) sentry:   ota install <X.Y.Z> [force]  - install exact version (force - allow downgrade) [login]
+I (10959466) sentry:   ota broken                   - install broken build (rollback test) [login]
+I (10959476) sentry:   ota rollback                 - boot previous firmware [login]
+I (10959486) sentry:   ota url <url> [force]        - install image from any http(s) link [login]
+I (10959496) sentry:   ota server [<url>|default]   - show / set update server (default - GitHub) [login]
+I (10959506) sentry: Beacon light (alias: beacon):
+I (10959506) sentry:   lamp on|off|toggle           - Smart Lamp power [login]
+I (10959516) sentry:   lamp status                  - lamp settings [login]
+I (10959526) sentry:   lamp color <name|R G B>      - white red green blue yellow purple cyan orange [login]
+I (10959526) sentry:   lamp brightness <0-100>      - brightness, % [login]
+I (10959536) sentry:   lamp mode <mode>             - solid | blink | breathe | rainbow [login]
+I (10959546) sentry:   lamp timer <sec>             - auto-off 1-3600 s (0 - cancel) [login]
+I (10959556) sentry:   lamp scene save|load <1-3>   - save / load lamp preset [login]
+I (10959566) sentry: Trim valve (alias: valve, open|close):
+I (10959566) sentry:   relay on|off|toggle          - relay + indicator diode [login]
+I (10959576) sentry:   relay status                 - state, auto mode, switch counter [login]
+I (10959586) sentry:   relay pulse <ms>             - turn on for 100-10000 ms [login]
+I (10959586) sentry:   relay schedule <on> <off>    - cycle on/off in seconds ('off' - stop) [login]
+I (10959596) sentry:   relay auto on|off            - turn relay on by distance alarm [login]
+I (10959606) sentry:   relay health                 - contact wear and coil check [login]
+I (10959616) sentry: Active sonar (alias: sonar):
+I (10959616) sentry:   distance [N]                 - measure once or N times (1-20) [login]
+I (10959626) sentry:   distance log [ms] | stop     - continuous measuring 100-5000 ms [login]
+I (10959636) sentry:   distance calibrate <cm>      - calibrate by reference object ('reset') [login]
+I (10959646) sentry:   distance alarm <cm>|off      - alarm threshold 5-300 cm [login]
+I (10959656) sentry:   distance filter on|off       - median filter of 5 samples [login]
+I (10959656) sentry:   distance stats|history       - statistics / last 10 measurements [login]
+I (10959666) sentry: Telemetry (alias: telemetry):
+I (10959676) sentry:   health now                   - health report now [login]
+I (10959676) sentry:   health on|off                - auto report (after login, 30 s) [login]
+I (10959686) sentry:   health interval <sec>        - auto interval 10-300 s (VERBOSE 10 s) [login]
+I (10959696) sentry: Perimeter watch (alias: watch):
+I (10959706) sentry:   guard [status]               - SENTRY Guard state [login]
+I (10959706) sentry:   guard arm                    - arm (10 s exit delay) [login]
+I (10959716) sentry:   guard disarm <pin>           - disarm / stop alarm [login]
+I (10959726) sentry:   guard pin <old> <new>        - change 4-digit PIN [login]
+I (10959736) sentry:   guard zone <cm>              - intrusion distance 10-200 cm [login]
+I (10959736) sentry:   guard panic                  - trigger alarm now [login]
+I (10959746) sentry:   guard log                    - last 10 guard events [login]
+I (10959756) sentry: CIC alerts (alias: cic):
+I (10959756) sentry:   alert [list]                 - alert center [login]
+I (10959766) sentry:   alert ack [id|all]           - acknowledge last / by id / all [login]
+I (10959776) sentry:   alert clear                  - delete acknowledged alerts [login]
+I (10959776) sentry:   alert test <level>           - info | warning | critical [login]
+I (10959786) sentry: Buttons [login]:
+I (10959796) sentry:   K1 press / hold 1.5 s        - beacon on/off / next color
+I (10959796) sentry:   K2 press / hold 1.5 s        - valve open/close / 1 s pulse
+I (10959806) sentry:   K3 press                     - active sonar for 30 s (press again - stop)
+I (10959816) sentry:   K4 press / hold 1.5 s        - acknowledge last CIC alert / PANIC
+I (10959826) sentry:   hold 2 s: K1+K2 - 1 NORMAL, K2+K3 - 2 DEBUG, K3+K4 - 3 VERBOSE, K4+K1 - 4 EMERGENCY (only from 3)
+I (10959836) sentry: [V] 'help' done in 561 ms
+I (10968096) sentry: [PWR] battery bus 23.85 V, load 1.7 A
+I (10968236) sentry: [TELEMETRY #388] 16:10:17 up 03:02:47 heap 251KB rssi -27 temp 32.1C depth 41.4m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10968236) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10978246) sentry: [TELEMETRY #389] 16:10:27 up 03:02:57 heap 251KB rssi -26 temp 32.1C depth 41.4m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10978246) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (10988256) sentry: [TELEMETRY #390] 16:10:37 up 03:03:07 heap 251KB rssi -26 temp 33.1C depth 41.4m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10988256) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+W (10989096) sentry: [ACU] biologics detected (snapping shrimp), passive filter on
+I (10998266) sentry: [TELEMETRY #391] 16:10:47 up 03:03:17 heap 251KB rssi -26 temp 32.1C depth 41.3m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (10998266) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (11008276) sentry: [TELEMETRY #392] 16:10:57 up 03:03:27 heap 251KB rssi -27 temp 32.1C depth 41.3m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (11008276) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.1C, source auto
+I (11010096) sentry: [NAV] depth 41.0 m, heading 237, speed 2.7 kn
+I (11018286) sentry: [TELEMETRY #393] 16:11:07 up 03:03:37 heap 251KB rssi -27 temp 31.1C depth 41.0m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (11018286) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.2C, source auto
+I (11028296) sentry: [TELEMETRY #394] 16:11:17 up 03:03:47 heap 251KB rssi -37 temp 32.1C depth 41.0m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (11028296) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.2C, source auto
+I (11031096) sentry: [ACU] ambient noise 72 dB re 1uPa, sea state 2, water 8.2 C
+I (11038306) sentry: [TELEMETRY #395] 16:11:27 up 03:03:57 heap 251KB rssi -26 temp 31.1C depth 40.8m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (11038306) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.2C, source auto
+I (11048316) sentry: [TELEMETRY #396] 16:11:37 up 03:04:07 heap 251KB rssi -27 temp 32.1C depth 40.8m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state VERBOSE
+I (11048316) sentry: [V] telemetry: min heap 205KB, beacon on, tasks 16, water 8.2C, source auto
+I (11051096) sentry: [PWR] battery bus 23.84 V, load 1.6 A
+state 1
+W (11058006) sentry: [STATE] 3 VERBOSE -> 1 NORMAL (by command)
+I (11058096) sentry: [NAV] depth 40.7 m, heading 236, speed 3.2 kn
+I (11058326) sentry: [TELEMETRY #397] 16:11:47 up 03:04:17 heap 251KB rssi -26 temp 32.1C depth 40.7m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state NORMAL
+status
+I (11078276) sentry: === SWM-2 status ===
+I (11078276) sentry:   fw:       v2.3.0 (ota_1)
+I (11078276) sentry:   state:    1 NORMAL
+I (11078276) sentry:   link:     buoy link 'Test-WiFi', ip 172.20.10.2, rssi -27 dBm (excellent), ch 6
+I (11078286) sentry:   internet: OK
+I (11078286) sentry:   user:     user (user)
+I (11078286) sentry:   time:     16:12:07, uptime 3h 04m 37s
+I (11078296) sentry:   valve:    closed
+I (11078296) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (11078306) sentry:   sonar:    no contact
+I (11078306) sentry:   carrier:  depth 40.7 m, hull 5.1 bar, water 8.1 C, battery 23.84 V (sim)
+I (11078316) sentry:   heap:     251 KB free
+I (11088326) sentry: [TELEMETRY #398] 16:12:17 up 03:04:47 heap 251KB rssi -27 temp 33.1C depth 40.7m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (11118326) sentry: [TELEMETRY #399] 16:12:47 up 03:05:17 heap 251KB rssi -26 temp 32.1C depth 40.7m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (11129096) sentry: [ACU] ambient noise 63 dB re 1uPa, sea state 2, water 8.2 C
+I (11148326) sentry: [TELEMETRY #400] 16:13:17 up 03:05:47 heap 251KB rssi -26 temp 32.1C depth 41.0m hull 5.1bar batt 23.8V valve closed sonar - watch disarmed alerts 0 state NORMAL

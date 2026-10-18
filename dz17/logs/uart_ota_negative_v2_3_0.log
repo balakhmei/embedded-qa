@@ -1,0 +1,1566 @@
+I (604841) sentry: [TELEMETRY #14] 10:09:38 up 00:10:04 heap 251KB rssi -51 temp 31.1C depth 41.5m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (633711) sentry: [NAV] depth 41.6 m, heading 277, speed 3.4 kn
+I (635041) sentry: [TELEMETRY #15] 10:10:08 up 00:10:34 heap 251KB rssi -48 temp 31.1C depth 41.6m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (665241) sentry: [TELEMETRY #16] 10:10:39 up 00:11:04 heap 251KB rssi -51 temp 31.1C depth 41.6m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (695441) sentry: [TELEMETRY #17] 10:11:09 up 00:11:35 heap 251KB rssi -45 temp 31.1C depth 41.6m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (698711) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+I (725641) sentry: [TELEMETRY #18] 10:11:39 up 00:12:05 heap 251KB rssi -53 temp 30.1C depth 41.7m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (755641) sentry: [TELEMETRY #19] 10:12:09 up 00:12:35 heap 251KB rssi -51 temp 31.1C depth 41.7m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (774711) sentry: [ACU] ambient noise 66 dB re 1uPa, sea state 2, water 8.1 C
+I (785841) sentry: [TELEMETRY #20] 10:12:39 up 00:13:05 heap 251KB rssi -50 temp 30.1C depth 41.8m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (815841) sentry: [TELEMETRY #21] 10:13:09 up 00:13:35 heap 251KB rssi -49 temp 30.1C depth 41.8m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (846041) sentry: [TELEMETRY #22] 10:13:39 up 00:14:05 heap 251KB rssi -48 temp 31.1C depth 41.8m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota server http://192.168.1.160:8000/fw7/
+I (856551) sentry: [OTA] server: http://192.168.1.160:8000/fw7/ (custom)
+I (862711) sentry: [PWR] battery bus 24.18 V, load 1.6 A
+I (876041) sentry: [TELEMETRY #23] 10:14:09 up 00:14:35 heap 251KB rssi -47 temp 31.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota check
+E (895301) esp-tls: [sock=54] select() timeout
+E (895301) transport_base: Failed to open a new connection: 32774
+E (895301) HTTP_CLIENT: Connection failed, sock < 0
+E (895301) sentry: E402 cannot reach OTA server (stable.txt)
+I (906041) sentry: [TELEMETRY #24] 10:14:39 up 00:15:05 heap 251KB rssi -48 temp 31.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (936241) sentry: [TELEMETRY #25] 10:15:10 up 00:15:35 heap 251KB rssi -63 temp 31.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (948711) sentry: [NAV] thermocline at 35 m - sonar range may drop
+I (966241) sentry: [TELEMETRY #26] 10:15:40 up 00:16:05 heap 251KB rssi -52 temp 31.1C depth 41.8m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (996441) sentry: [TELEMETRY #27] 10:16:10 up 00:16:36 heap 251KB rssi -45 temp 31.1C depth 41.8m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1022711) sentry: [NAV] depth 41.9 m, heading 279, speed 3.2 kn
+I (1026641) sentry: [TELEMETRY #28] 10:16:40 up 00:17:06 heap 251KB rssi -43 temp 31.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1056641) sentry: [TELEMETRY #29] 10:17:10 up 00:17:36 heap 251KB rssi -46 temp 31.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1086841) sentry: [TELEMETRY #30] 10:17:40 up 00:18:06 heap 251KB rssi -41 temp 31.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1105711) sentry: [ACU] ambient noise 62 dB re 1uPa, sea state 2, water 8.1 C
+I (1117041) sentry: [TELEMETRY #31] 10:18:10 up 00:18:36 heap 251KB rssi -50 temp 32.1C depth 42.2m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1147041) sentry: [TELEMETRY #32] 10:18:40 up 00:19:06 heap 251KB rssi -45 temp 31.1C depth 42.2m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota server http://172.20.10.3:8000/fw7/
+I (1156771) sentry: [OTA] server: http://172.20.10.3:8000/fw7/ (custom)
+I (1177041) sentry: [TELEMETRY #33] 10:19:10 up 00:19:36 heap 251KB rssi -47 temp 31.1C depth 42.2m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1185711) sentry: [PWR] battery bus 24.17 V, load 1.3 A
+ota check
+I (1191551) sentry: [OTA] current: v2.3.0
+I (1191551) sentry: [OTA] stable:  v2.1.0
+I (1191551) sentry: [OTA] beta:    v2.3.0
+I (1191551) sentry: [OTA] running newer than stable
+I (1207041) sentry: [TELEMETRY #34] 10:19:40 up 00:20:06 heap 251KB rssi -35 temp 31.1C depth 42.0m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota url http://172.20.10.3:8000/test/garbage.bin
+I (1236651) sentry: [OTA] current v2.3.0 (ota_1) -> target partition ota_0
+I (1236651) sentry: [OTA] downloading http://172.20.10.3:8000/test/garbage.bin
+I (1236701) esp_https_ota: Starting OTA...
+I (1236701) esp_https_ota: Writing to <ota_0> partition at offset 0x20000
+E (1236701) esp_https_ota: Incorrect app descriptor magic
+E (1236711) sentry: E406 invalid image header - not a firmware file
+I (1237241) sentry: [TELEMETRY #35] 10:20:11 up 00:20:36 heap 251KB rssi -50 temp 31.1C depth 42.0m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1254711) sentry: [NAV] depth 41.7 m, heading 279, speed 2.8 kn
+I (1267441) sentry: [TELEMETRY #36] 10:20:41 up 00:21:07 heap 251KB rssi -56 temp 31.1C depth 41.7m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1297441) sentry: [TELEMETRY #37] 10:21:11 up 00:21:37 heap 251KB rssi -60 temp 31.1C depth 41.7m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1327641) sentry: [TELEMETRY #38] 10:21:41 up 00:22:07 heap 251KB rssi -45 temp 31.1C depth 41.7m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1332711) sentry: [ACU] ambient noise 73 dB re 1uPa, sea state 2, water 8.1 C
+I (1357841) sentry: [TELEMETRY #39] 10:22:11 up 00:22:37 heap 251KB rssi -46 temp 31.1C depth 41.4m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1388041) sentry: [TELEMETRY #40] 10:22:41 up 00:23:07 heap 251KB rssi -46 temp 31.1C depth 41.4m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota status
+I (1409001) sentry: [OTA] running:  v2.3.0 in ota_1 (valid)
+I (1409001) sentry: [OTA] previous: v2.1.0 in ota_0
+W (1413711) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+I (1418041) sentry: [TELEMETRY #41] 10:23:11 up 00:23:37 heap 251KB rssi -51 temp 31.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1448041) sentry: [TELEMETRY #42] 10:23:41 up 00:24:07 heap 251KB rssi -47 temp 31.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota url http://172.20.10.3:8000/test/truncated.bin
+I (1451401) sentry: [OTA] current v2.3.0 (ota_1) -> target partition ota_0
+I (1451401) sentry: [OTA] downloading http://172.20.10.3:8000/test/truncated.bin
+I (1451421) esp_https_ota: Starting OTA...
+I (1451421) esp_https_ota: Writing to <ota_0> partition at offset 0x20000
+I (1451431) sentry: [OTA] image: sentry_fw7 v2.3.0 (build Oct  6 2026 02:15:26)
+W (1451431) sentry: W409 same version v2.3.0 - reinstalling
+I (1452051) sentry: [OTA]  10%
+I (1452551) sentry: [OTA]  20%
+I (1453111) sentry: [OTA]  30%
+I (1453621) sentry: [OTA]  40%
+I (1454231) sentry: [OTA]  50%
+I (1454721) sentry: [OTA]  60%
+I (1455351) sentry: [OTA]  70%
+I (1455841) sentry: [OTA]  80%
+I (1456371) sentry: [OTA]  90%
+I (1456841) sentry: [OTA] 100%
+I (1456841) esp_image: segment 0: paddr=00020020 vaddr=3c0a0020 size=38158h (229720) map
+I (1456881) esp_image: segment 1: paddr=00058180 vaddr=3fc97200 size=05198h ( 20888) 
+I (1456881) esp_image: segment 2: paddr=0005d320 vaddr=40374000 size=02cf8h ( 11512) 
+I (1456881) esp_image: segment 3: paddr=00060020 vaddr=42000020 size=9c08ch (639116) map
+I (1456971) esp_image: segment 4: paddr=000fc0b4 vaddr=91004136 size=fd81fdcch (4253154764) 
+E (1456971) flash_mmap: Address 0x000f0000 is out of range for 24bit flash mapping, see CONFIG_BOOTLOADER_CACHE_32BIT_ADDR_QUAD_FLASH and CONFIG_BOOTLOADER_CACHE_32BIT_ADDR_OCTAL_FLASH for more details
+E (1456991) bootloader_mmap: spi_flash_mmap failed: 0x102
+E (1456991) esp_image: bootloader_mmap(0xfc0b4, 0x1f10000) failed
+E (1457001) esp_ota_ops: New image failed verification
+E (1457011) sentry: E412 image validation failed (corrupted image)
+I (1478211) sentry: [TELEMETRY #43] 10:24:11 up 00:24:37 heap 251KB rssi -56 temp 32.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (1488791) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+I (1508211) sentry: [TELEMETRY #44] 10:24:41 up 00:25:07 heap 251KB rssi -35 temp 31.1C depth 41.4m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1538211) sentry: [TELEMETRY #45] 10:25:11 up 00:25:37 heap 251KB rssi -42 temp 31.1C depth 41.4m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1553791) sentry: [PWR] battery bus 24.16 V, load 1.5 A
+I (1568211) sentry: [TELEMETRY #46] 10:25:41 up 00:26:07 heap 251KB rssi -52 temp 31.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1598411) sentry: [TELEMETRY #47] 10:26:12 up 00:26:38 heap 251KB rssi -51 temp 31.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1626791) sentry: [NAV] depth 40.9 m, heading 278, speed 2.9 kn
+I (1628411) sentry: [TELEMETRY #48] 10:26:42 up 00:27:08 heap 251KB rssi -52 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1658411) sentry: [TELEMETRY #49] 10:27:12 up 00:27:38 heap 251KB rssi -45 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota status
+I (1663141) sentry: [OTA] running:  v2.3.0 in ota_1 (valid)
+I (1663141) sentry: [OTA] previous: v2.3.0 in ota_0
+I (1688611) sentry: [TELEMETRY #50] 10:27:42 up 00:28:08 heap 251KB rssi -47 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1692791) sentry: [ACU] ambient noise 62 dB re 1uPa, sea state 2, water 8.2 C
+I (1718611) sentry: [TELEMETRY #51] 10:28:12 up 00:28:38 heap 251KB rssi -49 temp 31.1C depth 41.2m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota update beta
+I (1736451) sentry: [OTA] beta channel: v2.3.0, current: v2.3.0
+I (1736451) sentry: [OTA] already up to date
+I (1748611) sentry: [TELEMETRY #52] 10:28:42 up 00:29:08 heap 251KB rssi -51 temp 31.1C depth 41.2m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1776791) sentry: [PWR] battery bus 24.15 V, load 1.8 A
+I (1778611) sentry: [TELEMETRY #53] 10:29:12 up 00:29:38 heap 251KB rssi -48 temp 31.1C depth 41.3m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1808811) sentry: [TELEMETRY #54] 10:29:42 up 00:30:08 heap 251KB rssi -47 temp 31.1C depth 41.3m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1838811) sentry: [TELEMETRY #55] 10:30:12 up 00:30:38 heap 251KB rssi -46 temp 31.1C depth 41.3m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1856791) sentry: [NAV] depth 41.3 m, heading 274, speed 2.8 kn
+I (1869011) sentry: [TELEMETRY #56] 10:30:42 up 00:31:08 heap 251KB rssi -45 temp 31.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1899011) sentry: [TELEMETRY #57] 10:31:12 up 00:31:38 heap 251KB rssi -47 temp 31.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota url http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (1910041) sentry: [OTA] current v2.3.0 (ota_1) -> target partition ota_0
+I (1910041) sentry: [OTA] downloading http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (1910081) esp_https_ota: Starting OTA...
+I (1910081) esp_https_ota: Writing to <ota_0> partition at offset 0x20000
+I (1910081) sentry: [OTA] image: sentry_fw7 v2.3.0 (build Oct  6 2026 02:15:26)
+W (1910081) sentry: W409 same version v2.3.0 - reinstalling
+I (1911351) sentry: [OTA]  10%
+I (1912451) sentry: [OTA]  20%
+I (1913571) sentry: [OTA]  30%
+I (1914701) sentry: [OTA]  40%
+I (1915761) sentry: [OTA]  50%
+I (1916861) sentry: [OTA]  60%
+I (1917901) sentry: [OTA]  70%
+I (1919081) sentry: [OTA]  80%
+I (1920211) sentry: [OTA]  90%
+I (1921251) sentry: [OTA] 100%
+I (1921251) esp_image: segment 0: paddr=00020020 vaddr=3c0a0020 size=38158h (229720) map
+I (1921281) esp_image: segment 1: paddr=00058180 vaddr=3fc97200 size=05198h ( 20888) 
+I (1921281) esp_image: segment 2: paddr=0005d320 vaddr=40374000 size=02cf8h ( 11512) 
+I (1921281) esp_image: segment 3: paddr=00060020 vaddr=42000020 size=9c08ch (639116) map
+I (1921371) esp_image: segment 4: paddr=000fc0b4 vaddr=40376cf8 size=10418h ( 66584) 
+I (1921381) esp_image: segment 5: paddr=0010c4d4 vaddr=50000000 size=00024h (    36) 
+I (1921381) esp_image: segment 0: paddr=00020020 vaddr=3c0a0020 size=38158h (229720) map
+I (1921421) esp_image: segment 1: paddr=00058180 vaddr=3fc97200 size=05198h ( 20888) 
+I (1921421) esp_image: segment 2: paddr=0005d320 vaddr=40374000 size=02cf8h ( 11512) 
+I (1921421) esp_image: segment 3: paddr=00060020 vaddr=42000020 size=9c08ch (639116) map
+I (1921521) esp_image: segment 4: paddr=000fc0b4 vaddr=40376cf8 size=10418h ( 66584) 
+I (1921521) esp_image: segment 5: paddr=0010c4d4 vaddr=50000000 size=00024h (    36) 
+I (1921571) sentry: [OTA] success: v2.3.0 -> v2.3.0 in 11 s. Rebooting...
+I (1922071) wifi:state: run -> init (0x0)
+I (1922071) wifi:pm stop, total sleep time: 1438775273 us / 1768366961 us
+
+I (1922071) wifi:<ba-del>idx:0, tid:0
+I (1922071) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0
+I (1922081) wifi:flush txq
+I (1922081) wifi:stop sw txq
+I (1922081) wifi:lmac stop hw txq
+ ��ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037d344
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2fa0
+entry 0x403c8908
+I (29) boot: ESP-IDF v6.0.1 2nd stage bootloader
+I (29) boot: compile time Oct  6 2026 02:15:01
+I (29) boot: Multicore bootloader
+I (29) boot: chip revision: v0.2
+I (32) boot: efuse block revision: v1.3
+I (36) boot.esp32s3: Boot SPI Speed : 80MHz
+I (40) boot.esp32s3: SPI Mode       : DIO
+I (43) boot.esp32s3: SPI Flash Size : 4MB
+I (47) boot: Enabling RNG early entropy source...
+I (52) boot: Partition Table:
+I (54) boot: ## Label            Usage          Type ST Offset   Length
+I (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (67) boot:  1 otadata          OTA data         01 00 0000f000 00002000
+I (73) boot:  2 ota_0            OTA app          00 10 00020000 00180000
+I (80) boot:  3 ota_1            OTA app          00 11 001a0000 00180000
+I (87) boot: End of partition table
+I (116) esp_image: segment 0: paddr=00020020 vaddr=3c0a0020 size=38158h (229720) map
+I (158) esp_image: segment 1: paddr=00058180 vaddr=3fc97200 size=05198h ( 20888) load
+I (162) esp_image: segment 2: paddr=0005d320 vaddr=40374000 size=02cf8h ( 11512) load
+I (165) esp_image: segment 3: paddr=00060020 vaddr=42000020 size=9c08ch (639116) map
+I (284) esp_image: segment 4: paddr=000fc0b4 vaddr=40376cf8 size=10418h ( 66584) load
+I (299) esp_image: segment 5: paddr=0010c4d4 vaddr=50000000 size=00024h (    36) load
+I (307) boot: Loaded app from partition at offset 0x20000
+I (307) boot: Disabling RNG early entropy source...
+I (317) cpu_start: Multicore app
+I (326) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (326) cpu_start: Pro cpu start user code
+I (327) cpu_start: cpu freq: 160000000 Hz
+I (328) app_init: Application information:
+I (332) app_init: Project name:     sentry_fw7
+I (336) app_init: App version:      2.3.0
+I (340) app_init: Compile time:     Oct  6 2026 02:15:26
+I (345) app_init: ELF file SHA256:  ab377c338...
+I (349) app_init: ESP-IDF:          v6.0.1
+I (353) efuse_init: Min chip rev:     v0.0
+I (357) efuse_init: Max chip rev:     v0.99 
+I (361) efuse_init: Chip rev:         v0.2
+I (365) heap_init: Initializing. RAM available for dynamic allocation:
+I (371) heap_init: At 3FCA1360 len 000483B0 (288 KiB): RAM
+I (376) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (381) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (387) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (393) spi_flash: detected chip: generic
+I (396) spi_flash: flash io: dio
+W (398) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.
+I (411) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (417) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (424) main_task: Started on CPU0
+I (444) main_task: Calling app_main()
+I (464) temperature_sensor: Range [-10°C ~ 80°C], error < 1°C
+I (464) sentry: ==============================================
+I (464) sentry:   SENTRY SWM-2  sonar watch module  fw v2.3.0
+I (464) sentry:   bow sonar array / perimeter watch / CIC link
+I (474) sentry: ==============================================
+I (484) pp: pp rom version: e7ae62f
+I (484) net80211: net80211 rom version: e7ae62f
+I (494) wifi:wifi driver task: 3fced734, prio:23, stack:6656, core=0
+I (494) wifi:wifi firmware version: b37c951
+I (494) wifi:wifi certification version: v7.0
+I (504) wifi:config NVS flash: enabled
+I (504) wifi:config nano formatting: disabled
+I (504) wifi:Init data frame dynamic rx buffer num: 32
+I (514) wifi:Init static rx mgmt buffer num: 5
+I (514) wifi:Init management short buffer num: 32
+I (524) wifi:Init dynamic tx buffer num: 32
+I (524) wifi:Init static tx FG buffer num: 2
+I (534) wifi:Init static rx buffer size: 1600
+I (534) wifi:Init static rx buffer num: 10
+I (534) wifi:Init dynamic rx buffer num: 32
+I (544) wifi_init: rx ba win: 6
+I (544) wifi_init: accept mbox: 6
+I (544) wifi_init: tcpip mbox: 32
+I (554) wifi_init: udp mbox: 6
+I (554) wifi_init: tcp mbox: 6
+I (554) wifi_init: tcp tx win: 5760
+I (554) wifi_init: tcp rx win: 5760
+I (564) wifi_init: tcp mss: 1440
+I (564) wifi_init: WiFi IRAM OP enabled
+I (564) wifi_init: WiFi RX IRAM OP enabled
+I (574) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (614) wifi:mode : sta (30:30:f9:16:f1:98)
+I (614) wifi:enable tsf
+I (624) sentry: [LINK] known network 'Test-WiFi'. Type 'reconnect' to connect
+I (624) sentry: [AUTH] profile 'user' registered
+I (624) sentry: last reset: software reboot
+I (624) sentry: build tag: c3VkbyBzM250cnktcjAwdA==
+I (634) sentry: [HW] transducer array: 1 ch, 40 kHz, driver OK
+I (634) sentry: [HW] hull penetrator seal: OK, pressure sensor: OK
+W (644) sentry: [NAV] depth sensor offline (lab mode) - using simulator
+I (654) sentry: [NAV] carrier: SSK 'Skat', bow sonar bay #2, depth 41.8 m
+I (654) sentry: [OTA] running v2.3.0 from ota_0
+W (664) sentry: [OTA] custom update server: http://172.20.10.3:8000/fw7/ ('ota server default' - GitHub)
+W (674) sentry: [OTA] new firmware, PENDING_VERIFY - self-check...
+I (714) sentry: [OTA] self-check passed, firmware marked VALID
+I (714) sentry: ready. state 1 NORMAL (patrol). Type 'help'
+I (714) main_task: Returned from app_main()
+W (20714) sentry: [ACU] biologics detected (snapping shrimp), passive filter on
+I (110714) sentry: [NAV] depth 41.8 m, heading 275, speed 2.8 kn
+status
+I (171394) sentry: === SWM-2 status ===
+I (171394) sentry:   fw:       v2.3.0 (ota_0)
+I (171394) sentry:   state:    1 NORMAL
+I (171394) sentry:   link:     buoy link down (known: Test-WiFi)
+I (171394) sentry:   user:     not logged in
+I (171404) sentry:   time:     --:--:--, uptime 0h 02m 50s
+I (171404) sentry:   valve:    closed
+I (171404) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (171414) sentry:   sonar:    no contact
+I (171414) sentry:   carrier:  depth 41.8 m, hull 5.2 bar, water 8.1 C, battery 24.20 V (sim)
+I (171424) sentry:   heap:     254 KB free
+I (171714) sentry: [ACU] ambient noise 59 dB re 1uPa, sea state 2, water 8.2 C
+I (253714) sentry: [PWR] battery bus 24.19 V, load 1.7 A
+W (322714) sentry: [ACU] biologics detected (snapping shrimp), passive filter on
+reconnect
+I (330234) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (330924) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (330934) wifi:state: init -> auth (0xb0)
+I (330934) wifi:state: auth -> assoc (0x0)
+I (330944) wifi:state: assoc -> run (0x10)
+I (330984) wifi:connected with Test-WiFi, aid = 1, channel 6, BW20, bssid = 7e:c7:ce:6c:56:ae
+I (330984) wifi:security: WPA2-PSK, phy: bgn, rssi: -49, cipher(pairwise:0x3, group:0x3), pmf:0
+I (330994) wifi:pm start, type: 1
+
+I (330994) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (331004) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (331084) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (332204) esp_netif_handlers: sta ip: 172.20.10.2, mask: 255.255.255.240, gw: 172.20.10.1
+I (332204) sentry: [LINK] got ip 172.20.10.2
+I (332204) sentry: [LINK] connected to 'Test-WiFi', rssi -46 dBm (excellent)
+I (332234) wifi:<ba-add>idx:0 (ifx:0, 7e:c7:ce:6c:56:ae), tid:0, ssn:2, winSize:64
+I (332584) esp-x509-crt-bundle: Certificate validated
+I (333454) sentry: [LINK] fleet network reachable (internet OK)
+I (337264) sentry: [LINK] time: synced via NTP, 10:37:13
+login user [REDACTED]
+I (378494) sentry: [AUTH] operator user on watch, console 2
+I (378514) sentry: [TELEMETRY] auto report every 30 s ('health off' to stop)
+I (403054) sentry: [NAV] depth 41.6 m, heading 273, speed 2.6 kn
+ota checkI (408714) sentry: [TELEMETRY #1] 10:38:24 up 00:06:48 heap 251KB rssi -44 temp 31.1C depth 41.6m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+
+I (408934) sentry: [OTA] current: v2.3.0
+I (408934) sentry: [OTA] stable:  v2.1.0
+I (408934) sentry: [OTA] beta:    v2.3.0
+I (408934) sentry: [OTA] running newer than stable
+I (438714) sentry: [TELEMETRY #2] 10:38:54 up 00:07:18 heap 251KB rssi -46 temp 31.1C depth 41.6m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (468714) sentry: [TELEMETRY #3] 10:39:24 up 00:07:48 heap 251KB rssi -47 temp 31.1C depth 41.6m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (480054) sentry: [ACU] ambient noise 60 dB re 1uPa, sea state 2, water 8.0 C
+I (498914) sentry: [TELEMETRY #4] 10:39:54 up 00:08:18 heap 251KB rssi -46 temp 31.1C depth 41.4m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (528914) sentry: [TELEMETRY #5] 10:40:24 up 00:08:48 heap 251KB rssi -45 temp 31.1C depth 41.4m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (558914) sentry: [TELEMETRY #6] 10:40:54 up 00:09:18 heap 251KB rssi -44 temp 31.1C depth 41.4m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (564054) sentry: [PWR] battery bus 24.18 V, load 1.4 A
+I (589114) sentry: [TELEMETRY #7] 10:41:25 up 00:09:48 heap 251KB rssi -42 temp 31.1C depth 41.4m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (619114) sentry: [TELEMETRY #8] 10:41:55 up 00:10:18 heap 251KB rssi -42 temp 34.1C depth 41.4m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (631054) sentry: [NAV] depth 41.2 m, heading 272, speed 3.2 kn
+I (649314) sentry: [TELEMETRY #9] 10:42:25 up 00:10:48 heap 251KB rssi -49 temp 31.1C depth 41.2m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (679314) sentry: [TELEMETRY #10] 10:42:55 up 00:11:18 heap 251KB rssi -50 temp 31.1C depth 41.2m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (697054) sentry: [ACU] ambient noise 66 dB re 1uPa, sea state 2, water 8.1 C
+I (709314) sentry: [TELEMETRY #11] 10:43:25 up 00:11:48 heap 251KB rssi -48 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (739314) sentry: [TELEMETRY #12] 10:43:55 up 00:12:18 heap 251KB rssi -47 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (769314) sentry: [TELEMETRY #13] 10:44:25 up 00:12:48 heap 251KB rssi -46 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (771054) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+I (799514) sentry: [TELEMETRY #14] 10:44:55 up 00:13:19 heap 251KB rssi -47 temp 31.1C depth 41.2m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (829714) sentry: [TELEMETRY #15] 10:45:25 up 00:13:49 heap 251KB rssi -44 temp 31.1C depth 41.2m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (845054) sentry: [ACU] own-ship noise: pump #2 cavitation suspected
+I (859914) sentry: [TELEMETRY #16] 10:45:55 up 00:14:19 heap 251KB rssi -50 temp 31.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (889914) sentry: [TELEMETRY #17] 10:46:25 up 00:14:49 heap 251KB rssi -53 temp 31.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota url http://172.20.10.3:8000/test/corrupted.binW (919054) sentry: [ACU] biologics detected (snapping shrimp), passive filter on
+I (919914) sentry: [TELEMETRY #18] 10:46:55 up 00:15:19 heap 251KB rssi -57 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+
+I (921304) sentry: [OTA] current v2.3.0 (ota_0) -> target partition ota_1
+I (921304) sentry: [OTA] downloading http://172.20.10.3:8000/test/corrupted.bin
+I (921344) esp_https_ota: Starting OTA...
+I (921344) esp_https_ota: Writing to <ota_1> partition at offset 0x1a0000
+I (921364) sentry: [OTA] image: sentry_fw7 v2.3.0 (build Oct  6 2026 02:15:26)
+W (921364) sentry: W409 same version v2.3.0 - reinstalling
+I (922424) sentry: [OTA]  10%
+I (923384) sentry: [OTA]  20%
+I (924314) sentry: [OTA]  30%
+I (925294) sentry: [OTA]  40%
+I (926244) sentry: [OTA]  50%
+I (927234) sentry: [OTA]  60%
+I (928214) sentry: [OTA]  70%
+I (929204) sentry: [OTA]  80%
+I (930194) sentry: [OTA]  90%
+I (931134) sentry: [OTA] 100%
+I (931134) esp_image: segment 0: paddr=001a0020 vaddr=3c0a0020 size=38158h (229720) map
+I (931164) esp_image: segment 1: paddr=001d8180 vaddr=3fc97200 size=05198h ( 20888) 
+I (931164) esp_image: segment 2: paddr=001dd320 vaddr=40374000 size=02cf8h ( 11512) 
+I (931164) esp_image: segment 3: paddr=001e0020 vaddr=42000020 size=9c08ch (639116) map
+I (931254) esp_image: segment 4: paddr=0027c0b4 vaddr=40376cf8 size=10418h ( 66584) 
+I (931264) esp_image: segment 5: paddr=0028c4d4 vaddr=50000000 size=00024h (    36) 
+E (931264) esp_image: Image hash failed - image is corrupt
+E (931274) esp_ota_ops: New image failed verification
+E (931274) sentry: E412 image validation failed (corrupted image)
+I (950084) sentry: [TELEMETRY #19] 10:47:25 up 00:15:49 heap 251KB rssi -52 temp 33.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (980084) sentry: [TELEMETRY #20] 10:47:55 up 00:16:19 heap 251KB rssi -48 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (982284) sentry: [PWR] battery bus 24.17 V, load 1.7 A
+I (1010284) sentry: [TELEMETRY #21] 10:48:26 up 00:16:49 heap 251KB rssi -47 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1040284) sentry: [TELEMETRY #22] 10:48:56 up 00:17:19 heap 251KB rssi -51 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota status
+I (1062554) sentry: [OTA] running:  v2.3.0 in ota_0 (valid)
+I (1062554) sentry: [OTA] previous: v2.3.0 in ota_1
+I (1067284) sentry: [NAV] depth 40.8 m, heading 272, speed 3.0 kn
+I (1070484) sentry: [TELEMETRY #23] 10:49:26 up 00:17:50 heap 251KB rssi -49 temp 31.1C depth 40.8m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1100684) sentry: [TELEMETRY #24] 10:49:56 up 00:18:20 heap 251KB rssi -53 temp 31.1C depth 40.8m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1130684) sentry: [TELEMETRY #25] 10:50:26 up 00:18:50 heap 251KB rssi -44 temp 31.1C depth 40.8m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1146284) sentry: [ACU] ambient noise 70 dB re 1uPa, sea state 2, water 8.1 C
+I (1160884) sentry: [TELEMETRY #26] 10:50:56 up 00:19:20 heap 251KB rssi -53 temp 31.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1190884) sentry: [TELEMETRY #27] 10:51:26 up 00:19:50 heap 251KB rssi -54 temp 31.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1214284) sentry: [PWR] battery bus 24.17 V, load 1.7 A
+I (1220884) sentry: [TELEMETRY #28] 10:51:56 up 00:20:20 heap 251KB rssi -56 temp 31.1C depth 41.3m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1250884) sentry: [TELEMETRY #29] 10:52:26 up 00:20:50 heap 251KB rssi -35 temp 31.1C depth 41.3m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1281084) sentry: [TELEMETRY #30] 10:52:56 up 00:21:20 heap 251KB rssi -54 temp 31.1C depth 41.3m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1286284) sentry: [NAV] depth 41.1 m, heading 271, speed 3.3 kn
+I (1311084) sentry: [TELEMETRY #31] 10:53:26 up 00:21:50 heap 251KB rssi -54 temp 32.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1341284) sentry: [TELEMETRY #32] 10:53:57 up 00:22:20 heap 251KB rssi -48 temp 31.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1346284) sentry: [ACU] ambient noise 63 dB re 1uPa, sea state 2, water 8.1 C
+I (1371284) sentry: [TELEMETRY #33] 10:54:27 up 00:22:50 heap 251KB rssi -34 temp 31.1C depth 41.2m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1401284) sentry: [TELEMETRY #34] 10:54:57 up 00:23:20 heap 251KB rssi -54 temp 31.1C depth 41.2m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1419284) sentry: [PWR] battery bus 24.16 V, load 1.6 A
+I (1431284) sentry: [TELEMETRY #35] 10:55:27 up 00:23:50 heap 251KB rssi -37 temp 32.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1461484) sentry: [TELEMETRY #36] 10:55:57 up 00:24:21 heap 251KB rssi -54 temp 32.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1491684) sentry: [TELEMETRY #37] 10:56:27 up 00:24:51 heap 251KB rssi -55 temp 31.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1500284) sentry: [NAV] depth 40.8 m, heading 272, speed 3.3 kn
+I (1521884) sentry: [TELEMETRY #38] 10:56:57 up 00:25:21 heap 251KB rssi -44 temp 31.1C depth 40.8m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1551884) sentry: [TELEMETRY #39] 10:57:27 up 00:25:51 heap 251KB rssi -54 temp 31.1C depth 40.8m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1565284) sentry: [ACU] ambient noise 62 dB re 1uPa, sea state 2, water 8.2 C
+I (1582084) sentry: [TELEMETRY #40] 10:57:57 up 00:26:21 heap 251KB rssi -55 temp 31.1C depth 40.7m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1612284) sentry: [TELEMETRY #41] 10:58:28 up 00:26:51 heap 251KB rssi -55 temp 31.1C depth 40.7m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1642484) sentry: [TELEMETRY #42] 10:58:58 up 00:27:22 heap 251KB rssi -55 temp 31.1C depth 40.7m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1643284) sentry: [PWR] battery bus 24.15 V, load 1.6 A
+I (1672484) sentry: [TELEMETRY #43] 10:59:28 up 00:27:52 heap 251KB rssi -53 temp 31.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1702684) sentry: [TELEMETRY #44] 10:59:58 up 00:28:22 heap 251KB rssi -55 temp 31.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1728284) sentry: [NAV] depth 41.0 m, heading 271, speed 2.8 kn
+I (1732684) sentry: [TELEMETRY #45] 11:00:28 up 00:28:52 heap 251KB rssi -53 temp 31.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1762884) sentry: [TELEMETRY #46] 11:00:58 up 00:29:22 heap 251KB rssi -52 temp 32.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1793084) sentry: [TELEMETRY #47] 11:01:28 up 00:29:52 heap 251KB rssi -52 temp 31.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1801284) sentry: [ACU] ambient noise 72 dB re 1uPa, sea state 2, water 8.1 C
+I (1823284) sentry: [TELEMETRY #48] 11:01:59 up 00:30:22 heap 251KB rssi -54 temp 31.1C depth 41.1m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1853484) sentry: [TELEMETRY #49] 11:02:29 up 00:30:53 heap 251KB rssi -54 temp 31.1C depth 41.1m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1883484) sentry: [TELEMETRY #50] 11:02:59 up 00:31:23 heap 251KB rssi -52 temp 31.1C depth 41.1m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (1886284) sentry: [LINK] buoy cable tension high, link quality may degrade
+I (1913484) sentry: [TELEMETRY #51] 11:03:29 up 00:31:53 heap 251KB rssi -53 temp 31.1C depth 41.0m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1943684) sentry: [TELEMETRY #52] 11:03:59 up 00:32:23 heap 251KB rssi -53 temp 31.1C depth 41.0m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1953284) sentry: [PWR] battery bus 24.15 V, load 1.5 A
+I (1973684) sentry: [TELEMETRY #53] 11:04:29 up 00:32:53 heap 251KB rssi -52 temp 31.1C depth 40.6m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2003684) sentry: [TELEMETRY #54] 11:04:59 up 00:33:23 heap 251KB rssi -52 temp 31.1C depth 40.6m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2017284) sentry: [NAV] depth 40.8 m, heading 273, speed 2.8 kn
+I (2033884) sentry: [TELEMETRY #55] 11:05:29 up 00:33:53 heap 251KB rssi -52 temp 31.1C depth 40.8m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2063884) sentry: [TELEMETRY #56] 11:05:59 up 00:34:23 heap 251KB rssi -54 temp 31.1C depth 40.8m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2094084) sentry: [TELEMETRY #57] 11:06:29 up 00:34:53 heap 251KB rssi -52 temp 31.1C depth 40.8m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2102284) sentry: [ACU] ambient noise 58 dB re 1uPa, sea state 2, water 8.1 C
+I (2124084) sentry: [TELEMETRY #58] 11:06:59 up 00:35:23 heap 251KB rssi -52 temp 31.1C depth 41.0m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2154284) sentry: [TELEMETRY #59] 11:07:30 up 00:35:53 heap 251KB rssi -52 temp 31.1C depth 41.0m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2176284) sentry: [PWR] battery bus 24.14 V, load 1.4 A
+I (2184284) sentry: [TELEMETRY #60] 11:08:00 up 00:36:23 heap 251KB rssi -52 temp 31.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2214284) sentry: [TELEMETRY #61] 11:08:30 up 00:36:53 heap 251KB rssi -52 temp 31.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2244484) sentry: [TELEMETRY #62] 11:09:00 up 00:37:24 heap 251KB rssi -53 temp 32.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2260284) sentry: [NAV] depth 41.0 m, heading 275, speed 2.7 kn
+I (2274484) sentry: [TELEMETRY #63] 11:09:30 up 00:37:54 heap 251KB rssi -52 temp 31.1C depth 41.0m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2304484) sentry: [TELEMETRY #64] 11:10:00 up 00:38:24 heap 251KB rssi -52 temp 31.1C depth 41.0m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2333284) sentry: [ACU] ambient noise 73 dB re 1uPa, sea state 2, water 8.1 C
+I (2334684) sentry: [TELEMETRY #65] 11:10:30 up 00:38:54 heap 251KB rssi -52 temp 31.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2364684) sentry: [TELEMETRY #66] 11:11:00 up 00:39:24 heap 251KB rssi -37 temp 32.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2394884) sentry: [TELEMETRY #67] 11:11:30 up 00:39:54 heap 251KB rssi -52 temp 31.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2403284) sentry: [PWR] battery bus 24.13 V, load 1.7 A
+I (2424884) sentry: [TELEMETRY #68] 11:12:00 up 00:40:24 heap 251KB rssi -53 temp 31.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2455084) sentry: [TELEMETRY #69] 11:12:30 up 00:40:54 heap 251KB rssi -52 temp 32.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2470284) sentry: [NAV] depth 41.4 m, heading 277, speed 3.0 kn
+I (2485084) sentry: [TELEMETRY #70] 11:13:00 up 00:41:24 heap 251KB rssi -53 temp 31.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2515084) sentry: [TELEMETRY #71] 11:13:30 up 00:41:54 heap 251KB rssi -35 temp 31.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2545084) sentry: [TELEMETRY #72] 11:14:00 up 00:42:24 heap 251KB rssi -52 temp 32.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2557284) sentry: [ACU] ambient noise 62 dB re 1uPa, sea state 2, water 8.2 C
+I (2575284) sentry: [TELEMETRY #73] 11:14:31 up 00:42:54 heap 251KB rssi -53 temp 31.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2605284) sentry: [TELEMETRY #74] 11:15:01 up 00:43:24 heap 251KB rssi -53 temp 32.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2624284) sentry: [PWR] battery bus 24.13 V, load 1.7 A
+I (2635284) sentry: [TELEMETRY #75] 11:15:31 up 00:43:54 heap 251KB rssi -53 temp 31.1C depth 42.0m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2665284) sentry: [TELEMETRY #76] 11:16:01 up 00:44:24 heap 251KB rssi -54 temp 31.1C depth 42.0m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2695484) sentry: [TELEMETRY #77] 11:16:31 up 00:44:55 heap 251KB rssi -54 temp 31.1C depth 42.0m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2700284) sentry: [NAV] depth 42.1 m, heading 277, speed 2.7 kn
+I (2725484) sentry: [TELEMETRY #78] 11:17:01 up 00:45:25 heap 251KB rssi -52 temp 32.1C depth 42.1m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2755484) sentry: [TELEMETRY #79] 11:17:31 up 00:45:55 heap 251KB rssi -52 temp 31.1C depth 42.1m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2785484) sentry: [TELEMETRY #80] 11:18:01 up 00:46:25 heap 251KB rssi -52 temp 32.1C depth 42.1m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2787284) sentry: [ACU] ambient noise 67 dB re 1uPa, sea state 2, water 8.1 C
+I (2815484) sentry: [TELEMETRY #81] 11:18:31 up 00:46:55 heap 251KB rssi -52 temp 32.1C depth 42.2m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2845684) sentry: [TELEMETRY #82] 11:19:01 up 00:47:25 heap 251KB rssi -52 temp 31.1C depth 42.2m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2872284) sentry: [PWR] battery bus 24.12 V, load 1.8 A
+I (2875884) sentry: [TELEMETRY #83] 11:19:31 up 00:47:55 heap 251KB rssi -54 temp 31.1C depth 42.1m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2905884) sentry: [TELEMETRY #84] 11:20:01 up 00:48:25 heap 251KB rssi -52 temp 31.1C depth 42.1m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2934284) sentry: [NAV] depth 42.0 m, heading 280, speed 3.2 kn
+I (2935884) sentry: [TELEMETRY #85] 11:20:31 up 00:48:55 heap 251KB rssi -54 temp 31.1C depth 42.0m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2966084) sentry: [TELEMETRY #86] 11:21:01 up 00:49:25 heap 251KB rssi -35 temp 33.1C depth 42.0m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (2996284) sentry: [TELEMETRY #87] 11:21:32 up 00:49:55 heap 251KB rssi -52 temp 31.1C depth 42.0m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3002284) sentry: [ACU] ambient noise 69 dB re 1uPa, sea state 2, water 8.1 C
+I (3026284) sentry: [TELEMETRY #88] 11:22:02 up 00:50:25 heap 251KB rssi -36 temp 31.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3056484) sentry: [TELEMETRY #89] 11:22:32 up 00:50:56 heap 251KB rssi -52 temp 31.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3067284) sentry: [PWR] battery bus 24.12 V, load 1.5 A
+I (3086684) sentry: [TELEMETRY #90] 11:23:02 up 00:51:26 heap 251KB rssi -36 temp 31.1C depth 42.0m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3116684) sentry: [TELEMETRY #91] 11:23:32 up 00:51:56 heap 251KB rssi -53 temp 32.1C depth 42.0m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3143284) sentry: [NAV] depth 41.8 m, heading 280, speed 2.9 kn
+I (3146884) sentry: [TELEMETRY #92] 11:24:02 up 00:52:26 heap 251KB rssi -42 temp 31.1C depth 41.8m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3177084) sentry: [TELEMETRY #93] 11:24:32 up 00:52:56 heap 251KB rssi -53 temp 31.1C depth 41.8m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3207284) sentry: [TELEMETRY #94] 11:25:03 up 00:53:26 heap 251KB rssi -54 temp 33.1C depth 41.8m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3209284) sentry: [ACU] ambient noise 60 dB re 1uPa, sea state 2, water 8.2 C
+I (3237284) sentry: [TELEMETRY #95] 11:25:33 up 00:53:56 heap 251KB rssi -52 temp 32.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3267484) sentry: [TELEMETRY #96] 11:26:03 up 00:54:27 heap 251KB rssi -46 temp 31.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3283284) sentry: [PWR] battery bus 24.11 V, load 1.4 A
+I (3297484) sentry: [TELEMETRY #97] 11:26:33 up 00:54:57 heap 251KB rssi -52 temp 31.1C depth 41.9m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3327684) sentry: [TELEMETRY #98] 11:27:03 up 00:55:27 heap 251KB rssi -35 temp 31.1C depth 41.9m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3344284) sentry: [NAV] depth 41.8 m, heading 281, speed 3.2 kn
+I (3357884) sentry: [TELEMETRY #99] 11:27:33 up 00:55:57 heap 251KB rssi -47 temp 32.1C depth 41.8m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3387884) sentry: [TELEMETRY #100] 11:28:03 up 00:56:27 heap 251KB rssi -53 temp 31.1C depth 41.8m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3416284) sentry: [ACU] ambient noise 63 dB re 1uPa, sea state 2, water 8.0 C
+I (3417884) sentry: [TELEMETRY #101] 11:28:33 up 00:56:57 heap 251KB rssi -53 temp 31.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3447884) sentry: [TELEMETRY #102] 11:29:03 up 00:57:27 heap 251KB rssi -54 temp 31.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3477884) sentry: [TELEMETRY #103] 11:29:33 up 00:57:57 heap 251KB rssi -54 temp 31.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3485284) sentry: [PWR] battery bus 24.10 V, load 1.5 A
+I (3507884) sentry: [TELEMETRY #104] 11:30:03 up 00:58:27 heap 251KB rssi -53 temp 33.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3537884) sentry: [TELEMETRY #105] 11:30:33 up 00:58:57 heap 251KB rssi -52 temp 32.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (3556284) sentry: [NAV] thermocline at 35 m - sonar range may drop
+I (3567884) sentry: [TELEMETRY #106] 11:31:03 up 00:59:27 heap 251KB rssi -52 temp 32.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3597884) sentry: [TELEMETRY #107] 11:31:33 up 00:59:57 heap 251KB rssi -52 temp 31.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3622284) sentry: [NAV] depth 42.1 m, heading 278, speed 2.7 kn
+I (3627884) sentry: [TELEMETRY #108] 11:32:03 up 01:00:27 heap 251KB rssi -53 temp 31.1C depth 42.1m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3657884) sentry: [TELEMETRY #109] 11:32:33 up 01:00:57 heap 251KB rssi -52 temp 32.1C depth 42.1m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3688084) sentry: [TELEMETRY #110] 11:33:03 up 01:01:27 heap 251KB rssi -53 temp 32.1C depth 42.1m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (3694284) sentry: [ACU] own-ship noise: pump #2 cavitation suspected
+I (3718084) sentry: [TELEMETRY #111] 11:33:33 up 01:01:57 heap 251KB rssi -52 temp 32.1C depth 41.8m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3748084) sentry: [TELEMETRY #112] 11:34:03 up 01:02:27 heap 251KB rssi -52 temp 31.1C depth 41.8m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3778284) sentry: [TELEMETRY #113] 11:34:34 up 01:02:57 heap 251KB rssi -52 temp 31.1C depth 41.8m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3782284) sentry: [ACU] ambient noise 67 dB re 1uPa, sea state 2, water 8.0 C
+I (3808484) sentry: [TELEMETRY #114] 11:35:04 up 01:03:28 heap 251KB rssi -53 temp 31.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3838484) sentry: [TELEMETRY #115] 11:35:34 up 01:03:58 heap 251KB rssi -52 temp 31.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3852284) sentry: [PWR] battery bus 24.09 V, load 1.9 A
+I (3868684) sentry: [TELEMETRY #116] 11:36:04 up 01:04:28 heap 251KB rssi -37 temp 31.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3898684) sentry: [TELEMETRY #117] 11:36:34 up 01:04:58 heap 251KB rssi -54 temp 31.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3928884) sentry: [TELEMETRY #118] 11:37:04 up 01:05:28 heap 251KB rssi -52 temp 31.1C depth 41.3m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3935284) sentry: [NAV] depth 41.5 m, heading 279, speed 2.6 kn
+I (3959084) sentry: [TELEMETRY #119] 11:37:34 up 01:05:58 heap 251KB rssi -36 temp 31.1C depth 41.5m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (3989084) sentry: [TELEMETRY #120] 11:38:04 up 01:06:28 heap 251KB rssi -54 temp 31.1C depth 41.5m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4019084) sentry: [TELEMETRY #121] 11:38:34 up 01:06:58 heap 251KB rssi -48 temp 31.1C depth 41.5m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4019284) sentry: [ACU] ambient noise 62 dB re 1uPa, sea state 2, water 8.1 C
+I (4049084) sentry: [TELEMETRY #122] 11:39:04 up 01:07:28 heap 251KB rssi -52 temp 31.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4079284) sentry: [TELEMETRY #123] 11:39:35 up 01:07:58 heap 251KB rssi -53 temp 31.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4097284) sentry: [PWR] battery bus 24.09 V, load 1.5 A
+I (4109484) sentry: [TELEMETRY #124] 11:40:05 up 01:08:29 heap 251KB rssi -35 temp 31.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4139684) sentry: [TELEMETRY #125] 11:40:35 up 01:08:59 heap 251KB rssi -52 temp 31.1C depth 41.7m hull 5.2bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4166284) sentry: [NAV] depth 41.4 m, heading 279, speed 2.8 kn
+I (4169884) sentry: [TELEMETRY #126] 11:41:05 up 01:09:29 heap 251KB rssi -52 temp 31.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4200084) sentry: [TELEMETRY #127] 11:41:35 up 01:09:59 heap 251KB rssi -52 temp 31.1C depth 41.4m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (4229284) sentry: [NAV] thermocline at 35 m - sonar range may drop
+I (4230284) sentry: [TELEMETRY #128] 11:42:06 up 01:10:29 heap 251KB rssi -54 temp 33.1C depth 41.2m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4260284) sentry: [TELEMETRY #129] 11:42:36 up 01:10:59 heap 251KB rssi -52 temp 31.1C depth 41.2m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4290484) sentry: [TELEMETRY #130] 11:43:06 up 01:11:30 heap 251KB rssi -52 temp 32.1C depth 41.2m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4294284) sentry: [ACU] ambient noise 68 dB re 1uPa, sea state 2, water 8.1 C
+I (4320484) sentry: [TELEMETRY #131] 11:43:36 up 01:12:00 heap 251KB rssi -53 temp 31.1C depth 41.1m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4350484) sentry: [TELEMETRY #132] 11:44:06 up 01:12:30 heap 251KB rssi -53 temp 31.1C depth 41.1m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4376284) sentry: [PWR] battery bus 24.08 V, load 1.9 A
+I (4380684) sentry: [TELEMETRY #133] 11:44:36 up 01:13:00 heap 250KB rssi -52 temp 33.1C depth 40.8m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4410884) sentry: [TELEMETRY #134] 11:45:06 up 01:13:30 heap 251KB rssi -37 temp 32.1C depth 40.8m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4440884) sentry: [TELEMETRY #135] 11:45:36 up 01:14:00 heap 251KB rssi -53 temp 31.1C depth 40.8m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4458284) sentry: [NAV] depth 41.1 m, heading 279, speed 3.1 kn
+I (4470884) sentry: [TELEMETRY #136] 11:46:06 up 01:14:30 heap 251KB rssi -36 temp 31.1C depth 41.1m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4501084) sentry: [TELEMETRY #137] 11:46:36 up 01:15:00 heap 251KB rssi -52 temp 31.1C depth 41.1m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4531284) sentry: [TELEMETRY #138] 11:47:07 up 01:15:30 heap 251KB rssi -53 temp 33.1C depth 41.1m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4535284) sentry: [ACU] ambient noise 73 dB re 1uPa, sea state 2, water 8.2 C
+I (4561284) sentry: [TELEMETRY #139] 11:47:37 up 01:16:00 heap 251KB rssi -53 temp 31.1C depth 41.1m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4591284) sentry: [TELEMETRY #140] 11:48:07 up 01:16:30 heap 251KB rssi -52 temp 31.1C depth 41.1m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4615284) sentry: [PWR] battery bus 24.07 V, load 1.8 A
+I (4621484) sentry: [TELEMETRY #141] 11:48:37 up 01:17:01 heap 251KB rssi -53 temp 31.1C depth 40.9m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4651484) sentry: [TELEMETRY #142] 11:49:07 up 01:17:31 heap 251KB rssi -52 temp 31.1C depth 40.9m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4681484) sentry: [TELEMETRY #143] 11:49:37 up 01:18:01 heap 251KB rssi -52 temp 31.1C depth 40.9m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4699284) sentry: [NAV] depth 40.7 m, heading 283, speed 3.1 kn
+I (4711484) sentry: [TELEMETRY #144] 11:50:07 up 01:18:31 heap 251KB rssi -52 temp 31.1C depth 40.7m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4741684) sentry: [TELEMETRY #145] 11:50:37 up 01:19:01 heap 251KB rssi -53 temp 33.1C depth 40.7m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4761284) sentry: [ACU] ambient noise 73 dB re 1uPa, sea state 2, water 8.2 C
+I (4771684) sentry: [TELEMETRY #146] 11:51:07 up 01:19:31 heap 251KB rssi -53 temp 31.1C depth 40.4m hull 5.0bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4801684) sentry: [TELEMETRY #147] 11:51:37 up 01:20:01 heap 251KB rssi -52 temp 31.1C depth 40.4m hull 5.0bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4823284) sentry: [PWR] battery bus 24.07 V, load 1.5 A
+I (4831684) sentry: [TELEMETRY #148] 11:52:07 up 01:20:31 heap 251KB rssi -49 temp 31.1C depth 40.7m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4861884) sentry: [TELEMETRY #149] 11:52:37 up 01:21:01 heap 251KB rssi -51 temp 31.1C depth 40.7m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4891884) sentry: [TELEMETRY #150] 11:53:07 up 01:21:31 heap 251KB rssi -52 temp 31.1C depth 40.7m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4898284) sentry: [NAV] depth 40.5 m, heading 281, speed 3.0 kn
+I (4921884) sentry: [TELEMETRY #151] 11:53:37 up 01:22:01 heap 251KB rssi -51 temp 31.1C depth 40.5m hull 5.0bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4952084) sentry: [TELEMETRY #152] 11:54:07 up 01:22:31 heap 251KB rssi -51 temp 31.1C depth 40.5m hull 5.0bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4982084) sentry: [TELEMETRY #153] 11:54:37 up 01:23:01 heap 251KB rssi -48 temp 31.1C depth 40.5m hull 5.0bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (4987284) sentry: [ACU] ambient noise 58 dB re 1uPa, sea state 2, water 8.1 C
+I (5012084) sentry: [TELEMETRY #154] 11:55:07 up 01:23:31 heap 251KB rssi -47 temp 31.1C depth 40.5m hull 5.0bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5042284) sentry: [TELEMETRY #155] 11:55:38 up 01:24:01 heap 251KB rssi -53 temp 31.1C depth 40.5m hull 5.0bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (5057284) sentry: [ACU] own-ship noise: pump #2 cavitation suspected
+I (5072484) sentry: [TELEMETRY #156] 11:56:08 up 01:24:32 heap 251KB rssi -52 temp 31.1C depth 40.6m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5102484) sentry: [TELEMETRY #157] 11:56:38 up 01:25:02 heap 251KB rssi -52 temp 31.1C depth 40.6m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5131284) sentry: [PWR] battery bus 24.06 V, load 1.8 A
+I (5132684) sentry: [TELEMETRY #158] 11:57:08 up 01:25:32 heap 251KB rssi -52 temp 31.1C depth 40.6m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5162884) sentry: [TELEMETRY #159] 11:57:38 up 01:26:02 heap 251KB rssi -52 temp 31.1C depth 40.6m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5192884) sentry: [TELEMETRY #160] 11:58:08 up 01:26:32 heap 251KB rssi -53 temp 32.1C depth 40.6m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5216284) sentry: [NAV] depth 40.7 m, heading 287, speed 2.8 kn
+I (5222884) sentry: [TELEMETRY #161] 11:58:38 up 01:27:02 heap 251KB rssi -52 temp 31.1C depth 40.7m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5253084) sentry: [TELEMETRY #162] 11:59:08 up 01:27:32 heap 251KB rssi -53 temp 32.1C depth 40.7m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5283084) sentry: [TELEMETRY #163] 11:59:38 up 01:28:02 heap 251KB rssi -53 temp 32.1C depth 40.7m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5291284) sentry: [ACU] ambient noise 58 dB re 1uPa, sea state 2, water 8.1 C
+I (5313084) sentry: [TELEMETRY #164] 12:00:08 up 01:28:32 heap 251KB rssi -53 temp 31.1C depth 40.6m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5343084) sentry: [TELEMETRY #165] 12:00:38 up 01:29:02 heap 251KB rssi -55 temp 31.1C depth 40.6m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5352284) sentry: [PWR] battery bus 24.05 V, load 1.4 A
+I (5373284) sentry: [TELEMETRY #166] 12:01:09 up 01:29:32 heap 251KB rssi -53 temp 31.1C depth 40.8m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5403284) sentry: [TELEMETRY #167] 12:01:39 up 01:30:02 heap 251KB rssi -53 temp 31.1C depth 40.8m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5433284) sentry: [TELEMETRY #168] 12:02:09 up 01:30:32 heap 251KB rssi -54 temp 31.1C depth 40.8m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (5440284) sentry: [NAV] thermocline at 35 m - sonar range may drop
+I (5463284) sentry: [TELEMETRY #169] 12:02:39 up 01:31:02 heap 251KB rssi -54 temp 31.1C depth 40.9m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5493484) sentry: [TELEMETRY #170] 12:03:09 up 01:31:33 heap 251KB rssi -55 temp 31.1C depth 40.9m hull 5.1bar batt 24.1V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5504284) sentry: [NAV] depth 40.6 m, heading 288, speed 2.6 kn
+I (5523684) sentry: [TELEMETRY #171] 12:03:39 up 01:32:03 heap 251KB rssi -50 temp 32.1C depth 40.6m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5553884) sentry: [TELEMETRY #172] 12:04:09 up 01:32:33 heap 251KB rssi -54 temp 31.1C depth 40.6m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (5578284) sentry: [ACU] biologics detected (snapping shrimp), passive filter on
+I (5583884) sentry: [TELEMETRY #173] 12:04:39 up 01:33:03 heap 251KB rssi -53 temp 33.1C depth 40.8m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5613884) sentry: [TELEMETRY #174] 12:05:09 up 01:33:33 heap 251KB rssi -53 temp 31.1C depth 40.8m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5639284) sentry: [ACU] ambient noise 74 dB re 1uPa, sea state 2, water 8.2 C
+I (5644084) sentry: [TELEMETRY #175] 12:05:39 up 01:34:03 heap 251KB rssi -54 temp 31.1C depth 41.1m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5674284) sentry: [TELEMETRY #176] 12:06:10 up 01:34:33 heap 251KB rssi -55 temp 32.1C depth 41.1m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5704284) sentry: [TELEMETRY #177] 12:06:40 up 01:35:03 heap 251KB rssi -53 temp 31.1C depth 41.1m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5704284) sentry: [PWR] battery bus 24.04 V, load 1.7 A
+I (5734284) sentry: [TELEMETRY #178] 12:07:10 up 01:35:33 heap 251KB rssi -53 temp 31.1C depth 40.8m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5764484) sentry: [TELEMETRY #179] 12:07:40 up 01:36:04 heap 251KB rssi -55 temp 33.1C depth 40.8m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5786294) sentry: [NAV] depth 41.0 m, heading 288, speed 2.9 kn
+I (5794684) sentry: [TELEMETRY #180] 12:08:10 up 01:36:34 heap 251KB rssi -53 temp 31.1C depth 41.0m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5824884) sentry: [TELEMETRY #181] 12:08:40 up 01:37:04 heap 251KB rssi -54 temp 31.1C depth 41.0m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5855084) sentry: [TELEMETRY #182] 12:09:10 up 01:37:34 heap 251KB rssi -54 temp 31.1C depth 41.0m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5875294) sentry: [ACU] ambient noise 70 dB re 1uPa, sea state 2, water 8.2 C
+I (5885084) sentry: [TELEMETRY #183] 12:09:40 up 01:38:04 heap 251KB rssi -51 temp 31.1C depth 40.6m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5915284) sentry: [TELEMETRY #184] 12:10:11 up 01:38:34 heap 251KB rssi -54 temp 31.1C depth 40.6m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (5945284) sentry: [TELEMETRY #185] 12:10:41 up 01:39:04 heap 251KB rssi -35 temp 31.1C depth 40.6m hull 5.1bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (5962294) sentry: [PWR] battery bus ripple 140 mV (limit 250 mV)
+I (5975284) sentry: [TELEMETRY #186] 12:11:11 up 01:39:34 heap 251KB rssi -53 temp 31.1C depth 40.3m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6005284) sentry: [TELEMETRY #187] 12:11:41 up 01:40:04 heap 251KB rssi -53 temp 31.1C depth 40.3m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6032294) sentry: [PWR] battery bus 24.04 V, load 1.7 A
+I (6035284) sentry: [TELEMETRY #188] 12:12:11 up 01:40:34 heap 251KB rssi -53 temp 32.1C depth 40.1m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6065484) sentry: [TELEMETRY #189] 12:12:41 up 01:41:05 heap 251KB rssi -53 temp 32.1C depth 40.1m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6095684) sentry: [TELEMETRY #190] 12:13:11 up 01:41:35 heap 251KB rssi -55 temp 31.1C depth 40.1m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (6104294) sentry: [NAV] thermocline at 35 m - sonar range may drop
+I (6125884) sentry: [TELEMETRY #191] 12:13:41 up 01:42:05 heap 251KB rssi -53 temp 31.1C depth 39.9m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6155884) sentry: [TELEMETRY #192] 12:14:11 up 01:42:35 heap 251KB rssi -50 temp 31.1C depth 39.9m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6165294) sentry: [NAV] depth 39.7 m, heading 287, speed 3.3 kn
+I (6185884) sentry: [TELEMETRY #193] 12:14:41 up 01:43:05 heap 251KB rssi -52 temp 31.1C depth 39.7m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6215884) sentry: [TELEMETRY #194] 12:15:11 up 01:43:35 heap 251KB rssi -52 temp 32.1C depth 39.7m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6245884) sentry: [TELEMETRY #195] 12:15:41 up 01:44:05 heap 251KB rssi -52 temp 32.1C depth 39.7m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6254294) sentry: [ACU] ambient noise 72 dB re 1uPa, sea state 2, water 8.2 C
+I (6276084) sentry: [TELEMETRY #196] 12:16:11 up 01:44:35 heap 251KB rssi -51 temp 31.1C depth 39.4m hull 4.9bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6306284) sentry: [TELEMETRY #197] 12:16:42 up 01:45:05 heap 251KB rssi -53 temp 32.1C depth 39.4m hull 4.9bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6314294) sentry: [PWR] battery bus 24.03 V, load 1.5 A
+I (6336284) sentry: [TELEMETRY #198] 12:17:12 up 01:45:35 heap 251KB rssi -53 temp 32.1C depth 39.5m hull 4.9bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6366284) sentry: [TELEMETRY #199] 12:17:42 up 01:46:05 heap 251KB rssi -43 temp 31.1C depth 39.5m hull 4.9bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6395294) sentry: [NAV] depth 39.7 m, heading 286, speed 2.9 kn
+I (6396484) sentry: [TELEMETRY #200] 12:18:12 up 01:46:36 heap 251KB rssi -44 temp 31.1C depth 39.7m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6426684) sentry: [TELEMETRY #201] 12:18:42 up 01:47:06 heap 251KB rssi -40 temp 31.1C depth 39.7m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6456884) sentry: [TELEMETRY #202] 12:19:12 up 01:47:36 heap 251KB rssi -41 temp 31.1C depth 39.7m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6479294) sentry: [ACU] ambient noise 74 dB re 1uPa, sea state 2, water 8.1 C
+I (6487084) sentry: [TELEMETRY #203] 12:19:42 up 01:48:06 heap 251KB rssi -40 temp 32.1C depth 39.5m hull 4.9bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6502564) wifi:bcn_timeout,ap_probe_send_start
+I (6517284) sentry: [TELEMETRY #204] 12:20:13 up 01:48:36 heap 251KB rssi -41 temp 31.1C depth 39.5m hull 4.9bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6547284) sentry: [TELEMETRY #205] 12:20:43 up 01:49:06 heap 251KB rssi -41 temp 31.1C depth 39.5m hull 4.9bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6551294) sentry: [PWR] battery bus 24.02 V, load 1.7 A
+I (6577284) sentry: [TELEMETRY #206] 12:21:13 up 01:49:36 heap 251KB rssi -41 temp 31.1C depth 39.4m hull 4.9bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6607484) sentry: [TELEMETRY #207] 12:21:43 up 01:50:07 heap 251KB rssi -43 temp 31.1C depth 39.4m hull 4.9bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6615294) sentry: [NAV] depth 39.7 m, heading 284, speed 2.8 kn
+ota url http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (6627194) sentry: [OTA] current v2.3.0 (ota_0) -> target partition ota_1
+I (6627194) sentry: [OTA] downloading http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (6627254) esp_https_ota: Starting OTA...
+I (6627254) esp_https_ota: Writing to <ota_1> partition at offset 0x1a0000
+I (6627254) sentry: [OTA] image: sentry_fw7 v2.3.0 (build Oct  6 2026 02:15:26)
+W (6627254) sentry: W409 same version v2.3.0 - reinstalling
+I (6628284) sentry: [OTA]  10%
+I (6629264) sentry: [OTA]  20%
+I (6630204) sentry: [OTA]  30%
+I (6631194) sentry: [OTA]  40%
+I (6632144) sentry: [OTA]  50%
+I (6633164) sentry: [OTA]  60%
+I (6634154) sentry: [OTA]  70%
+I (6635144) sentry: [OTA]  80%
+I (6636124) sentry: [OTA]  90%
+I (6637074) sentry: [OTA] 100%
+I (6637074) esp_image: segment 0: paddr=001a0020 vaddr=3c0a0020 size=38158h (229720) map
+I (6637104) esp_image: segment 1: paddr=001d8180 vaddr=3fc97200 size=05198h ( 20888) 
+I (6637104) esp_image: segment 2: paddr=001dd320 vaddr=40374000 size=02cf8h ( 11512) 
+I (6637104) esp_image: segment 3: paddr=001e0020 vaddr=42000020 size=9c08ch (639116) map
+I (6637204) esp_image: segment 4: paddr=0027c0b4 vaddr=40376cf8 size=10418h ( 66584) 
+I (6637214) esp_image: segment 5: paddr=0028c4d4 vaddr=50000000 size=00024h (    36) 
+I (6637214) esp_image: segment 0: paddr=001a0020 vaddr=3c0a0020 size=38158h (229720) map
+I (6637244) esp_image: segment 1: paddr=001d8180 vaddr=3fc97200 size=05198h ( 20888) 
+I (6637244) esp_image: segment 2: paddr=001dd320 vaddr=40374000 size=02cf8h ( 11512) 
+I (6637254) esp_image: segment 3: paddr=001e0020 vaddr=42000020 size=9c08ch (639116) map
+I (6637344) esp_image: segment 4: paddr=0027c0b4 vaddr=40376cf8 size=10418h ( 66584) 
+I (6637354) esp_image: segment 5: paddr=0028c4d4 vaddr=50000000 size=00024h (    36) 
+I (6637394) sentry: [OTA] success: v2.3.0 -> v2.3.0 in 10 s. Rebooting...
+I (6637554) sentry: [TELEMETRY #208] 12:22:13 up 01:50:37 heap 251KB rssi -45 temp 33.1C depth 39.7m hull 5.0bar batt 24.0V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (6637894) wifi:state: run -> init (0x0)
+I (6637894) wifi:pm stop, total sleep time: 5043370120 us / 6306897978 us
+
+I (6637894) wifi:<ba-del>idx:0, tid:0
+I (6637894) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (6637904) wifi:flush txq
+I (6637904) wifi:stop sw txq
+I (6637904) wifi:lmac stop hw txq
+���ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037d344
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2fa0
+entry 0x403c8908
+I (29) boot: ESP-IDF v6.0.1 2nd stage bootloader
+I (29) boot: compile time Oct  6 2026 02:15:01
+I (29) boot: Multicore bootloader
+I (29) boot: chip revision: v0.2
+I (32) boot: efuse block revision: v1.3
+I (36) boot.esp32s3: Boot SPI Speed : 80MHz
+I (40) boot.esp32s3: SPI Mode       : DIO
+I (43) boot.esp32s3: SPI Flash Size : 4MB
+I (47) boot: Enabling RNG early entropy source...
+I (52) boot: Partition Table:
+I (54) boot: ## Label            Usage          Type ST Offset   Length
+I (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (67) boot:  1 otadata          OTA data         01 00 0000f000 00002000
+I (73) boot:  2 ota_0            OTA app          00 10 00020000 00180000
+I (80) boot:  3 ota_1            OTA app          00 11 001a0000 00180000
+I (87) boot: End of partition table
+I (118) esp_image: segment 0: paddr=001a0020 vaddr=3c0a0020 size=38158h (229720) map
+I (160) esp_image: segment 1: paddr=001d8180 vaddr=3fc97200 size=05198h ( 20888) load
+I (164) esp_image: segment 2: paddr=001dd320 vaddr=40374000 size=02cf8h ( 11512) load
+I (167) esp_image: segment 3: paddr=001e0020 vaddr=42000020 size=9c08ch (639116) map
+I (286) esp_image: segment 4: paddr=0027c0b4 vaddr=40376cf8 size=10418h ( 66584) load
+I (301) esp_image: segment 5: paddr=0028c4d4 vaddr=50000000 size=00024h (    36) load
+I (309) boot: Loaded app from partition at offset 0x1a0000
+I (309) boot: Disabling RNG early entropy source...
+I (319) cpu_start: Multicore app
+I (328) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (328) cpu_start: Pro cpu start user code
+I (329) cpu_start: cpu freq: 160000000 Hz
+I (330) app_init: Application information:
+I (334) app_init: Project name:     sentry_fw7
+I (338) app_init: App version:      2.3.0
+I (342) app_init: Compile time:     Oct  6 2026 02:15:26
+I (347) app_init: ELF file SHA256:  ab377c338...
+I (351) app_init: ESP-IDF:          v6.0.1
+I (355) efuse_init: Min chip rev:     v0.0
+I (359) efuse_init: Max chip rev:     v0.99 
+I (363) efuse_init: Chip rev:         v0.2
+I (367) heap_init: Initializing. RAM available for dynamic allocation:
+I (373) heap_init: At 3FCA1360 len 000483B0 (288 KiB): RAM
+I (378) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (383) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (389) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (395) spi_flash: detected chip: generic
+I (398) spi_flash: flash io: dio
+W (401) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.
+I (413) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (419) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (426) main_task: Started on CPU0
+I (446) main_task: Calling app_main()
+I (466) temperature_sensor: Range [-10°C ~ 80°C], error < 1°C
+I (466) sentry: ==============================================
+I (466) sentry:   SENTRY SWM-2  sonar watch module  fw v2.3.0
+I (466) sentry:   bow sonar array / perimeter watch / CIC link
+I (476) sentry: ==============================================
+I (486) pp: pp rom version: e7ae62f
+I (486) net80211: net80211 rom version: e7ae62f
+I (496) wifi:wifi driver task: 3fced734, prio:23, stack:6656, core=0
+I (496) wifi:wifi firmware version: b37c951
+I (496) wifi:wifi certification version: v7.0
+I (506) wifi:config NVS flash: enabled
+I (506) wifi:config nano formatting: disabled
+I (506) wifi:Init data frame dynamic rx buffer num: 32
+I (516) wifi:Init static rx mgmt buffer num: 5
+I (516) wifi:Init management short buffer num: 32
+I (526) wifi:Init dynamic tx buffer num: 32
+I (526) wifi:Init static tx FG buffer num: 2
+I (536) wifi:Init static rx buffer size: 1600
+I (536) wifi:Init static rx buffer num: 10
+I (536) wifi:Init dynamic rx buffer num: 32
+I (546) wifi_init: rx ba win: 6
+I (546) wifi_init: accept mbox: 6
+I (546) wifi_init: tcpip mbox: 32
+I (556) wifi_init: udp mbox: 6
+I (556) wifi_init: tcp mbox: 6
+I (556) wifi_init: tcp tx win: 5760
+I (556) wifi_init: tcp rx win: 5760
+I (566) wifi_init: tcp mss: 1440
+I (566) wifi_init: WiFi IRAM OP enabled
+I (566) wifi_init: WiFi RX IRAM OP enabled
+I (576) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (616) wifi:mode : sta (30:30:f9:16:f1:98)
+I (616) wifi:enable tsf
+I (626) sentry: [LINK] known network 'Test-WiFi'. Type 'reconnect' to connect
+I (626) sentry: [AUTH] profile 'user' registered
+I (626) sentry: last reset: software reboot
+I (626) sentry: build tag: c3VkbyBzM250cnktcjAwdA==
+I (636) sentry: [HW] transducer array: 1 ch, 40 kHz, driver OK
+I (636) sentry: [HW] hull penetrator seal: OK, pressure sensor: OK
+W (646) sentry: [NAV] depth sensor offline (lab mode) - using simulator
+I (656) sentry: [NAV] carrier: SSK 'Skat', bow sonar bay #2, depth 41.8 m
+I (656) sentry: [OTA] running v2.3.0 from ota_1
+W (666) sentry: [OTA] custom update server: http://172.20.10.3:8000/fw7/ ('ota server default' - GitHub)
+W (676) sentry: [OTA] new firmware, PENDING_VERIFY - self-check...
+I (716) sentry: [OTA] self-check passed, firmware marked VALID
+I (716) sentry: ready. state 1 NORMAL (patrol). Type 'help'
+I (716) main_task: Returned from app_main()
+I (20716) sentry: [NAV] depth 41.7 m, heading 274, speed 2.6 kn
+I (98716) sentry: [ACU] ambient noise 62 dB re 1uPa, sea state 2, water 8.2 C
+status
+I (160366) sentry: === SWM-2 status ===
+I (160366) sentry:   fw:       v2.3.0 (ota_1)
+I (160366) sentry:   state:    1 NORMAL
+I (160366) sentry:   link:     buoy link down (known: Test-WiFi)
+I (160366) sentry:   user:     not logged in
+I (160376) sentry:   time:     --:--:--, uptime 0h 02m 39s
+I (160376) sentry:   valve:    closed
+I (160376) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (160386) sentry:   sonar:    no contact
+I (160386) sentry:   carrier:  depth 41.4 m, hull 5.1 bar, water 8.2 C, battery 24.20 V (sim)
+I (160396) sentry:   heap:     254 KB free
+I (176716) sentry: [PWR] battery bus 24.19 V, load 1.3 A
+I (243716) sentry: [NAV] depth 41.6 m, heading 278, speed 2.8 kn
+reconnect
+I (303586) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (304296) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (304306) wifi:state: init -> auth (0xb0)
+I (304326) wifi:state: auth -> assoc (0x0)
+I (304416) wifi:state: assoc -> run (0x10)
+I (314416) wifi:state: run -> init (0xcc00)
+I (314416) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+E (314416) sentry: E101 wrong password for 'Test-WiFi'
+I (330716) sentry: [ACU] ambient noise 71 dB re 1uPa, sea state 2, water 8.2 C
+reconnect
+I (380186) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (380226) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (380226) wifi:state: init -> auth (0xb0)
+I (380226) wifi:state: auth -> assoc (0x0)
+I (380236) wifi:state: assoc -> run (0x10)
+I (390236) wifi:state: run -> init (0xcc00)
+I (390236) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+E (390236) sentry: E101 wrong password for 'Test-WiFi'
+I (399716) sentry: [PWR] battery bus 24.19 V, load 1.9 A
+I (468716) sentry: [NAV] depth 41.5 m, heading 280, speed 3.0 kn
+reconnect
+I (483976) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (483976) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (483976) wifi:state: init -> auth (0xb0)
+I (483986) wifi:state: auth -> assoc (0x0)
+I (483986) wifi:state: assoc -> run (0x10)
+I (484046) wifi:connected with Test-WiFi, aid = 1, channel 6, BW20, bssid = aa:96:b7:76:ab:dc
+I (484046) wifi:security: WPA2-PSK, phy: bgn, rssi: -52, cipher(pairwise:0x3, group:0x3), pmf:0
+I (484056) wifi:pm start, type: 1
+
+I (484056) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (484066) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (484166) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (485276) esp_netif_handlers: sta ip: 172.20.10.2, mask: 255.255.255.240, gw: 172.20.10.1
+I (485276) sentry: [LINK] got ip 172.20.10.2
+I (485276) sentry: [LINK] connected to 'Test-WiFi', rssi -50 dBm (excellent)
+I (485286) wifi:<ba-add>idx:0 (ifx:0, aa:96:b7:76:ab:dc), tid:0, ssn:2, winSize:64
+I (486266) esp-x509-crt-bundle: Certificate validated
+I (487866) sentry: [LINK] fleet network reachable (internet OK)
+I (489696) sentry: [LINK] time: synced via NTP, 12:30:23
+I (380186) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+E (489706) sentry: E001 unknown command 'i'. Type 'help'
+I (380226) wifi:new399716) sentry: [PWR] battery bus 24.19 V, load 1.9 A
+E (489706) sentry: E001 unknown command 'i'. Type 'help'
+ snd_ch_cfg:0x0
+E (489716) sentry: E001 unknown command 'snd_ch_cfg:0x0'. Type 'help'
+E (390236) sentry: E101 wrong password for 'Test-WiFi'
+E (489726) sentry: E001 unknown command 'e'. Type 'help'
+I (399716) sentry: [PWR] batteryW (543736) sentry: [LINK] buoy cable tension high, link quality may degrade
+ bus 24.19 V, load 1.9 A
+E (546626) sentry: E001 unknown command 'i'. Type 'help'
+login user [REDACTED]                 login user 123456[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+E (563706) sentry: E209 wrong login or password. Attempts: 1/3
+[A[A[A[A[A[A[A[A[A[A[A[A[A login user 123456
+E (601826) sentry: E001 unknown command '[a[a[a[a[a[a[a[a[a[a[a['. Type 'help'
+[B[B[B[B[B[B[B[B[B[B[B[B
+E (605576) sentry: E001 unknown command '[b[b[b[b[b[b[b[b[b[b[b['. Type 'help'
+I (625736) sentry: [ACU] ambient noise 68 dB re 1uPa, sea state 2, water 8.0 C
+BBBBBBBBBBlogin user 123456[B[B[B[B[B[B[B[B[B[B[B[B[B
+E (650346) sentry: E001 unknown command 'bbbbbbbbbblogin'. Type 'help'
+I (685736) sentry: [PWR] battery bus 24.18 V, load 1.3 A
+[B[ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2fa0
+entry 0x403c8908
+I (24) boot: ESP-IDF v6.0.1 2nd stage bootloader
+I (25) boot: compile time Oct  6 2026 02:15:01
+I (25) boot: Multicore bootloader
+I (25) boot: chip revision: v0.2
+I (28) boot: efuse block revision: v1.3
+I (31) boot.esp32s3: Boot SPI Speed : 80MHz
+I (35) boot.esp32s3: SPI Mode       : DIO
+I (39) boot.esp32s3: SPI Flash Size : 4MB
+I (43) boot: Enabling RNG early entropy source...
+I (47) boot: Partition Table:
+I (50) boot: ## Label            Usage          Type ST Offset   Length
+I (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (63) boot:  1 otadata          OTA data         01 00 0000f000 00002000
+I (69) boot:  2 ota_0            OTA app          00 10 00020000 00180000
+I (76) boot:  3 ota_1            OTA app          00 11 001a0000 00180000
+I (82) boot: End of partition table
+I (86) esp_image: segment 0: paddr=001a0020 vaddr=3c0a0020 size=38158h (229720) map
+I (134) esp_image: segment 1: paddr=001d8180 vaddr=3fc97200 size=05198h ( 20888) load
+I (139) esp_image: segment 2: paddr=001dd320 vaddr=40374000 size=02cf8h ( 11512) load
+I (141) esp_image: segment 3: paddr=001e0020 vaddr=42000020 size=9c08ch (639116) map
+I (260) esp_image: segment 4: paddr=0027c0b4 vaddr=40376cf8 size=10418h ( 66584) load
+I (275) esp_image: segment 5: paddr=0028c4d4 vaddr=50000000 size=00024h (    36) load
+I (284) boot: Loaded app from partition at offset 0x1a0000
+I (284) boot: Disabling RNG early entropy source...
+I (294) cpu_start: Multicore app
+I (302) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (303) cpu_start: Pro cpu start user code
+I (303) cpu_start: cpu freq: 160000000 Hz
+I (305) app_init: Application information:
+I (308) app_init: Project name:     sentry_fw7
+I (313) app_init: App version:      2.3.0
+I (316) app_init: Compile time:     Oct  6 2026 02:15:26
+I (321) app_init: ELF file SHA256:  ab377c338...
+I (326) app_init: ESP-IDF:          v6.0.1
+I (330) efuse_init: Min chip rev:     v0.0
+I (335) efuse_init: Max chip rev:     v0.99 
+I (337) efuse_init: Chip rev:         v0.2
+I (341) heap_init: Initializing. RAM available for dynamic allocation:
+I (348) heap_init: At 3FCA1360 len 000483B0 (288 KiB): RAM
+I (353) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (358) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (363) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (369) spi_flash: detected chip: generic
+I (372) spi_flash: flash io: dio
+W (375) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.
+I (388) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (394) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (401) main_task: Started on CPU0
+I (421) main_task: Calling app_main()
+I (441) temperature_sensor: Range [-10°C ~ 80°C], error < 1°C
+I (441) sentry: ==============================================
+I (441) sentry:   SENTRY SWM-2  sonar watch module  fw v2.3.0
+I (441) sentry:   bow sonar array / perimeter watch / CIC link
+I (451) sentry: ==============================================
+I (461) pp: pp rom version: e7ae62f
+I (461) net80211: net80211 rom version: e7ae62f
+I (471) wifi:wifi driver task: 3fced734, prio:23, stack:6656, core=0
+I (471) wifi:wifi firmware version: b37c951
+I (471) wifi:wifi certification version: v7.0
+I (481) wifi:config NVS flash: enabled
+I (481) wifi:config nano formatting: disabled
+I (481) wifi:Init data frame dynamic rx buffer num: 32
+I (491) wifi:Init static rx mgmt buffer num: 5
+I (491) wifi:Init management short buffer num: 32
+I (501) wifi:Init dynamic tx buffer num: 32
+I (501) wifi:Init static tx FG buffer num: 2
+I (511) wifi:Init static rx buffer size: 1600
+I (511) wifi:Init static rx buffer num: 10
+I (511) wifi:Init dynamic rx buffer num: 32
+I (521) wifi_init: rx ba win: 6
+I (521) wifi_init: accept mbox: 6
+I (521) wifi_init: tcpip mbox: 32
+I (531) wifi_init: udp mbox: 6
+I (531) wifi_init: tcp mbox: 6
+I (531) wifi_init: tcp tx win: 5760
+I (531) wifi_init: tcp rx win: 5760
+I (541) wifi_init: tcp mss: 1440
+I (541) wifi_init: WiFi IRAM OP enabled
+I (541) wifi_init: WiFi RX IRAM OP enabled
+I (551) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (591) wifi:mode : sta (30:30:f9:16:f1:98)
+I (591) wifi:enable tsf
+I (601) sentry: [LINK] known network 'Test-WiFi'. Type 'reconnect' to connect
+I (601) sentry: [AUTH] profile 'user' registered
+I (601) sentry: last reset: power on
+I (601) sentry: build tag: c3VkbyBzM250cnktcjAwdA==
+I (611) sentry: [HW] transducer array: 1 ch, 40 kHz, driver OK
+I (611) sentry: [HW] hull penetrator seal: OK, pressure sensor: OK
+W (621) sentry: [NAV] depth sensor offline (lab mode) - using simulator
+I (631) sentry: [NAV] carrier: SSK 'Skat', bow sonar bay #2, depth 41.8 m
+I (631) sentry: [OTA] running v2.3.0 from ota_1
+W (641) sentry: [OTA] custom update server: http://172.20.10.3:8000/fw7/ ('ota server default' - GitHub)
+I (651) sentry: ready. state 1 NORMAL (patrol). Type 'help'
+I (651) main_task: Returned from app_main()
+status
+I (9961) sentry: === SWM-2 status ===
+I (9961) sentry:   fw:       v2.3.0 (ota_1)
+I (9961) sentry:   state:    1 NORMAL
+I (9961) sentry:   link:     buoy link down (known: Test-WiFi)
+I (9961) sentry:   user:     not logged in
+I (9961) sentry:   time:     --:--:--, uptime 0h 00m 09s
+I (9971) sentry:   valve:    closed
+I (9971) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (9981) sentry:   sonar:    no contact
+I (9981) sentry:   carrier:  depth 41.8 m, hull 5.2 bar, water 8.1 C, battery 24.20 V (sim)
+I (9991) sentry:   heap:     254 KB free
+I (20651) sentry: [NAV] depth 41.9 m, heading 275, speed 2.6 kn
+reconnect
+I (79921) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (80621) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (80621) wifi:state: init -> auth (0xb0)
+I (80621) wifi:state: auth -> assoc (0x0)
+I (80631) wifi:state: assoc -> run (0x10)
+I (80691) wifi:connected with Test-WiFi, aid = 1, channel 6, BW20, bssid = aa:96:b7:76:ab:dc
+I (80691) wifi:security: WPA2-PSK, phy: bgn, rssi: -25, cipher(pairwise:0x3, group:0x3), pmf:0
+I (80691) wifi:pm start, type: 1
+
+I (80701) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (80701) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (80711) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (81921) esp_netif_handlers: sta ip: 172.20.10.2, mask: 255.255.255.240, gw: 172.20.10.1
+I (81921) sentry: [LINK] got ip 172.20.10.2
+I (81921) sentry: [LINK] connected to 'Test-WiFi', rssi -22 dBm (excellent)
+I (82451) wifi:<ba-add>idx:0 (ifx:0, aa:96:b7:76:ab:dc), tid:0, ssn:2, winSize:64
+I (83271) esp-x509-crt-bundle: Certificate validated
+I (84291) sentry: [LINK] fleet network reachable (internet OK)
+I (85011) sentry: [LINK] time: synced via NTP, 12:35:24
+login user [REDACTED]
+I (96681) sentry: [AUTH] operator user on watch, console 2
+I (96851) sentry: [TELEMETRY] auto report every 30 s ('health off' to stop)
+I (102751) sentry: [ACU] ambient noise 63 dB re 1uPa, sea state 2, water 8.1 C
+I (126851) sentry: [TELEMETRY #1] 12:36:06 up 00:02:06 heap 251KB rssi -21 temp 31.1C depth 42.3m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (157051) sentry: [TELEMETRY #2] 12:36:36 up 00:02:36 heap 251KB rssi -22 temp 31.1C depth 42.3m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (173751) sentry: [PWR] battery bus 24.19 V, load 1.3 A
+I (187051) sentry: [TELEMETRY #3] 12:37:06 up 00:03:06 heap 251KB rssi -22 temp 31.1C depth 42.0m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (217051) sentry: [TELEMETRY #4] 12:37:36 up 00:03:36 heap 251KB rssi -23 temp 31.1C depth 42.0m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (247251) sentry: [TELEMETRY #5] 12:38:06 up 00:04:06 heap 251KB rssi -22 temp 31.1C depth 42.0m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (256751) sentry: [NAV] depth 42.2 m, heading 275, speed 2.9 kn
+I (277251) sentry: [TELEMETRY #6] 12:38:36 up 00:04:36 heap 251KB rssi -22 temp 31.1C depth 42.2m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota url http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (298691) sentry: [OTA] current v2.3.0 (ota_1) -> target partition ota_0
+I (298691) sentry: [OTA] downloading http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (298731) esp_https_ota: Starting OTA...
+I (298731) esp_https_ota: Writing to <ota_0> partition at offset 0x20000
+I (298741) sentry: [OTA] image: sentry_fw7 v2.3.0 (build Oct  6 2026 02:15:26)
+W (298741) sentry: W409 same version v2.3.0 - reinstalling
+I (299831) sentry: [OTA]  10%
+I (300861) sentry: [OTA]  20%
+I (301811) sentry: [OTA]  30%
+I (302801) sentry: [OTA]  40%
+W (303741) HTTP_CLIENT: esp_transport_read returned:-1 and errno:128 
+E (303741) transport_base: tcp_read error, errno=Socket is not connected
+W (303751) HTTP_CLIENT: esp_transport_read returned:-2 and errno:128 
+E (303751) HTTP_CLIENT: transport_read: error - 57347 | ERROR
+E (303751) esp_https_ota: data read -1, errno 128
+E (303761) sentry: E410 download interrupted (ESP_FAIL)
+I (307321) sentry: [TELEMETRY #7] 12:39:06 up 00:05:06 heap 251KB rssi -19 temp 33.1C depth 42.2m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (337521) sentry: [TELEMETRY #8] 12:39:37 up 00:05:37 heap 251KB rssi -22 temp 31.1C depth 42.2m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (339831) sentry: [ACU] ambient noise 70 dB re 1uPa, sea state 2, water 8.2 C
+I (367521) sentry: [TELEMETRY #9] 12:40:07 up 00:06:07 heap 251KB rssi -23 temp 31.1C depth 42.0m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (397721) sentry: [TELEMETRY #10] 12:40:37 up 00:06:37 heap 251KB rssi -27 temp 31.1C depth 42.0m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota status
+I (410801) sentry: [OTA] running:  v2.3.0 in ota_1 (valid)
+I (410801) sentry: [OTA] previous: v2.3.0 in ota_0
+I (412831) sentry: [PWR] battery bus 24.19 V, load 1.5 A
+I (427921) sentry: [TELEMETRY #11] 12:41:07 up 00:07:07 heap 251KB rssi -22 temp 31.1C depth 41.6m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (457921) sentry: [TELEMETRY #12] 12:41:37 up 00:07:37 heap 251KB rssi -23 temp 31.1C depth 41.6m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (487921) sentry: [TELEMETRY #13] 12:42:07 up 00:08:07 heap 251KB rssi -22 temp 31.1C depth 41.6m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (498831) sentry: [NAV] depth 41.9 m, heading 275, speed 3.1 kn
+I (517921) sentry: [TELEMETRY #14] 12:42:37 up 00:08:37 heap 251KB rssi -22 temp 31.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (547921) sentry: [TELEMETRY #15] 12:43:07 up 00:09:07 heap 251KB rssi -22 temp 32.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (577921) sentry: [TELEMETRY #16] 12:43:37 up 00:09:37 heap 251KB rssi -22 temp 31.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (586831) sentry: [ACU] ambient noise 73 dB re 1uPa, sea state 2, water 8.2 C
+I (608121) sentry: [TELEMETRY #17] 12:44:07 up 00:10:07 heap 251KB rssi -22 temp 31.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (638321) sentry: [TELEMETRY #18] 12:44:37 up 00:10:37 heap 251KB rssi -23 temp 31.1C depth 41.9m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota url http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (647931) sentry: [OTA] current v2.3.0 (ota_1) -> target partition ota_0
+I (647931) sentry: [OTA] downloading http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (647991) esp_https_ota: Starting OTA...
+I (647991) esp_https_ota: Writing to <ota_0> partition at offset 0x20000
+I (647991) sentry: [OTA] image: sentry_fw7 v2.3.0 (build Oct  6 2026 02:15:26)
+W (647991) sentry: W409 same version v2.3.0 - reinstalling
+I (649141) sentry: [OTA]  10%
+I (649851) sentry: [PWR] battery bus 24.18 V, load 1.6 A
+I (650171) sentry: [OTA]  20%
+I (651101) sentry: [OTA]  30%
+I (652121) sentry: [OTA]  40%
+I (653101) sentry: [OTA]  50%
+I (654121) sentry: [OTA]  60%
+I (655111) sentry: [OTA]  70%
+I (656081) sentry: [OTA]  80%
+I (657111) sentry: [OTA]  90%
+I (658111) sentry: [OTA] 100%
+I (658111) esp_image: segment 0: paddr=00020020 vaddr=3c0a0020 size=38158h (229720) map
+I (658141) esp_image: segment 1: paddr=00058180 vaddr=3fc97200 size=05198h ( 20888) 
+I (658141) esp_image: segment 2: paddr=0005d320 vaddr=40374000 size=02cf8h ( 11512) 
+I (658141) esp_image: segment 3: paddr=00060020 vaddr=42000020 size=9c08ch (639116) map
+I (658231) esp_image: segment 4: paddr=000fc0b4 vaddr=40376cf8 size=10418h ( 66584) 
+I (658241) esp_image: segment 5: paddr=0010c4d4 vaddr=50000000 size=00024h (    36) 
+I (658251) esp_image: segment 0: paddr=00020020 vaddr=3c0a0020 size=38158h (229720) map
+I (658281) esp_image: segment 1: paddr=00058180 vaddr=3fc97200 size=05198h ( 20888) 
+I (658281) esp_image: segment 2: paddr=0005d320 vaddr=40374000 size=02cf8h ( 11512) 
+I (658281) esp_image: segment 3: paddr=00060020 vaddr=42000020 size=9c08ch (639116) map
+I (658381) esp_image: segment 4: paddr=000fc0b4 vaddr=40376cf8 size=10418h ( 66584) 
+I (658391) esp_image: segment 5: paddr=0010c4d4 vaddr=50000000 size=00024h (    36) 
+I (658431) sentry: [OTA] success: v2.3.0 -> v2.3.0 in 10 s. Rebooting...
+I (658931) wifi:state: run -> init (0x0)
+I (658931) wifi:pm stop, total sleep time: 448577049 us / 578230950 us
+
+I (658931) wifi:<ba-del>idx:0, tid:0
+I (658931) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (658941) wifi:flush txq
+I (658941) wifi:stop sw txq
+I (658941) wifi:lmac stop hw txq
+��ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037d344
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2fa0
+entry 0x403c8908
+I (29) boot: ESP-IDF v6.0.1 2nd stage bootloader
+I (29) boot: compile time Oct  6 2026 02:15:01
+I (29) boot: Multicore bootloader
+I (29) boot: chip revision: v0.2
+I (32) boot: efuse block revision: v1.3
+I (36) boot.esp32s3: Boot SPI Speed : 80MHz
+I (40) boot.esp32s3: SPI Mode       : DIO
+I (43) boot.esp32s3: SPI Flash Size : 4MB
+I (47) boot: Enabling RNG early entropy source...
+I (52) boot: Partition Table:
+I (54) boot: ## Label            Usage          Type ST Offset   Length
+I (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (67) boot:  1 otadata          OTA data         01 00 0000f000 00002000
+I (73) boot:  2 ota_0            OTA app          00 10 00020000 00180000
+I (80) boot:  3 ota_1            OTA app          00 11 001a0000 00180000
+I (87) boot: End of partition table
+I (116) esp_image: segment 0: paddr=00020020 vaddr=3c0a0020 size=38158h (229720) map
+I (158) esp_image: segment 1: paddr=00058180 vaddr=3fc97200 size=05198h ( 20888) load
+I (162) esp_image: segment 2: paddr=0005d320 vaddr=40374000 size=02cf8h ( 11512) load
+I (165) esp_image: segment 3: paddr=00060020 vaddr=42000020 size=9c08ch (639116) map
+I (284) esp_image: segment 4: paddr=000fc0b4 vaddr=40376cf8 size=10418h ( 66584) load
+I (299) esp_image: segment 5: paddr=0010c4d4 vaddr=50000000 size=00024h (    36) load
+I (307) boot: Loaded app from partition at offset 0x20000
+I (307) boot: Disabling RNG early entropy source...
+I (317) cpu_start: Multicore app
+I (326) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (326) cpu_start: Pro cpu start user code
+I (327) cpu_start: cpu freq: 160000000 Hz
+I (328) app_init: Application information:
+I (332) app_init: Project name:     sentry_fw7
+I (336) app_init: App version:      2.3.0
+I (340) app_init: Compile time:     Oct  6 2026 02:15:26
+I (345) app_init: ELF file SHA256:  ab377c338...
+I (349) app_init: ESP-IDF:          v6.0.1
+I (353) efuse_init: Min chip rev:     v0.0
+I (357) efuse_init: Max chip rev:     v0.99 
+I (361) efuse_init: Chip rev:         v0.2
+I (365) heap_init: Initializing. RAM available for dynamic allocation:
+I (371) heap_init: At 3FCA1360 len 000483B0 (288 KiB): RAM
+I (376) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (381) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (387) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (393) spi_flash: detected chip: generic
+I (396) spi_flash: flash io: dio
+W (399) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.
+I (411) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (417) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (424) main_task: Started on CPU0
+I (444) main_task: Calling app_main()
+I (464) temperature_sensor: Range [-10°C ~ 80°C], error < 1°C
+I (464) sentry: ==============================================
+I (464) sentry:   SENTRY SWM-2  sonar watch module  fw v2.3.0
+I (464) sentry:   bow sonar array / perimeter watch / CIC link
+I (474) sentry: ==============================================
+I (484) pp: pp rom version: e7ae62f
+I (484) net80211: net80211 rom version: e7ae62f
+I (494) wifi:wifi driver task: 3fced734, prio:23, stack:6656, core=0
+I (494) wifi:wifi firmware version: b37c951
+I (494) wifi:wifi certification version: v7.0
+I (504) wifi:config NVS flash: enabled
+I (504) wifi:config nano formatting: disabled
+I (504) wifi:Init data frame dynamic rx buffer num: 32
+I (514) wifi:Init static rx mgmt buffer num: 5
+I (514) wifi:Init management short buffer num: 32
+I (524) wifi:Init dynamic tx buffer num: 32
+I (524) wifi:Init static tx FG buffer num: 2
+I (534) wifi:Init static rx buffer size: 1600
+I (534) wifi:Init static rx buffer num: 10
+I (534) wifi:Init dynamic rx buffer num: 32
+I (544) wifi_init: rx ba win: 6
+I (544) wifi_init: accept mbox: 6
+I (544) wifi_init: tcpip mbox: 32
+I (554) wifi_init: udp mbox: 6
+I (554) wifi_init: tcp mbox: 6
+I (554) wifi_init: tcp tx win: 5760
+I (554) wifi_init: tcp rx win: 5760
+I (564) wifi_init: tcp mss: 1440
+I (564) wifi_init: WiFi IRAM OP enabled
+I (564) wifi_init: WiFi RX IRAM OP enabled
+I (574) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (614) wifi:mode : sta (30:30:f9:16:f1:98)
+I (614) wifi:enable tsf
+I (624) sentry: [LINK] known network 'Test-WiFi'. Type 'reconnect' to connect
+I (624) sentry: [AUTH] profile 'user' registered
+I (624) sentry: last reset: software reboot
+I (624) sentry: build tag: c3VkbyBzM250cnktcjAwdA==
+I (634) sentry: [HW] transducer array: 1 ch, 40 kHz, driver OK
+I (634) sentry: [HW] hull penetrator seal: OK, pressure sensor: OK
+W (644) sentry: [NAV] depth sensor offline (lab mode) - using simulator
+I (654) sentry: [NAV] carrier: SSK 'Skat', bow sonar bay #2, depth 41.8 m
+I (654) sentry: [OTA] running v2.3.0 from ota_0
+W (664) sentry: [OTA] custom update server: http://172.20.10.3:8000/fw7/ ('ota server default' - GitHub)
+W (674) sentry: [OTA] new firmware, PENDING_VERIFY - self-check...
+I (714) sentry: [OTA] self-check passed, firmware marked VALID
+I (714) sentry: ready. state 1 NORMAL (patrol). Type 'help'
+I (714) main_task: Returned from app_main()
+I (20714) sentry: [NAV] depth 41.4 m, heading 275, speed 2.8 kn
+I (87714) sentry: [ACU] ambient noise 58 dB re 1uPa, sea state 2, water 8.1 C
+status
+I (129394) sentry: === SWM-2 status ===
+I (129394) sentry:   fw:       v2.3.0 (ota_0)
+I (129394) sentry:   state:    1 NORMAL
+I (129394) sentry:   link:     buoy link down (known: Test-WiFi)
+I (129394) sentry:   user:     not logged in
+I (129404) sentry:   time:     --:--:--, uptime 0h 02m 08s
+I (129404) sentry:   valve:    closed
+I (129404) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (129414) sentry:   sonar:    no contact
+I (129414) sentry:   carrier:  depth 41.8 m, hull 5.2 bar, water 8.1 C, battery 24.20 V (sim)
+I (129424) sentry:   heap:     254 KB free
+I (176714) sentry: [PWR] battery bus 24.19 V, load 1.4 A
+reconnect
+I (222994) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (223684) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (223694) wifi:state: init -> auth (0xb0)
+I (223694) wifi:state: auth -> assoc (0x0)
+I (223704) wifi:state: assoc -> run (0x10)
+I (233704) wifi:state: run -> init (0xcc00)
+I (233704) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+E (233704) sentry: E101 wrong password for 'Test-WiFi'
+I (260714) sentry: [NAV] depth 41.2 m, heading 273, speed 3.0 kn
+W (335714) sentry: [LINK] buoy cable tension high, link quality may degrade
+reconnect
+I (348064) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (348094) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (348094) wifi:state: init -> auth (0xb0)
+I (348094) wifi:state: auth -> assoc (0x0)
+I (348104) wifi:state: assoc -> run (0x10)
+I (348204) wifi:connected with Test-WiFi, aid = 1, channel 6, BW20, bssid = d6:8e:23:e2:2b:37
+I (348204) wifi:security: WPA2-PSK, phy: bgn, rssi: -58, cipher(pairwise:0x3, group:0x3), pmf:0
+I (348204) wifi:pm start, type: 1
+
+I (348204) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (348214) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (348544) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (349254) esp_netif_handlers: sta ip: 172.20.10.2, mask: 255.255.255.240, gw: 172.20.10.1
+I (349254) sentry: [LINK] got ip 172.20.10.2
+I (349254) sentry: [LINK] connected to 'Test-WiFi', rssi -46 dBm (excellent)
+I (349264) wifi:<ba-add>idx:0 (ifx:0, d6:8e:23:e2:2b:37), tid:0, ssn:2, winSize:64
+I (352284) esp-x509-crt-bundle: Certificate validated
+I (353984) sentry: [LINK] fleet network reachable (internet OK)
+I (355924) sentry: [LINK] time: synced via NTP, 12:50:54
+login user [REDACTED]
+I (368534) sentry: [AUTH] operator user on watch, console 2
+I (368714) sentry: [TELEMETRY] auto report every 30 s ('health off' to stop)
+I (398914) sentry: [TELEMETRY #1] 12:51:37 up 00:06:38 heap 251KB rssi -44 temp 31.1C depth 41.1m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (406764) sentry: [ACU] ambient noise 62 dB re 1uPa, sea state 2, water 8.2 C
+I (428914) sentry: [TELEMETRY #2] 12:52:07 up 00:07:08 heap 251KB rssi -44 temp 31.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (458914) sentry: [TELEMETRY #3] 12:52:37 up 00:07:38 heap 251KB rssi -34 temp 31.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (479764) sentry: [PWR] battery bus ripple 140 mV (limit 250 mV)
+I (489114) sentry: [TELEMETRY #4] 12:53:07 up 00:08:08 heap 251KB rssi -34 temp 31.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (519314) sentry: [TELEMETRY #5] 12:53:37 up 00:08:38 heap 251KB rssi -39 temp 32.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (549314) sentry: [TELEMETRY #6] 12:54:07 up 00:09:08 heap 251KB rssi -45 temp 31.1C depth 41.0m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (567764) sentry: [PWR] battery bus 24.18 V, load 1.4 A
+I (579314) sentry: [TELEMETRY #7] 12:54:37 up 00:09:38 heap 251KB rssi -62 temp 32.1C depth 40.7m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (609514) sentry: [TELEMETRY #8] 12:55:07 up 00:10:09 heap 251KB rssi -46 temp 31.1C depth 40.7m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota url http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (622814) sentry: [OTA] current v2.3.0 (ota_0) -> target partition ota_1
+I (622814) sentry: [OTA] downloading http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (623064) esp_https_ota: Starting OTA...
+I (623064) esp_https_ota: Writing to <ota_1> partition at offset 0x1a0000
+I (623064) sentry: [OTA] image: sentry_fw7 v2.3.0 (build Oct  6 2026 02:15:26)
+W (623074) sentry: W409 same version v2.3.0 - reinstalling
+I (628044) sentry: [OTA]  10%
+I (633074) sentry: [OTA]  20%
+I (637714) sentry: [OTA]  30%
+I (639714) sentry: [TELEMETRY #9] 12:55:38 up 00:10:39 heap 234KB rssi -46 temp 34.1C depth 40.7m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (642594) sentry: [OTA]  40%
+I (647224) sentry: [OTA]  50%
+I (647804) sentry: [NAV] depth 40.9 m, heading 273, speed 2.8 kn
+I (653254) wifi:bcn_timeout,ap_probe_send_start
+I (655764) wifi:ap_probe_send over, reset wifi status to disassoc
+I (655764) wifi:state: run -> init (0xc800)
+I (655764) wifi:pm stop, total sleep time: 215652165 us / 307551663 us
+
+I (655764) wifi:<ba-del>idx:0, tid:0
+I (655764) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+W (655774) sentry: W110 wifi connection lost (reason 200)
+I (655784) sentry: [LINK] retry 1/3...
+E (655774) transport_base: tcp_read error, errno=Software caused connection abort
+W (655794) HTTP_CLIENT: esp_transport_read returned:-2 and errno:113 
+E (655794) HTTP_CLIENT: transport_read: error - 57347 | ERROR
+E (655814) transport_base: tcp_read error, errno=Software caused connection abort
+W (655814) HTTP_CLIENT: esp_transport_read returned:-2 and errno:113 
+E (655814) HTTP_CLIENT: transport_read: error - 57347 | ERROR
+E (655824) esp_https_ota: data read -1, errno 113
+E (655824) sentry: E410 download interrupted (ESP_FAIL)
+I (658194) sentry: [LINK] retry 2/3...
+I (660614) sentry: [LINK] retry 3/3...
+I (736834) sentry: [ACU] ambient noise 68 dB re 1uPa, sea state 2, water 8.1 C
+I (820834) sentry: [PWR] battery bus 24.18 V, load 1.3 A
+status
+I (869604) sentry: === SWM-2 status ===
+I (869604) sentry:   fw:       v2.3.0 (ota_0)
+I (869604) sentry:   state:    1 NORMAL
+I (869604) sentry:   link:     buoy link down (known: Test-WiFi)
+I (869604) sentry:   user:     user (user)
+I (869614) sentry:   time:     12:59:27, uptime 0h 14m 29s
+I (869614) sentry:   valve:    closed
+I (869614) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (869624) sentry:   sonar:    no contact
+I (869624) sentry:   carrier:  depth 40.8 m, hull 5.1 bar, water 8.2 C, battery 24.18 V (sim)
+I (869634) sentry:   heap:     251 KB free
+W (892834) sentry: [ACU] own-ship noise: pump #2 cavitation suspected
+ota status
+E (914494) sentry: E002 Wi-Fi required. Use 'reconnect' or 'connect'
+reconnect
+I (933954) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (935164) wifi:new:<11,0>, old:<6,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0
+I (935164) wifi:state: init -> auth (0xb0)
+I (935174) wifi:state: auth -> assoc (0x0)
+I (935174) wifi:state: assoc -> run (0x10)
+I (935244) wifi:connected with Test-WiFi, aid = 1, channel 11, BW20, bssid = e2:2f:4e:ac:60:62
+I (935244) wifi:security: WPA2-PSK, phy: bgn, rssi: -53, cipher(pairwise:0x3, group:0x3), pmf:0
+I (935254) wifi:pm start, type: 1
+
+I (935254) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (935294) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (936774) esp_netif_handlers: sta ip: 172.20.10.2, mask: 255.255.255.240, gw: 172.20.10.1
+I (936774) sentry: [LINK] got ip 172.20.10.2
+I (936774) sentry: [LINK] connected to 'Test-WiFi', rssi -50 dBm (excellent)
+I (936784) wifi:<ba-add>idx:0 (ifx:0, e2:2f:4e:ac:60:62), tid:0, ssn:2, winSize:64
+I (936844) sentry: [TELEMETRY] auto report every 30 s ('health off' to stop)
+I (940394) esp-x509-crt-bundle: Certificate validated
+I (941754) sentry: [LINK] fleet network reachable (internet OK)
+W (947754) sentry: W106 [LINK] time: NTP sync failed, timestamps disabled
+login user [REDACTED]
+E (956354) sentry: E206 already logged in as 'user'. Use 'logout' first
+I (966864) sentry: [TELEMETRY #10] 13:01:05 up 00:16:06 heap 251KB rssi -52 temp 31.1C depth 40.6m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+statuI (971864) sentry: [NAV] depth 40.3 m, heading 275, speed 2.9 kn
+s
+I (973434) sentry: === SWM-2 status ===
+I (973434) sentry:   fw:       v2.3.0 (ota_0)
+I (973434) sentry:   state:    1 NORMAL
+I (973434) sentry:   link:     buoy link 'Test-WiFi', ip 172.20.10.2, rssi -44 dBm (excellent), ch 11
+I (973444) sentry:   internet: OK
+I (973444) sentry:   user:     user (user)
+I (973444) sentry:   time:     13:01:11, uptime 0h 16m 13s
+I (973454) sentry:   valve:    closed
+I (973454) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (973464) sentry:   sonar:    no contact
+I (973464) sentry:   carrier:  depth 40.3 m, hull 5.0 bar, water 8.2 C, battery 24.17 V (sim)
+I (973474) sentry:   heap:     251 KB free
+ota status
+I (990544) sentry: [OTA] running:  v2.3.0 in ota_0 (valid)
+I (990544) sentry: [OTA] previous: v2.3.0 in ota_1
+I (996874) sentry: [TELEMETRY #11] 13:01:35 up 00:16:36 heap 251KB rssi -48 temp 31.1C depth 40.3m hull 5.0bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1026874) sentry: [TELEMETRY #12] 13:02:05 up 00:17:06 heap 251KB rssi -53 temp 31.1C depth 40.3m hull 5.0bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1057074) sentry: [TELEMETRY #13] 13:02:35 up 00:17:36 heap 251KB rssi -46 temp 31.1C depth 40.3m hull 5.0bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (1058864) sentry: [ACU] biologics detected (snapping shrimp), passive filter on
+I (1087074) sentry: [TELEMETRY #14] 13:03:05 up 00:18:06 heap 251KB rssi -31 temp 31.1C depth 40.5m hull 5.0bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1117074) sentry: [TELEMETRY #15] 13:03:35 up 00:18:36 heap 251KB rssi -31 temp 31.1C depth 40.5m hull 5.0bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (1135864) sentry: [ACU] biologics detected (snapping shrimp), passive filter on
+I (1147274) sentry: [TELEMETRY #16] 13:04:05 up 00:19:06 heap 251KB rssi -32 temp 31.1C depth 40.5m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1154644) wifi:sta rx csa, newchan=6, old=11
+I (1154744) wifi:sta rx csa, newchan=6, old=11
+I (1154944) wifi:switch to channel 6
+I (1154944) wifi:new:<6,0>, old:<11,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (1177274) sentry: [TELEMETRY #17] 13:04:35 up 00:19:36 heap 251KB rssi -29 temp 32.1C depth 40.5m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1207474) sentry: [TELEMETRY #18] 13:05:05 up 00:20:07 heap 251KB rssi -31 temp 31.1C depth 40.5m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1213864) sentry: [ACU] ambient noise 71 dB re 1uPa, sea state 2, water 8.2 C
+I (1237474) sentry: [TELEMETRY #19] 13:05:35 up 00:20:37 heap 251KB rssi -31 temp 33.1C depth 40.5m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1267474) sentry: [TELEMETRY #20] 13:06:05 up 00:21:07 heap 251KB rssi -30 temp 31.1C depth 40.5m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1286864) sentry: [PWR] battery bus 24.17 V, load 1.4 A
+I (1297674) sentry: [TELEMETRY #21] 13:06:36 up 00:21:37 heap 251KB rssi -30 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1327674) sentry: [TELEMETRY #22] 13:07:06 up 00:22:07 heap 251KB rssi -32 temp 31.1C depth 40.9m hull 5.1bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota url http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (1340384) sentry: [OTA] current v2.3.0 (ota_0) -> target partition ota_1
+I (1340384) sentry: [OTA] downloading http://172.20.10.3:8000/fw7/v2.3.0/sentry_fw7.bin
+I (1340414) esp_https_ota: Starting OTA...
+I (1340414) esp_https_ota: Writing to <ota_1> partition at offset 0x1a0000
+I (1340414) sentry: [OTA] image: sentry_fw7 v2.3.0 (build Oct  6 2026 02:15:26)
+W (1340414) sentry: W409 same version v2.3.0 - reinstalling
+I (1341524) sentry: [OTA]  10%
+I (1342514) sentry: [OTA]  20%
+I (1343464) sentry: [OTA]  30%
+I (1344434) sentry: [OTA]  40%
+I (1345374) sentry: [OTA]  50%
+I (1346384) sentry: [OTA]  60%
+I (1347394) sentry: [OTA]  70%
+I (1348374) sentry: [OTA]  80%
+I (1349364) sentry: [OTA]  90%
+I (1350324) sentry: [OTA] 100%
+I (1350324) esp_image: segment 0: paddr=001a0020 vaddr=3c0a0020 size=38158h (229720) map
+I (1350354) esp_image: segment 1: paddr=001d8180 vaddr=3fc97200 size=05198h ( 20888) 
+I (1350354) esp_image: segment 2: paddr=001dd320 vaddr=40374000 size=02cf8h ( 11512) 
+I (1350354) esp_image: segment 3: paddr=001e0020 vaddr=42000020 size=9c08ch (639116) map
+I (1350444) esp_image: segment 4: paddr=0027c0b4 vaddr=40376cf8 size=10418h ( 66584) 
+I (1350454) esp_image: segment 5: paddr=0028c4d4 vaddr=50000000 size=00024h (    36) 
+I (1350464) esp_image: segment 0: paddr=001a0020 vaddr=3c0a0020 size=38158h (229720) map
+I (1350494) esp_image: segment 1: paddr=001d8180 vaddr=3fc97200 size=05198h ( 20888) 
+I (1350494) esp_image: segment 2: paddr=001dd320 vaddr=40374000 size=02cf8h ( 11512) 
+I (1350504) esp_image: segment 3: paddr=001e0020 vaddr=42000020 size=9c08ch (639116) map
+I (1350594) esp_image: segment 4: paddr=0027c0b4 vaddr=40376cf8 size=10418h ( 66584) 
+I (1350604) esp_image: segment 5: paddr=0028c4d4 vaddr=50000000 size=00024h (    36) 
+I (1350654) sentry: [OTA] success: v2.3.0 -> v2.3.0 in 10 s. Rebooting...
+I (1351154) wifi:state: run -> init (0x0)
+I (1351154) wifi:pm stop, total sleep time: 325670617 us / 415893873 us
+
+I (1351154) wifi:<ba-del>idx:0, tid:0
+I (1351154) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (1351164) wifi:flush txq
+I (1351164) wifi:stop sw txq
+I (1351164) wifi:lmac stop hw txq
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037d344
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2fa0
+entry 0x403c8908
+I (29) boot: ESP-IDF v6.0.1 2nd stage bootloader
+I (29) boot: compile time Oct  6 2026 02:15:01
+I (29) boot: Multicore bootloader
+I (29) boot: chip revision: v0.2
+I (32) boot: efuse block revision: v1.3
+I (36) boot.esp32s3: Boot SPI Speed : 80MHz
+I (40) boot.esp32s3: SPI Mode       : DIO
+I (43) boot.esp32s3: SPI Flash Size : 4MB
+I (47) boot: Enabling RNG early entropy source...
+I (52) boot: Partition Table:
+I (54) boot: ## Label            Usage          Type ST Offset   Length
+I (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (67) boot:  1 otadata          OTA data         01 00 0000f000 00002000
+I (73) boot:  2 ota_0            OTA app          00 10 00020000 00180000
+I (80) boot:  3 ota_1            OTA app          00 11 001a0000 00180000
+I (87) boot: End of partition table
+I (118) esp_image: segment 0: paddr=001a0020 vaddr=3c0a0020 size=38158h (229720) map
+I (160) esp_image: segment 1: paddr=001d8180 vaddr=3fc97200 size=05198h ( 20888) load
+I (164) esp_image: segment 2: paddr=001dd320 vaddr=40374000 size=02cf8h ( 11512) load
+I (167) esp_image: segment 3: paddr=001e0020 vaddr=42000020 size=9c08ch (639116) map
+I (286) esp_image: segment 4: paddr=0027c0b4 vaddr=40376cf8 size=10418h ( 66584) load
+I (301) esp_image: segment 5: paddr=0028c4d4 vaddr=50000000 size=00024h (    36) load
+I (309) boot: Loaded app from partition at offset 0x1a0000
+I (309) boot: Disabling RNG early entropy source...
+I (319) cpu_start: Multicore app
+I (328) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (328) cpu_start: Pro cpu start user code
+I (329) cpu_start: cpu freq: 160000000 Hz
+I (330) app_init: Application information:
+I (334) app_init: Project name:     sentry_fw7
+I (338) app_init: App version:      2.3.0
+I (342) app_init: Compile time:     Oct  6 2026 02:15:26
+I (347) app_init: ELF file SHA256:  ab377c338...
+I (351) app_init: ESP-IDF:          v6.0.1
+I (355) efuse_init: Min chip rev:     v0.0
+I (359) efuse_init: Max chip rev:     v0.99 
+I (363) efuse_init: Chip rev:         v0.2
+I (367) heap_init: Initializing. RAM available for dynamic allocation:
+I (373) heap_init: At 3FCA1360 len 000483B0 (288 KiB): RAM
+I (378) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (383) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (389) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (395) spi_flash: detected chip: generic
+I (398) spi_flash: flash io: dio
+W (400) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.
+I (413) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (419) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (426) main_task: Started on CPU0
+I (446) main_task: Calling app_main()
+I (466) temperature_sensor: Range [-10°C ~ 80°C], error < 1°C
+I (466) sentry: ==============================================
+I (466) sentry:   SENTRY SWM-2  sonar watch module  fw v2.3.0
+I (466) sentry:   bow sonar array / perimeter watch / CIC link
+I (476) sentry: ==============================================
+I (486) pp: pp rom version: e7ae62f
+I (486) net80211: net80211 rom version: e7ae62f
+I (496) wifi:wifi driver task: 3fced734, prio:23, stack:6656, core=0
+I (496) wifi:wifi firmware version: b37c951
+I (496) wifi:wifi certification version: v7.0
+I (506) wifi:config NVS flash: enabled
+I (506) wifi:config nano formatting: disabled
+I (506) wifi:Init data frame dynamic rx buffer num: 32
+I (516) wifi:Init static rx mgmt buffer num: 5
+I (516) wifi:Init management short buffer num: 32
+I (526) wifi:Init dynamic tx buffer num: 32
+I (526) wifi:Init static tx FG buffer num: 2
+I (536) wifi:Init static rx buffer size: 1600
+I (536) wifi:Init static rx buffer num: 10
+I (536) wifi:Init dynamic rx buffer num: 32
+I (546) wifi_init: rx ba win: 6
+I (546) wifi_init: accept mbox: 6
+I (546) wifi_init: tcpip mbox: 32
+I (556) wifi_init: udp mbox: 6
+I (556) wifi_init: tcp mbox: 6
+I (556) wifi_init: tcp tx win: 5760
+I (556) wifi_init: tcp rx win: 5760
+I (566) wifi_init: tcp mss: 1440
+I (566) wifi_init: WiFi IRAM OP enabled
+I (566) wifi_init: WiFi RX IRAM OP enabled
+I (576) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (626) wifi:mode : sta (30:30:f9:16:f1:98)
+I (626) wifi:enable tsf
+I (626) sentry: [LINK] known network 'Test-WiFi'. Type 'reconnect' to connect
+I (626) sentry: [AUTH] profile 'user' registered
+I (626) sentry: last reset: software reboot
+I (636) sentry: build tag: c3VkbyBzM250cnktcjAwdA==
+I (636) sentry: [HW] transducer array: 1 ch, 40 kHz, driver OK
+I (646) sentry: [HW] hull penetrator seal: OK, pressure sensor: OK
+W (646) sentry: [NAV] depth sensor offline (lab mode) - using simulator
+I (656) sentry: [NAV] carrier: SSK 'Skat', bow sonar bay #2, depth 41.8 m
+I (666) sentry: [OTA] running v2.3.0 from ota_1
+W (666) sentry: [OTA] custom update server: http://172.20.10.3:8000/fw7/ ('ota server default' - GitHub)
+W (676) sentry: [OTA] new firmware, PENDING_VERIFY - self-check...
+I (726) sentry: [OTA] self-check passed, firmware marked VALID
+I (726) sentry: ready. state 1 NORMAL (patrol). Type 'help'
+I (726) main_task: Returned from app_main()
+I (20726) sentry: [NAV] depth 41.9 m, heading 274, speed 2.9 kn
+I (92726) sentry: [ACU] ambient noise 64 dB re 1uPa, sea state 2, water 8.2 C
+I (173726) sentry: [PWR] battery bus 24.19 V, load 1.6 A
+I (246726) sentry: [NAV] depth 42.1 m, heading 271, speed 3.2 kn
+I (308726) sentry: [ACU] ambient noise 66 dB re 1uPa, sea state 2, water 8.1 C
+I (369726) sentry: [PWR] battery bus 24.19 V, load 1.5 A
+I (431726) sentry: [NAV] depth 42.0 m, heading 270, speed 2.7 kn
+I (507726) sentry: [ACU] ambient noise 63 dB re 1uPa, sea state 2, water 8.0 C
+I (570726) sentry: [PWR] battery bus 24.18 V, load 1.5 A
+W (630726) sentry: [HW] transducer #1 impedance drift +2.1% (compensated)
+I (693726) sentry: [NAV] depth 41.4 m, heading 269, speed 2.8 kn
+status
+I (742496) sentry: === SWM-2 status ===
+I (742496) sentry:   fw:       v2.3.0 (ota_1)
+I (742496) sentry:   state:    1 NORMAL
+I (742496) sentry:   link:     buoy link down (known: Test-WiFi)
+I (742496) sentry:   user:     not logged in
+I (742506) sentry:   time:     --:--:--, uptime 0h 12m 22s
+I (742506) sentry:   valve:    closed
+I (742506) sentry:   watch:    disarmed, CIC alerts unacked: 0
+I (742516) sentry:   sonar:    no contact
+I (742516) sentry:   carrier:  depth 41.4 m, hull 5.1 bar, water 8.2 C, battery 24.18 V (sim)
+I (742526) sentry:   heap:     254 KB free
+W (774726) sentry: [PWR] battery bus ripple 140 mV (limit 250 mV)
+I (845726) sentry: [ACU] ambient noise 65 dB re 1uPa, sea state 2, water 8.1 C
+reconnect
+I (900926) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (901616) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (901626) wifi:state: init -> auth (0xb0)
+I (901626) wifi:state: auth -> assoc (0x0)
+I (901636) wifi:state: assoc -> run (0x10)
+I (911636) wifi:state: run -> init (0xcc00)
+I (911636) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+E (911636) sentry: E101 wrong password for 'Test-WiFi'
+I (911726) sentry: [PWR] battery bus 24.17 V, load 1.5 A
+reconnect
+I (923126) sentry: [LINK] raising buoy antenna, connecting to 'Test-WiFi'...
+I (923126) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (923126) wifi:state: init -> auth (0xb0)
+I (923146) wifi:state: auth -> assoc (0x0)
+I (923156) wifi:state: assoc -> run (0x10)
+I (923216) wifi:connected with Test-WiFi, aid = 2, channel 6, BW20, bssid = 4e:39:4c:e9:0a:23
+I (923216) wifi:security: WPA2-PSK, phy: bgn, rssi: -52, cipher(pairwise:0x3, group:0x3), pmf:0
+I (923226) wifi:pm start, type: 1
+
+I (923226) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (923236) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (923246) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (924476) esp_netif_handlers: sta ip: 172.20.10.2, mask: 255.255.255.240, gw: 172.20.10.1
+I (924476) sentry: [LINK] got ip 172.20.10.2
+I (924476) sentry: [LINK] connected to 'Test-WiFi', rssi -49 dBm (excellent)
+I (924506) wifi:<ba-add>idx:0 (ifx:0, 4e:39:4c:e9:0a:23), tid:0, ssn:2, winSize:64
+I (925746) esp-x509-crt-bundle: Certificate validated
+I (927346) sentry: [LINK] fleet network reachable (internet OK)
+I (931536) sentry: [LINK] time: synced via NTP, 13:23:01
+login user [REDACTED]
+I (932816) sentry: [AUTH] operator user on watch, console 2
+I (932926) sentry: [TELEMETRY] auto report every 30 s ('health off' to stop)
+I (963126) sentry: [TELEMETRY #1] 13:23:32 up 00:16:02 heap 251KB rssi -43 temp 32.1C depth 41.8m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (989736) sentry: [NAV] depth 42.1 m, heading 265, speed 3.3 kn
+I (993126) sentry: [TELEMETRY #2] 13:24:02 up 00:16:32 heap 251KB rssi -29 temp 31.1C depth 42.1m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1023126) sentry: [TELEMETRY #3] 13:24:32 up 00:17:02 heap 251KB rssi -24 temp 31.1C depth 42.1m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+ota server default
+I (1026436) sentry: [OTA] server: https://raw.githubusercontent.com/BohdanHorbanych/esp32-ota-files/main/fw7/ (default)
+I (1053326) sentry: [TELEMETRY #4] 13:25:02 up 00:17:32 heap 251KB rssi -28 temp 31.1C depth 42.1m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1070736) sentry: [ACU] ambient noise 67 dB re 1uPa, sea state 2, water 8.0 C
+I (1083326) sentry: [TELEMETRY #5] 13:25:32 up 00:18:02 heap 251KB rssi -29 temp 32.1C depth 42.2m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1113326) sentry: [TELEMETRY #6] 13:26:02 up 00:18:32 heap 251KB rssi -29 temp 32.1C depth 42.2m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+I (1143326) sentry: [TELEMETRY #7] 13:26:32 up 00:19:02 heap 251KB rssi -22 temp 31.1C depth 42.2m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL
+W (1143736) sentry: [LINK] buoy cable tension high, link quality may degrade
+I (1173326) sentry: [TELEMETRY #8] 13:27:02 up 00:19:32 heap 251KB rssi -28 temp 31.1C depth 42.5m hull 5.2bar batt 24.2V valve closed sonar - watch disarmed alerts 0 state NORMAL

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Local backups and archives
+REPORT.backup.md
+*.tar.gz
+*.zip
+.DS_Store
