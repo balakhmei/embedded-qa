@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.3, pytest-9.1.1, pluggy-1.6.0 -- /Users/ihor/projects/embedded-qa/dz09/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/ihor/projects/embedded-qa/dz17
+configfile: pytest.ini
+testpaths: tests
+plugins: asyncio-1.4.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 10 items
+
+tests/test_bug_cic_01.py::test_bug_cic_01_ack_by_id XFAIL (BUG-CIC-0...) [ 10%]
+tests/test_full_hil.py::test_k1_relay_camera_uart PASSED                 [ 20%]
+tests/test_k2_relay_hil.py::test_k2_relay_toggle PASSED                  [ 30%]
+tests/test_k3_sonar_hil.py::test_k3_sonar_start_stop PASSED              [ 40%]
+tests/test_k4_alert_ack_hil.py::test_k4_ack_latest_alert PASSED          [ 50%]
+tests/test_negative_uart.py::test_invalid_uart_commands[NEG-001] PASSED  [ 60%]
+tests/test_negative_uart.py::test_invalid_uart_commands[NEG-002] PASSED  [ 70%]
+tests/test_negative_uart.py::test_invalid_uart_commands[NEG-003] PASSED  [ 80%]
+tests/test_negative_uart.py::test_invalid_uart_commands[BUG-RL-01] XFAIL [ 90%]
+tests/test_vision_hil.py::test_k1_toggles_led_color PASSED               [100%]
+
+- generated xml file: /Users/ihor/projects/embedded-qa/dz17/logs/final_framework_regression.xml -
+=================== 8 passed, 2 xfailed in 152.10s (0:02:32) ===================

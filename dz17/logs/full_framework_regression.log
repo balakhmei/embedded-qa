@@ -1,0 +1,61 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.3, pytest-9.1.1, pluggy-1.6.0 -- /Users/ihor/projects/embedded-qa/dz17/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/ihor/projects/embedded-qa/dz17
+collecting ... collected 10 items
+
+tests/test_bug_cic_01.py::test_bug_cic_01_ack_by_id AUTH: already logged in
+
+ACK TARGET: #35
+I (133860616) sentry: [CIC] #35 acknowledged
+BEFORE: {34: True, 35: True}
+AFTER:  {34: False, 35: True}
+XFAIL (BUG-CIC-0...)
+tests/test_full_hil.py::test_k1_relay_camera_uart 
+LED: GREEN -> RED
+UART: responsive before and after K1 press
+PASSED
+tests/test_k2_relay_hil.py::test_k2_relay_toggle 
+K2: closed -> open -> closed
+CYCLES: 390 -> 391 -> 392
+PASSED
+tests/test_k3_sonar_hil.py::test_k3_sonar_start_stop 
+SONAR START: PASS
+MEASUREMENTS: 9
+DISTANCES: [57.4, 57.4, 57.4, 57.4, 57.4, 57.4, 57.4, 57.4, 57.4]
+SONAR STOP: PASS
+PASSED
+tests/test_k4_alert_ack_hil.py::test_k4_ack_latest_alert 
+CREATED ALERT: #36
+ACKNOWLEDGED ALERT: #36
+K4 SHORT PRESS: PASS
+PASSED
+tests/test_negative_uart.py::test_invalid_uart_commands[NEG-001] AUTH: already logged in
+
+COMMAND: invalidcommand
+E (133933146) sentry: E001 unknown command 'invalidcommand'. Type 'help'
+PASSED
+tests/test_negative_uart.py::test_invalid_uart_commands[NEG-002] AUTH: already logged in
+
+COMMAND: lamp brightness 101
+E (133948236) sentry: E504 brightness must be 0-100
+PASSED
+tests/test_negative_uart.py::test_invalid_uart_commands[NEG-003] AUTH: already logged in
+
+COMMAND: distance 21
+E (133963316) sentry: E704 count must be 1-20
+PASSED
+tests/test_negative_uart.py::test_invalid_uart_commands[BUG-RL-01] AUTH: already logged in
+
+COMMAND: relay pulse 99
+I (133978426) sentry: [VALVE] OPEN (pulse)
+I (133978546) sentry: [VALVE] CLOSED (pulse end)
+XFAIL
+tests/test_vision_hil.py::test_k1_toggles_led_color 
+Initial LED: RED
+Expected LED: GREEN
+Actual LED:   GREEN
+PASSED
+
+- generated xml file: /Users/ihor/projects/embedded-qa/dz17/logs/full_framework_regression.xml -
+=================== 8 passed, 2 xfailed in 152.47s (0:02:32) ===================

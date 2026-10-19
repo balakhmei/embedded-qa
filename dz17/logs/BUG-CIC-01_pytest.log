@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.3, pytest-9.1.1, pluggy-1.6.0 -- /Users/ihor/projects/embedded-qa/dz17/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/ihor/projects/embedded-qa/dz17
+collecting ... collected 1 item
+
+tests/test_bug_cic_01.py::test_bug_cic_01_ack_by_id AUTH: already logged in
+
+ACK TARGET: #33
+I (132884486) sentry: [CIC] #33 acknowledged
+BEFORE: {32: True, 33: True}
+AFTER:  {32: False, 33: True}
+XFAIL (BUG-CIC-0...)
+
+- generated xml file: /Users/ihor/projects/embedded-qa/dz17/logs/BUG-CIC-01_pytest.xml -
+============================= 1 xfailed in 28.16s ==============================

@@ -1,0 +1,31 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.3, pytest-9.1.1, pluggy-1.6.0 -- /Users/ihor/projects/embedded-qa/dz17/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/ihor/projects/embedded-qa/dz17
+collecting ... collected 4 items
+
+tests/test_negative_uart.py::test_invalid_uart_commands[NEG-001] AUTH: already logged in
+
+COMMAND: invalidcommand
+E (133587726) sentry: E001 unknown command 'invalidcommand'. Type 'help'
+I (133589616) sentry: [ACU] ambient noise 63 dB re 1uPa, sea state 2, water 8.0 C
+PASSED
+tests/test_negative_uart.py::test_invalid_uart_commands[NEG-002] AUTH: already logged in
+
+COMMAND: lamp brightness 101
+E (133602816) sentry: E504 brightness must be 0-100
+PASSED
+tests/test_negative_uart.py::test_invalid_uart_commands[NEG-003] AUTH: already logged in
+
+COMMAND: distance 21
+E (133617916) sentry: E704 count must be 1-20
+PASSED
+tests/test_negative_uart.py::test_invalid_uart_commands[BUG-RL-01] AUTH: already logged in
+
+COMMAND: relay pulse 99
+I (133633006) sentry: [VALVE] OPEN (pulse)
+I (133633126) sentry: [VALVE] CLOSED (pulse end)
+XFAIL
+
+- generated xml file: /Users/ihor/projects/embedded-qa/dz17/logs/negative_uart_results.xml -
+=================== 3 passed, 1 xfailed in 60.39s (0:01:00) ====================

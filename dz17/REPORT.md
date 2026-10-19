@@ -203,7 +203,92 @@ Severity and priority below are QA assessments; no fixed numeric reproduction co
 
 **Last observed device state:** v2.3.0 on `ota_1`, NORMAL, valve CLOSED, Guard DISARMED, CIC unacknowledged alerts = 0.
 
-## 8. Evidence and Logs
+## 8. HIL Automation Framework
+
+### 8.1 Objective and Scope
+
+A Python/pytest-based Hardware-in-the-Loop (HIL) automation prototype was developed as an additional part of the diploma project. It complements the manual acceptance testing documented in Sections 2–7.
+
+The framework automates selected physical button interactions, UART response checks, camera-based LED verification, and negative command scenarios. It does not claim exhaustive PRD coverage.
+
+### 8.2 Test Stand Architecture
+
+| Component | Purpose |
+|---|---|
+| MacBook / Python / pytest | Test execution, assertions and result reporting |
+| USB 4-channel relay | Physical simulation of K1–K4 button presses |
+| ESP32-S3 DUT | SENTRY SWM-2 firmware v2.3.0 under test |
+| FT232R UART adapter | Sending commands and reading device responses at 115200 baud |
+| Raspberry Pi 5 + Camera Module 3 | Camera-based observation of the physical status LED |
+| Vision LED detector | Classification of the configured LED region as RED, GREEN or UNKNOWN |
+
+The framework combines physical stimulus with independent UART and camera observations. The camera-based checks depend on the configured region of interest (ROI), camera position and lighting conditions.
+
+### 8.3 Framework Components
+
+| Path | Responsibility |
+|---|---|
+| [`drivers/button_controller.py`](drivers/button_controller.py) | Button actions through the USB relay |
+| [`drivers/relay_controller.py`](drivers/relay_controller.py) | USB relay communication |
+| [`drivers/uart_client.py`](drivers/uart_client.py) | UART command and response handling |
+| [`drivers/vision_client.py`](drivers/vision_client.py) | Communication with the Raspberry Pi Vision detector |
+| [`vision_hil/led_detector.py`](vision_hil/led_detector.py) | Raspberry Pi camera capture and OpenCV-based LED color detection |
+| [`drivers/find_ports.py`](drivers/find_ports.py) | Serial port discovery |
+| [`helpers/session_helper.py`](helpers/session_helper.py) | DUT connection and authentication preparation |
+| [`helpers/valve_helper.py`](helpers/valve_helper.py) | Valve state preparation and verification support |
+| [`tests/conftest.py`](tests/conftest.py) | pytest fixtures and test setup/cleanup |
+| [`pytest.ini`](pytest.ini) | pytest test discovery configuration |
+
+The Raspberry Pi-side detector is included in [`vision_hil/`](vision_hil/) as a source-code copy; the operational instance runs on Raspberry Pi 5.
+
+### 8.4 Automated Test Coverage
+
+The pytest suite contains 10 collected tests:
+
+- Five HIL tests covering K1 LED behavior, K2 valve control, K3 sonar control, K4 alert acknowledgement, and combined K1 camera/UART verification.
+- Four parameterized negative UART cases: unknown command, invalid lamp brightness, invalid sonar count, and invalid relay pulse duration.
+- One automated reproduction test for BUG-CIC-01 (acknowledgement by alert ID).
+
+[`tests/test_relay_sequence.py`](tests/test_relay_sequence.py) is a separate relay diagnostic script and is not counted among the 10 collected pytest tests.
+
+### 8.5 Verified Regression Result
+
+The HIL framework was tested against firmware v2.3.0. The original regression established a baseline of **8 PASSED / 2 XFAILED** in 152.47 seconds.
+
+After the physical stand was repositioned, Vision-related tests temporarily failed due to camera alignment. The stand was stabilized and the camera ROI was recalibrated to `(555, 315, 595, 355)`. Static RED/GREEN detection and both targeted Vision HIL tests then passed.
+
+Two consecutive complete regression runs confirmed the final results:
+
+| Metric | Final run 1 | Final run 2 |
+|---|---:|---:|
+| Collected tests | 10 | 10 |
+| PASSED | 8 | 8 |
+| XFAILED | 2 | 2 |
+| Unexpected failures | 0 | 0 |
+| Execution time | 151.59 s | 151.55 s |
+
+The two expected failures correspond to confirmed firmware defects:
+
+- **BUG-CIC-01:** acknowledgement of alert #35 incorrectly changed the acknowledgement state of alert #34 while leaving #35 unacknowledged.
+- **BUG-RL-01:** `relay pulse 99` activated the valve instead of rejecting the value with E603.
+
+Expected failures are explicitly classified as XFAIL in pytest. They are not counted as successful firmware behavior.
+
+**Execution evidence:**
+
+- Original baseline: [screenshot](evidence/hil/full_framework_pytest_v_8pass_2xfail.png), [log](logs/full_framework_regression.log), [JUnit XML](logs/full_framework_regression.xml).
+- Final run 1: [screenshot](evidence/hil/final_framework_pytest_8pass_2xfail.png), [log](logs/final_framework_regression.log), [JUnit XML](logs/final_framework_regression.xml).
+- Final run 2: [screenshot](evidence/hil/final_framework_regression_run2.png), [log](logs/final_framework_regression_run2.log), [JUnit XML](logs/final_framework_regression_run2.xml).
+
+### 8.6 Limitations and Follow-up
+
+The HIL implementation is a prototype with selected automated coverage, not a complete replacement for manual acceptance testing.
+
+The final two consecutive regression runs produced identical outcomes: **8 PASSED / 2 XFAILED / 0 unexpected failures**. This demonstrates repeatability under the stabilized test-stand configuration, but does not establish long-term reliability under changing lighting or camera alignment.
+
+Additional automated coverage and more robust Vision calibration remain potential improvements. The two known firmware defects remain unresolved, and the overall **NO-GO** release recommendation is unchanged.
+
+## 9. Evidence and Logs
 
 ### UART logs
 - [`logs/uart_fw_2_1_0.log`](logs/uart_fw_2_1_0.log)
@@ -217,7 +302,7 @@ Severity and priority below are QA assessments; no fixed numeric reproduction co
 - [`logs/uart_regression_v2_3_0.log`](logs/uart_regression_v2_3_0.log)
 
 ### Screenshots
-- `evidence/` — firmware v2.1.0 functional/HIL, negative, sonar and Guard/CIC screenshots; OTA and fault-injection evidence; four v2.3.0 regression bug screenshots. Exact filenames are referenced in tables and bug reports.
+- [`evidence/`](evidence/) — firmware v2.1.0 functional/HIL, negative, sonar and Guard/CIC screenshots; OTA and fault-injection evidence; four v2.3.0 regression bug screenshots. Exact filenames are referenced in tables and bug reports.
 
 ### Additional Screenshots
 
@@ -246,9 +331,15 @@ Severity and priority below are QA assessments; no fixed numeric reproduction co
 - [`CIC_AL1_FIFO_20_alerts_PASS.png`](evidence/CIC_AL1_FIFO_20_alerts_PASS.png)
 
 ### Automation
-- `drivers/relay_controller.py`
-- `tests/test_relay_sequence.py`
+
+- **Framework:** [`drivers/`](drivers/), [`helpers/`](helpers/), [`tests/`](tests/), [`pytest.ini`](pytest.ini)
+- **HIL screenshots:** [`evidence/hil/`](evidence/hil/)
+- **Automated regression:** [`logs/full_framework_regression.log`](logs/full_framework_regression.log)
+- **JUnit XML results:** [`logs/full_framework_regression.xml`](logs/full_framework_regression.xml)
+- **Relay diagnostic script:** [`tests/test_relay_sequence.py`](tests/test_relay_sequence.py) (not included in pytest test count)
+
+The framework architecture, automated scenarios, results and limitations are documented in Section 8.
 
 **Evidence limitations:** screenshot and log filenames were confirmed in the project file listing, but their full contents have not all been independently audited against every report claim. Reproduction counts are intentionally not fabricated.
 
-**Submission checklist:** redact credentials and sensitive identifiers; confirm that each referenced file is included; verify logs for every bug and OTA transition; complete any outstanding critical tests; package the report and `logs/` as specified in HW-17. Do not mark a test PASS solely because a file exists.
+**Submission checklist:** redact credentials and sensitive identifiers; confirm that each referenced file is included; verify logs for every bug and OTA transition; complete any outstanding critical tests; package the report and [`logs/`](logs/) as specified in HW-17. Do not mark a test PASS solely because a file exists.
