@@ -6,6 +6,21 @@ The project combines manual firmware verification with a Python/pytest hardware-
 
 For manual test results, firmware defects, OTA verification, and release assessment, see [REPORT.md](REPORT.md).
 
+## Hardware Test Stand — Visual Overview
+
+The SENTRY SWM-2 Hardware-in-the-Loop (HIL) prototype combines physical button actuation, UART communication, and computer vision to verify the behavior of an ESP32-S3-based device under test (DUT).
+
+A Raspberry Pi 5 with Camera Module 3 performs independent RGB LED state verification using OpenCV, while a USB relay controller simulates physical button presses.
+
+![Annotated HIL Test Stand](docs/images/hil_test_bench_annotated.jpg)
+
+**Original hardware photographs:**
+
+- [Complete HIL Test Bench](docs/images/hil_test_bench.jpg)
+- [Computer Vision Setup](docs/images/vision_hil_setup.jpg)
+
+**Project presentation:** [View PDF](SENTRY_SWM2_Project_Presentation.pdf)
+
 ## 1. Test Stand Architecture
 
 ```text
